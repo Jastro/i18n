@@ -1,0 +1,88 @@
+{
+  "move": {
+    "command": "move",
+    "aliases": ["go", "walk", "run"],
+    "directions": {
+      "north": "north",
+      "south": "south",
+      "east": "east",
+      "west": "west",
+      "up": "up",
+      "down": "down",
+      "in": "in",
+      "out": "out",
+      "northeast": "northeast",
+      "northwest": "northwest",
+      "southeast": "southeast",
+      "southwest": "southwest"
+    }
+  },
+  "examine": {
+    "command": "examine",
+    "aliases": ["look", "inspect", "ex", "observe"],
+    "parts": {
+      "face": "face",
+      "hands": "hands",
+      "eyes": "eyes",
+      "body": "body",
+      "hair": "hair",
+      "feet": "feet",
+      "legs": "legs",
+      "arms": "arms",
+      "mouth": "mouth",
+      "nose": "nose",
+      "ears": "ears",
+      "neck": "neck",
+      "chest": "chest",
+      "back": "back",
+      "weapon": "weapon",
+      "armor": "armor",
+      "clothes": "clothes",
+      "general": "general"
+    }
+  },
+  "say": {
+    "command": "say",
+    "aliases": ["talk", "speak", "chat"]
+  },
+  "take": {
+    "command": "take",
+    "aliases": ["get", "grab", "pickup"]
+  },
+  "drop": {
+    "command": "drop",
+    "aliases": ["throw", "leave"]
+  },
+  "inventory": {
+    "command": "inventory",
+    "aliases": ["inv", "i", "backpack"]
+  },
+  "attack": {
+    "command": "attack",
+    "aliases": ["hit", "strike", "kill"]
+  },
+  "open": {
+    "command": "open",
+    "aliases": []
+  },
+  "close": {
+    "command": "close",
+    "aliases": []
+  },
+  "lock": {
+    "command": "lock",
+    "aliases": []
+  },
+  "unlock": {
+    "command": "unlock",
+    "aliases": []
+  },
+  "stealth": {
+    "command": "stealth",
+    "aliases": ["hide", "sneak"]
+  },
+  "interact": {
+    "command": "interact",
+    "aliases": ["use", "activate"]
+  }
+}

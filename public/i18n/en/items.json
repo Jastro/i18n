@@ -1,0 +1,58 @@
+{
+  "house_key": {
+    "name": "House Key",
+    "description": "A simple but well-maintained iron key. Opens the door to a modest house."
+  },
+  "water_bucket": {
+    "name": "Water Bucket",
+    "description": "A wooden bucket reinforced with iron bands. Contains fresh water from the well."
+  },
+  "apple": {
+    "name": "Apple",
+    "description": "A red and juicy apple. Looks fresh."
+  },
+  "woodcutting_axe": {
+    "name": "Woodcutting Axe",
+    "description": "A heavy axe with a handle worn down by years of use. The blade is well sharpened."
+  },
+  "rope": {
+    "name": "Rope",
+    "description": "A sturdy hemp rope. Useful for many things."
+  },
+  "guard_badge": {
+    "name": "Guard Badge",
+    "description": "A bronze badge that identifies its bearer as a member of the city guard."
+  },
+  "handcuffs": {
+    "name": "Handcuffs",
+    "description": "Pair of iron handcuffs with a key. Used to detain criminals."
+  },
+  "ledger": {
+    "name": "Ledger",
+    "description": "A small book with records of business transactions."
+  },
+  "coin_pouch": {
+    "name": "Coin Pouch",
+    "description": "A small leather pouch for storing coins. It's currently empty."
+  },
+  "bread": {
+    "name": "Bread",
+    "description": "A loaf of fresh bread. Still warm."
+  },
+  "waterskin": {
+    "name": "Waterskin",
+    "description": "A leather waterskin for carrying water. It's full."
+  },
+  "dagger": {
+    "name": "Dagger",
+    "description": "A simple but sharp dagger. Useful for self-defense."
+  },
+  "torch": {
+    "name": "Torch",
+    "description": "A wooden torch with a cloth tip soaked in tar."
+  },
+  "ration": {
+    "name": "Travel Ration",
+    "description": "Dried food preserved for long journeys."
+  }
+}

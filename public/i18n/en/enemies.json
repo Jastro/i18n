@@ -1,0 +1,142 @@
+{
+  "goblin": {
+    "name": "Goblin",
+    "description": "A small and cunning creature, with bright eyes full of malice. Its defiant posture makes clear it doesn't intend to let you escape."
+  },
+  "bandit": {
+    "name": "Bandit",
+    "description": ""
+  },
+  "crystalGolem": {
+    "name": "Crystal Golem",
+    "description": ""
+  },
+  "wolf": {
+    "name": "Wolf",
+    "description": ""
+  },
+  "swampBeast": {
+    "name": "Swamp Beast",
+    "description": ""
+  },
+  "marshSpirit": {
+    "name": "Marsh Spirit",
+    "description": ""
+  },
+  "testDummy": {
+    "name": "Training Dummy",
+    "description": "A motionless and silent training dummy. It doesn't move unless you attack it first. It seems to contain treasures inside."
+  },
+  "tutorial_goblin": {
+    "name": "Goblin",
+    "description": "A small and cunning creature, with bright eyes full of malice. Its defiant posture makes clear it doesn't intend to let you escape."
+  },
+  "void_sentinel": {
+    "name": "Void Sentinel",
+    "description": "An abomination risen from the depths of the void, summoned by the power of the Ruin King. Its form seems to defy the laws of reality: a mass of crystallized shadows that writhes and shifts constantly, with tentacles of pure darkness extending in all directions. Its multiple burning eyes float in the air like malevolent stars, each watching with an ancestral and hungry intelligence."
+  },
+  "wild_boar": {
+    "name": "Wild Boar",
+    "description": "A fierce-looking boar with sharp tusks and bristled hair. Its red eyes gleam with territorial aggression and it's ready to attack any intruder."
+  },
+  "rabbit": {
+    "name": "Rabbit",
+    "description": "A small brown-furred rabbit nervously hopping about. Its large dark eyes are always alert for any danger."
+  },
+  "deer": {
+    "name": "Deer",
+    "description": "An elegant deer with golden-brown fur and branching antlers. Its alert eyes and tense muscles reveal its nervous but graceful nature."
+  },
+  "alpha_wolf": {
+    "name": "Alpha Wolf",
+    "description": "A massive and experienced wolf, king of its territory. Its battle scars and golden eyes demonstrate its dominance over the food chain."
+  },
+  "wolf_king": {
+    "name": "Wolf King",
+    "description": "A legend made real. This colossal wolf has ascended beyond any known Alpha, becoming the absolute lord of all predators. Its mere presence makes even the largest prey tremble."
+  },
+  "alpha_boar": {
+    "name": "Alpha Boar",
+    "description": "A colossal boar that has dominated its territory through countless battles. Its scars and massive tusks testify to its unmatched ferocity."
+  },
+  "boar_king": {
+    "name": "Boar King",
+    "description": "A legend among boars. This titan has ascended beyond any Alpha, becoming the absolute lord of all wild pigs."
+  },
+  "bear": {
+    "name": "Brown Bear",
+    "description": "An imposing brown bear with powerful claws and devastating strength. Its thick fur and fierce gaze make it one of the most fearsome predators in the forest."
+  },
+  "alpha_bear": {
+    "name": "Alpha Bear",
+    "description": "A colossal bear that has proven its supremacy over all other bears. Its battle scars and imposing size testify to its absolute dominance of the territory."
+  },
+  "grizzly_bear": {
+    "name": "Legendary Grizzly Bear",
+    "description": "The evolutionary culmination of all bears. This ancestral titan has transcended the limitations of its species to become an unstoppable force of nature."
+  },
+  "sheep": {
+    "name": "Sheep",
+    "description": "A sheep with white, fluffy wool grazing peacefully. Its soft bleating and docile behavior make it a harmless countryside creature."
+  },
+  "fox": {
+    "name": "Fox",
+    "description": "A cunning fox with reddish fur and a fluffy tail. Its intelligent eyes and agile movements reveal its crafty and cautious nature."
+  },
+  "badger": {
+    "name": "Badger",
+    "description": "A sturdy badger with distinctive stripes on its face. Its stocky body and strong claws make it an expert digger, though its temperament can be somewhat unpredictable."
+  },
+  "mole": {
+    "name": "Mole",
+    "description": "A small mole with velvety fur and tiny eyes. Its front paws are perfectly adapted for subterranean life, with specialized claws for digging."
+  },
+  "skeleton_warrior": {
+    "name": "Skeleton Warrior",
+    "description": "A warrior fallen long ago, now animated by dark necromancy. Its bleached bones glow with an unhealthy aura."
+  },
+  "infernalLord": {
+    "name": "Ignis, Lord of Eternal Flames",
+    "description": "A [color=#8B0000]demonic titan 5 meters tall[/color], whose body is forged from [color=#FF4500]living magma[/color] and [color=#2F4F4F]infernal iron[/color]. Its [color=#FFD700]twisted horns[/color] gleam with the heat of a thousand suns, and from its back emerge [color=#DC143C]wings of pure fire[/color] that never cease burning. Its eyes are [color=#FF6347]wells of eternal fire[/color] that devour the hope of those who gaze upon them. Each step [color=#696969]shakes the earth[/color] and leaves [color=#FF4500]footprints of burning lava[/color]. A [color=#8B4513]crown of fiery thorns[/color] rests upon its head, symbol of its absolute dominion over torments. In its hand it wields [color=#DC143C]Perdition[/color], a colossal sword that [color=#FF6347]bleeds liquid fire[/color] and whose edge has reaped [color=#8B0000]a thousand immortal souls[/color]."
+  },
+  "hellHound": {
+    "name": "Hell Hound",
+    "description": "A demonic beast the size of a horse, with [color=#8B0000]black fur like the night[/color] that burns at its extremities with [color=#FF4500]crimson flames[/color]. Its [color=#FF6347]eyes gleam like embers[/color], without pupils, only pure fire. Its [color=#D3D3D3]metallic fangs[/color] drip [color=#DC143C]boiling sulfur saliva[/color]. With each exhalation, it expels [color=#708090]black smoke and ashes[/color]."
+  },
+  "infernalWarrior": {
+    "name": "Infernal Warrior",
+    "description": "A demonic warrior with [color=#2F4F4F]skin black as obsidian[/color], covered in [color=#8B0000]ritual scars[/color] that glow with [color=#FF4500]igneous light[/color]. Its armor is forged from [color=#696969]cursed iron[/color] and [color=#DC143C]dragon bones[/color]. It wields a [color=#8B4513]serrated sword[/color] that [color=#FF6347]bleeds fire[/color]. Its [color=#FFD700]twisted horns[/color] emerge from a horned helmet."
+  },
+  "lavaElemental": {
+    "name": "Lava Elemental",
+    "description": "A living mass of [color=#FF4500]molten magma[/color] and [color=#2F4F4F]igneous rock[/color] that takes humanoid form. Its body [color=#FF6347]constantly flows and bubbles[/color], giving off [color=#DC143C]waves of scorching heat[/color]. [color=#FFD700]Luminous cracks[/color] run along its form, revealing its [color=#8B0000]incandescent core[/color]. It has no face, only a burning void where one should be."
+  },
+  "tormentedSoul": {
+    "name": "Tormented Soul",
+    "description": "A [color=#D3D3D3]translucent spectral[/color] figure that [color=#9370DB]floats above the ground[/color]. Its form is vaguely human but constantly [color=#B0E0E6]distorts and stretches[/color] as if being tortured by invisible forces. Its face is [color=#DC143C]frozen in a silent scream[/color]. [color=#FF4500]Ghostly flames[/color] dance around its ethereal body."
+  },
+  "impSwarm": {
+    "name": "Imp Swarm",
+    "description": "A chaotic mass of [color=#8B0000]small winged demons[/color] that move as a single organism. Each has [color=#DC143C]scaly red skin[/color], [color=#FFD700]malicious yellow eyes[/color], and [color=#D3D3D3]small sharp claws[/color]. They fly erratically, [color=#FF4500]shrieking and cackling[/color] in a demonic language. The air around them smells of [color=#696969]sulfur and burnt flesh[/color]."
+  },
+  "zombieCaveDweller": {
+    "name": "Cave Zombie",
+    "description": "A [color=#696969]putrid and decomposed[/color] corpse that drags its feet heavily. Its [color=#8B8B7A]greenish skin[/color] hangs in tatters, revealing [color=#D3D3D3]rotting bones and muscles[/color]. Its [color=#E6E6E6]lifeless eyes[/color] stare blankly into the void. [color=#2F4F4F]Worms and larvae[/color] writhe in its decomposed flesh. It emits a [color=#90EE90]nauseating stench[/color] of death."
+  },
+  "skeletonArcher": {
+    "name": "Skeleton Archer",
+    "description": "An animated skeleton dressed in [color=#8B4513]remnants of decomposed leather armor[/color]. It holds a [color=#DEB887]longbow made of bone[/color] with a [color=#D3D3D3]string of dried tendons[/color]. Its [color=#E6E6E6]empty sockets[/color] glow with a [color=#9370DB]faint spectral gleam[/color]. Its [color=#F5F5DC]yellowed bones[/color] are marked with [color=#708090]ancient runes[/color]."
+  },
+  "wraith": {
+    "name": "Wraith",
+    "description": "A [color=#2F4F4F]dark and ethereal[/color] figure wrapped in [color=#696969]shreds of darkness[/color]. Its form [color=#9370DB]floats silently[/color], without touching the ground. Where its face should be, there is only a [color=#000000]void of absolute darkness[/color] with two [color=#00CED1]points of icy light[/color] as eyes. Its hands are [color=#B0C4DE]spectral claws[/color] that [color=#E6E6FA]pass through solid matter[/color]."
+  },
+  "ghoul": {
+    "name": "Ghoul",
+    "description": "A [color=#696969]cadaverous and emaciated[/color] creature that moves on all fours like a beast. Its [color=#8B8B7A]gray, stretched skin[/color] reveals every bone in its skeleton. Its [color=#DC143C]bloodshot red eyes[/color] gleam with an [color=#8B0000]insatiable hunger[/color]. Its [color=#F5F5DC]long, yellowed claws[/color] are [color=#8B4513]stained with dried blood[/color]. It constantly drools a [color=#9ACD32]black, viscous liquid[/color]."
+  },
+  "cryptGuardian": {
+    "name": "Crypt Guardian",
+    "description": "A [color=#D3D3D3]skeletal[/color] warrior dressed in [color=#708090]complete ancient steel armor[/color]. Its equipment is covered in [color=#8B4513]rust and moss[/color], but still functional. It wields a [color=#C0C0C0]broadsword with engraved runes[/color] that [color=#9370DB]glow with purple light[/color]. A [color=#DC143C]red gleam[/color] burns in its eye sockets. It moves with an [color=#696969]unnatural military precision[/color]."
+  }
+}

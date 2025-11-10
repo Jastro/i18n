@@ -1,0 +1,220 @@
+{
+  "islands": {
+    "astral": {
+      "name": "Plano astral",
+      "zones": {
+        "limboZone": {
+          "name": "Terreno sin alma",
+          "rooms": {
+            "deathZone": {
+              "name": "Limbo",
+              "description": "Te encuentras en el [color=#E6E6FA]Limbo[/color], un lugar donde el [color=#87CEEB]tiempo se disuelve[/color] y la realidad es [color=#DDA0DD]difusa[/color]. No hay suelo bajo tus pies, solo una [color=#B0E0E6]niebla etérea[/color] que se extiende en todas direcciones, [color=#98FB98]susurrando[/color] con voces lejanas y ecos de otros tiempos. La [color=#F0E68C]luz[/color] es tenue y sin fuente, envolviéndote en una [color=#E6E6FA]atmósfera onírica[/color]. Las [color=#FFA07A]sombras[/color] parecen moverse por voluntad propia, mostrando [color=#FFB6C1]destellos[/color] de lugares y rostros que se [color=#87CEFA]desvanecen[/color] al mirarlos. Aquí, los [color=#DDA0DD]espíritus errantes[/color] deambulan, atrapados en este [color=#B0E0E6]reino[/color] entre la vida y la muerte, mientras tú esperas el [color=#F0E68C]juicio de los dioses[/color], aguardando el momento de tu [color=#98FB98]retorno[/color] o tu [color=#E6E6FA]destino final[/color]."
+            }
+          }
+        }
+      }
+    },
+    "shadi_vanam": {
+      "name": "shadi_vanam",
+      "zones": {
+        "shadi_vanam_exterior": {
+          "name": "Bosque Exterior de Shadi Vanam",
+          "rooms": {
+            "sv_entrance_02": {
+              "name": "Pasaje de las Sombras Inquietas",
+              "description": "A medida que avanzas por el sendero, la [color=#90EE90]belleza natural[/color] que debió caracterizar este lugar parece desvanecerse gradualmente, como si una [color=#D3D3D3]película invisible[/color] cubriera la realidad. Los antiguos [color=#A9A9A9]adoquines de piedra[/color] que pavimentan el camino están [color=#B0B0B0]agrietados[/color], y entre las fisuras crece una [color=#9ACD32]hierba de color enfermizo[/color] que se estremece sin razón aparente. Los [color=#DEB887]árboles centenarios[/color] que custodian el paso muestran [color=#CD853F]cortezas con patrones extraños[/color], como si algo hubiera intentado tallar [color=#DAA520]símbolos[/color] que ahora son irreconocibles. Sus copas se entrelazan formando un [color=#7FFFD4]techo natural[/color] que filtra la luz de manera desigual, creando [color=#9370DB]manchas de sombra[/color] que parecen moverse y cambiar de forma cuando no las observas directamente. El [color=#B0C4DE]aire aquí es más denso[/color], cargado de una [color=#708090]humedad[/color] que no debería existir en esta época, y ocasionalmente escuchas el [color=#CD853F]crujir de ramas[/color] que no se mueven. La [color=#DA70D6]sensación de ser observado[/color] es constante, como si [color=#9370DB]miles de ojos invisibles[/color] siguieran cada uno de tus movimientos."
+            },
+            "sv_entrance_01": {
+              "name": "Umbral de la Presencia Silenciosa",
+              "description": "Te encuentras en el tramo final del sendero, donde la [color=#DA70D6]corrupción sutil[/color] que has estado sintiendo alcanza su punto más intenso antes de las [color=#DEB887]grandes puertas[/color] que se alzan al norte. Este lugar, que claramente fue diseñado como una [color=#FFD700]antesala majestuosa[/color] al pueblo, ahora exhala una [color=#9370DB]melancolía profunda[/color] y perturbadora. Las [color=#F5F5F5]estatuas de mármol[/color] que flanquean el camino, otrora [color=#87CEEB]guardianes protectores[/color] tallados con [color=#FFE4B5]sonrisas benévolas[/color], ahora parecen observarte con [color=#B0B0B0]expresiones[/color] que han cambiado imperceptiblemente, como si sus [color=#D3D3D3]rostros pétreos[/color] hubieran sido sutilmente alterados por una [color=#9370DB]mano invisible[/color]. Los [color=#9ACD32]jardines ornamentales[/color] que debieron ser el orgullo de la entrada están [color=#D2B48C]marchitos[/color] de una manera que desafía las estaciones, con [color=#DDA0DD]flores[/color] que conservan su forma pero han perdido toda vitalidad, colgando como [color=#B0E0E6]lágrimas cristalizadas[/color]. El [color=#7FFFD4]silencio aquí es antinatural[/color] y opresivo, roto únicamente por un [color=#DAA520]zumbido casi inaudible[/color] que parece emanar del suelo mismo. Sientes una [color=#DA70D6]presencia inmensa e invisible[/color] que te examina, evaluándote, como si tu llegada hubiera despertado algo que prefería permanecer dormido. Las [color=#CD853F]puertas del pueblo[/color] se alzan imponentes al norte, prometiendo [color=#FF6347]respuestas que quizás no desees conocer[/color]."
+            },
+            "sv_door_hall": {
+              "name": "Pórtico de los Vigilantes Pétreos",
+              "description": "Te encuentras ante el [color=#DEB887]imponente pórtico[/color] de Shadi Vanam, una estructura que debió ser el [color=#FFD700]símbolo de bienvenida y prosperidad[/color] del pueblo, pero que ahora irradia una [color=#DA70D6]majestuosidad corrompida[/color] que hiela la sangre. Las [color=#CD853F]enormes puertas de roble[/color], de al menos tres metros de altura, están talladas con [color=#DAA520]intrincados relieves[/color] que narran la historia del pueblo: escenas de [color=#90EE90]abundantes cosechas[/color], [color=#FFB6C1]festivales alegres[/color] y [color=#FFE4B5]rostros sonrientes[/color] que, bajo la [color=#B0C4DE]luz cambiante[/color], parecen contorsionarse en [color=#DC143C]muecas de desesperación[/color]. Los [color=#B0B0B0]goznes de hierro forjado[/color], otrora brillantes, ahora muestran un [color=#DEB887]óxido[/color] que no es producto del tiempo, sino que forma [color=#CD5C5C]patrones deliberados[/color] y perturbadores, como [color=#DC143C]lágrimas de sangre seca[/color] que nunca terminan de caer. A ambos lados del portal, las [color=#F5F5F5]estatuas de los antiguos guardianes[/color] del pueblo permanecen en sus [color=#E8E8E8]pedestales de mármol[/color], pero sus [color=#7FFFD4]ojos ciegos[/color] parecen seguirte con una intensidad que desafía su naturaleza inerte. Sus [color=#D3D3D3]manos[/color], que una vez sostuvieron [color=#FFD700]antorchas de bienvenida[/color], ahora están vacías y [color=#B0B0B0]extendidas hacia ti[/color], como si suplicaran algo que no puedes comprender. El [color=#9370DB]aire aquí vibra[/color] con una tensión casi tangible, y puedes jurar que escuchas el [color=#DA70D6]eco lejano de voces[/color] que susurran [color=#FF6347]advertencias[/color] en un idioma que tu mente se niega a interpretar. Las puertas permanecen [color=#909090]entornadas[/color], revelando apenas una [color=#6495ED]rendija de la oscuridad[/color] que aguarda más allá, como si el propio pueblo respirara con dificultad."
+            },
+            "sv_town_forest_01": {
+              "name": "Camino de la Hierba Alta",
+              "description": "El sendero se abre paso entre [color=#90EE90]hierba alta[/color] y [color=#FFB6C1]flores silvestres[/color] que mecen sus pétalos con la brisa. Las [color=#A9A9A9]piedras del camino[/color] apenas asoman bajo el [color=#32CD32]verdor exuberante[/color]. El aire es templado y huele a [color=#DEB887]tierra mojada[/color], con el [color=#FFD700]canto melodioso[/color] de algunos pájaros en la distancia. Las [color=#87CEEB]sombras danzantes[/color] de los árboles crean patrones cambiantes sobre el suelo."
+            },
+            "sv_town_forest_05": {
+              "name": "Cruce del Sendero Viejo",
+              "description": "Tres caminos se cruzan aquí, formando una [color=#D2B48C]encrucijada olvidada[/color]. Las [color=#DEB887]señales de madera[/color] están partidas y el texto ya no se distingue bajo capas de [color=#9ACD32]musgo verde[/color]. El suelo está cubierto de [color=#CD853F]hojas secas[/color] que crujen bajo los pies, y un [color=#CD853F]tronco caído[/color] sirve de banco improvisado. El [color=#B0C4DE]aire quieto[/color] parece esperar que alguien tome una decisión."
+            },
+            "sv_entrance_03": {
+              "name": "Sendero de los Susurros Marchitos",
+              "description": "El sendero se extiende ante ti como una [color=#D3D3D3]cicatriz pálida[/color] entre la [color=#32CD32]vegetación[/color] que una vez debió ser [color=#32CD32]exuberante[/color]. Los [color=#DEB887]árboles[/color] que flanquean el camino, aunque aún [color=#9ACD32]verdes[/color], parecen [color=#B0B0B0]inclinarse hacia adentro[/color] con una postura antinatural, como si algo [color=#9370DB]invisible[/color] los empujara a formar un [color=#7FFFD4]túnel claustrofóbico[/color]. Sus [color=#90EE90]hojas[/color] susurran constantemente, incluso cuando no hay viento, produciendo un [color=#DAA520]murmullo bajo e ininteligible[/color] que parece seguir tus pasos. Las [color=#DDA0DD]flores[/color] que bordean el sendero han perdido su [color=#FF69B4]color vibrante[/color], mostrando [color=#D2B48C]tonos apagados y marchitos[/color], mientras que el [color=#B0C4DE]aire[/color] lleva un [color=#FFE4B5]aroma dulzón[/color] que resulta perturbadoramente [color=#E6E6FA]pegajoso[/color]. De vez en cuando, sientes como si algo te observara desde las [color=#9370DB]sombras[/color] entre los troncos, pero al dirigir tu mirada hacia allí, solo encuentras [color=#CD853F]ramas retorcidas[/color] que forman [color=#DA70D6]patrones inquietantes[/color]. El camino continúa hacia el norte, donde la [color=#FF6347]sensación de vigilancia[/color] se intensifica."
+            },
+            "sv_town_forest_07": {
+              "name": "Pequeño Claro",
+              "description": "Una zona despejada donde crecen [color=#E6E6FA]flores pálidas[/color] entre la [color=#98FB98]hierba suave[/color]. [color=#B0B0B0]Restos de una hoguera[/color] indican que alguien acampó aquí hace poco, dejando [color=#7FFFD4]cenizas grises[/color] esparcidas. El [color=#87CEEB]aire fresco[/color] trae el [color=#FFE4B5]aroma de flores silvestres[/color], y el silencio apenas se interrumpe por el [color=#FFD700]zumbido dorado[/color] de los insectos. Los [color=#00CED1]rayos de sol[/color] atraviesan el dosel creando un ambiente sereno."
+            },
+            "sv_town_forest_04": {
+              "name": "Colina del Bosque",
+              "description": "El terreno se eleva ligeramente, ofreciendo una [color=#87CEEB]vista panorámica parcial[/color] del bosque. Desde aquí se ven los [color=#CD853F]tejados del pueblo[/color] a lo lejos, emergiendo entre la [color=#90EE90]neblina matutina[/color]. El [color=#B0E0E6]viento sopla[/color] con un [color=#FFE4E1]silbido suave[/color] que mueve las [color=#32CD32]hojas verdes[/color] como si [color=#DAA520]susurraran secretos antiguos[/color]. El [color=#4682B4]cielo azul[/color] se ve más despejado desde esta altura."
+            },
+            "sv_town_forest_03": {
+              "name": "Camino de las Raíces Marchitas",
+              "description": "El sendero se estrecha, bordeado por árboles cuyas raíces sobresalen del suelo como si intentaran escapar de la tierra. La luz que se filtra entre las hojas es débil y temblorosa, dando a todo un tono verdoso enfermizo. El aire huele a madera húmeda y algo metálico, y aunque no hay viento, las ramas se balancean suavemente, como si respiraran."
+            },
+            "sv_town_forest_08": {
+              "name": "El Roble Solitario",
+              "description": "Un [color=#DEB887]enorme roble ancestral[/color] se alza majestuoso en mitad del sendero, con ramas que se extienden como [color=#CD853F]brazos retorcidos[/color] hacia el cielo. Su [color=#CD853F]tronco rugoso[/color] muestra [color=#B0B0B0]marcas antiguas[/color], quizás de hachas o cuchillos, testimonio de épocas pasadas. A su alrededor hay [color=#808080]piedras dispuestas en círculo[/color], cubiertas por [color=#9ACD32]musgo verde intenso[/color].\n\nAl acercarte, notas que el [color=#CD853F]tronco tiene una abertura[/color] lo suficientemente grande como para entrar. En el interior del árbol parece haber [color=#FFD700]luz tenue[/color] y escuchas [color=#DDA0DD]susurros del viento[/color] que resuenan desde dentro. El [color=#FFE4B5]aire aquí se siente sagrado[/color], como si el árbol guardara [color=#DAA520]secretos olvidados[/color].\n\nPuedes entrar al árbol escribiendo [color=#FFD700]'in'[/color] o [color=#FFD700]'entrar'[/color]."
+            },
+            "sv_town_forest_02": {
+              "name": "Vieja Garita de Paso",
+              "description": "Entre los [color=#32CD32]árboles frondosos[/color] se distinguen los restos de una pequeña [color=#A9A9A9]garita de piedra[/color], cubierta de [color=#9ACD32]musgo verde[/color] y [color=#DEB887]raíces retorcidas[/color]. La [color=#CD853F]puerta de madera[/color] se ha deshecho, pero aún cuelga una [color=#B87333]vieja bisagra oxidada[/color] que gime con la brisa. El interior ofrece [color=#D3D3D3]sombra fresca[/color], pareciendo un buen lugar para descansar. [color=#FFE4E1]Ecos de guardias del pasado[/color] parecen resonar entre las piedras."
+            },
+            "sv_town_forest_06": {
+              "name": "Puente Natural",
+              "description": "Un [color=#4682B4]arroyo estrecho[/color] corta el paso con sus [color=#ADD8E6]aguas cristalinas[/color] que fluyen suavemente. [color=#DEB887]Raíces gruesas[/color] de dos [color=#32CD32]árboles vecinos[/color] forman un [color=#CD853F]puente natural[/color] sobre el agua. El reflejo del [color=#B0C4DE]cielo gris[/color] se distorsiona al ritmo del leve movimiento de la corriente. El [color=#98D8C8]sonido del agua[/color] crea una [color=#E6E6FA]melodía tranquilizadora[/color], y pequeñas [color=#40E0D0]libélulas turquesas[/color] danzan sobre la superficie."
+            },
+            "sv_town_forest_12": {
+              "name": "Capilla Vieja",
+              "description": "Entre la [color=#32CD32]espesura del bosque[/color] se oculta una pequeña [color=#A9A9A9]capilla de piedra[/color], cubierta de [color=#3CB371]hiedra verde oscura[/color] que trepa por sus muros como [color=#9ACD32]dedos vegetales[/color]. Su [color=#CD853F]puerta de madera[/color] está rota, revelando el interior [color=#7FFFD4]vacío y sombrío[/color]. Solo queda un [color=#D2B48C]banco de madera[/color] carcomido y un [color=#B87333]viejo candelabro torcido[/color] en el suelo, cubierto de [color=#D3D3D3]polvo ancestral[/color]. El [color=#E6E6FA]aire aquí es pesado[/color], cargado de [color=#DAA520]oraciones olvidadas[/color]."
+            },
+            "sv_town_forest_11": {
+              "name": "Sendero del Arroyo",
+              "description": "El camino discurre paralelo a un [color=#4682B4]arroyo de agua clara[/color] que serpentea entre [color=#DEB887]rocas musgosas[/color]. El [color=#ADD8E6]rumor constante del flujo[/color] resulta casi [color=#E6E6FA]hipnótico[/color], invitando a la contemplación. En la orilla se distinguen [color=#CD853F]huellas recientes[/color], quizás de algún [color=#CD853F]animal salvaje[/color] que bajó a beber. [color=#90EE90]Helechos verdes[/color] bordean el agua, y el [color=#87CEEB]aire húmedo[/color] huele a [color=#9ACD32]tierra fresca[/color]."
+            },
+            "sv_spawn": {
+              "name": "Claro de la Llegada",
+              "description": "Emerges en un [color=#87CEEB]claro sereno y luminoso[/color], rodeado por un círculo perfecto de [color=#DEB887]antiguos árboles[/color] de Shadi Vanam cuyos troncos parecen susurrar [color=#DAA520]secretos milenarios[/color]. La [color=#32CD32]hierba bajo tus pies[/color] es de un [color=#ADFF2F]verde vibrante[/color], salpicada de [color=#FF69B4]flores silvestres[/color] que liberan un [color=#FFE4B5]aroma dulce[/color] y revitalizante. [color=#FFD700]Rayos de luz dorada[/color] se filtran a través del [color=#90EE90]dosel de hojas[/color], creando un mosaico de sombras danzantes sobre el suelo. En el centro del claro, una pequeña [color=#ADD8E6]fuente de agua cristalina[/color] brota de la tierra, alimentando un [color=#87CEEB]arroyo[/color] que serpentea hacia el norte. Este [color=#DDA0DD]lugar sagrado[/color] marca tu primer contacto con las tierras de Shadi Vanam, un reino donde la [color=#9370DB]magia[/color] y la [color=#3CB371]naturaleza[/color] conviven en perfecta armonía. Los senderos que se extienden en todas las direcciones prometen [color=#FFB84D]aventuras[/color] y [color=#7FFFD4]descubrimientos[/color], mientras que el viento lleva [color=#F0E68C]ecos de lugares distantes[/color] y criaturas por descubrir."
+            },
+            "sv_town_forest_09": {
+              "name": "Camino Bajo",
+              "description": "El terreno desciende suavemente hacia una [color=#DEB887]hondonada[/color]. El [color=#B0E0E6]aire se vuelve más húmedo[/color] y fresco, mientras el [color=#4682B4]sonido de un arroyo cercano[/color] acompaña cada paso con su [color=#ADD8E6]murmullo cristalino[/color]. Entre las [color=#DEB887]raíces expuestas[/color] se ven [color=#F4A460]fragmentos de cerámica vieja[/color], cubiertos de [color=#D2B48C]barro seco[/color]. Parece que [color=#DAA520]un antiguo asentamiento[/color] yace enterrado bajo tus pies."
+            },
+            "sv_town_forest_10": {
+              "name": "Molino Abandonado",
+              "description": "Un pequeño [color=#A9A9A9]molino de piedra[/color] se levanta [color=#D2B48C]inclinado[/color] junto a un [color=#D3D3D3]cauce seco[/color] donde alguna vez fluyó el agua. La [color=#DEB887]rueda de madera[/color] yace [color=#CD853F]partida[/color], con sus aspas [color=#CD853F]rotas[/color] esparcidas por el suelo. Dentro, el [color=#D3D3D3]polvo gris[/color] cubre todo como una capa de ceniza. Solo el [color=#B0C4DE]sonido del viento[/color] llena el lugar, silbando a través de las [color=#B0B0B0]grietas de las paredes[/color]. El abandono es palpable."
+            },
+            "sv_town_forest_13": {
+              "name": "Huerto Marchito",
+              "description": "Restos de [color=#D2B48C]árboles frutales secos[/color] bordean el camino, con [color=#CD853F]ramas retorcidas[/color] que se extienden como [color=#B0B0B0]garras esqueléticas[/color]. Algunas ramas aún conservan [color=#DEB887]frutos podridos[/color] que cuelgan como [color=#CD853F]adornos tristes[/color], desprendiendo un [color=#D3D3D3]olor agrio[/color]. La [color=#CD853F]cerca de madera[/color] se deshace al tocarla, [color=#A9A9A9]desmoronándose[/color] en astillas. El [color=#E6E6FA]silencio aquí es absoluto[/color], como si la vida hubiera huido hace tiempo."
+            },
+            "sv_town_forest_14": {
+              "name": "Camino de las Linternas",
+              "description": "[color=#DEB887]Postes de madera torcidos[/color] flanquean el sendero como [color=#B0B0B0]centinelas deformes[/color]. De algunos cuelgan [color=#B87333]restos de linternas rotas[/color], [color=#CD853F]oxidadas por el tiempo[/color] y el abandono. El [color=#A9A9A9]metal corroído[/color] tintinea suavemente con la brisa. Por la noche, dicen que [color=#FFD700]aún se encienden algunas[/color] sin razón aparente, proyectando [color=#DAA520]sombras fantasmales[/color] que danzan entre los árboles."
+            },
+            "sv_town_forest_15": {
+              "name": "Descanso del Viajero",
+              "description": "Un [color=#A9A9A9]banco de piedra[/color] descansa bajo un [color=#32CD32]árbol ancho[/color] cuyas ramas se extienden como un [color=#90EE90]dosel protector[/color]. Talladas en su superficie hay [color=#B0B0B0]marcas de iniciales y fechas[/color], casi borradas por los años y el [color=#9ACD32]musgo[/color]. Alguien dejó un [color=#CD853F]vaso de barro vacío[/color] sobre él, como si esperara volver. El [color=#87CEEB]aire tranquilo[/color] invita al descanso, y se puede escuchar el [color=#ADD8E6]susurro del arroyo[/color] cercano."
+            },
+            "sv_town_forest_16": {
+              "name": "Linde del Arroyo",
+              "description": "El sendero se abre junto al [color=#4682B4]arroyo[/color], donde el [color=#ADD8E6]agua cristalina[/color] refleja la [color=#B0C4DE]luz gris del cielo[/color] como un [color=#E6E6FA]espejo líquido[/color]. Algunas [color=#00CED1]libélulas turquesas[/color] revolotean sobre la superficie, sus [color=#48D1CC]alas iridiscentes[/color] brillando con cada movimiento. El [color=#87CEEB]sonido del agua[/color] es constante y [color=#E6E6FA]relajante[/color], creando una [color=#ADD8E6]sinfonía natural[/color] que calma el espíritu."
+            },
+            "sv_town_forest_17": {
+              "name": "Camino del Exilio",
+              "description": "El sendero se vuelve [color=#D2B48C]estrecho[/color] y se pierde entre [color=#9ACD32]arbustos espesos[/color] que parecen cerrarse detrás de ti. El suelo está cubierto de [color=#CD853F]hojas secas[/color] y [color=#DEB887]ramas caídas[/color] que crujen con cada paso. Se dice que por aquí partían los [color=#DAA520]viajeros que nunca regresaban[/color] a Shadi Vanam, buscando [color=#B0C4DE]destinos desconocidos[/color] o huyendo de [color=#B0B0B0]sombras del pasado[/color]. El [color=#7FFFD4]aire aquí es más frío[/color], y una [color=#E6E6FA]sensación de despedida[/color] permanece."
+            },
+            "sv_lumber_area": {
+              "name": "Área de Leñadores",
+              "description": "Un claro entre los árboles donde [color=#CD853F]troncos apilados[/color] y [color=#A9A9A9]hachas clavadas[/color] en tocones hablan de [color=#DEB887]trabajo constante[/color]. El suelo está cubierto de [color=#D2B48C]aserrín[/color] y [color=#8B4513]virutas de madera[/color], y el aire huele a [color=#32CD32]resina fresca[/color]. Un [color=#696969]cobertizo de madera[/color] guarda herramientas, y varios [color=#CD853F]troncos cortados[/color] esperan ser transportados. Se escucha el [color=#FF6347]eco de hachas[/color] en la distancia."
+            }
+          }
+        }
+      }
+    },
+    "interior_oak_tree": {
+      "name": "Interior del Roble Ancestral",
+      "zones": {
+        "oak_tree_interior": {
+          "name": "Interior del Roble Ancestral",
+          "rooms": {
+            "oak_tree_hall": {
+              "name": "Cámara Principal del Roble",
+              "description": "Entras en el [color=#CD853F]interior hueco del árbol[/color] y te encuentras en una [color=#FFE4B5]cámara circular sorprendentemente amplia[/color]. Las [color=#8B4513]paredes de madera viva[/color] brillan con [color=#90EE90]musgos luminiscentes[/color] que proyectan una [color=#98FB98]luz verde suave[/color]. [color=#9ACD32]Raíces gruesas[/color] serpentean por el suelo como venas de la tierra, y en el centro hay una [color=#B0E0E6]poza de agua cristalina[/color] que refleja patrones de luz danzantes.\n\nEl [color=#87CEEB]aire está fresco[/color] y huele a [color=#90EE90]tierra húmeda[/color] y [color=#DDA0DD]flores silvestres[/color]. Escuchas el [color=#E6E6FA]susurro constante de las hojas[/color] arriba, como si el árbol estuviera respirando. Hay pasajes tallados en la madera que conducen a [color=#DAA520]cámaras más altas[/color] y [color=#CD853F]profundas[/color].\n\nPuedes salir escribiendo [color=#FFD700]'out'[/color] o [color=#FFD700]'salir'[/color]."
+            },
+            "oak_tree_canopy": {
+              "name": "Copa del Roble - Centro",
+              "description": "Subes por [color=#8B4513]escalones tallados naturalmente en la madera[/color] hasta alcanzar la [color=#228B22]copa del árbol[/color]. Aquí, el espacio se abre hacia [color=#87CEEB]ventanas naturales[/color] entre las ramas, permitiendo que la [color=#FFD700]luz del sol[/color] ilumine el interior.\n\nHay [color=#90EE90]nidos de pájaros[/color] en las grietas de la madera, y puedes ver [color=#DDA0DD]flores[/color] creciendo de las propias ramas del árbol. Desde aquí arriba, tienes una vista parcial del [color=#228B22]bosque exterior[/color] a través de las hojas. El [color=#B0E0E6]viento[/color] entra suavemente, haciendo que toda la estructura [color=#CD853F]cruja y gima[/color] como si el árbol estuviera cantando.\n\nUna [color=#FFE4B5]plataforma de madera[/color] parece haber sido construida aquí hace mucho tiempo, con [color=#B0B0B0]runas talladas[/color] en su superficie. Hay pasajes hacia el [color=#FFD700]este[/color] y [color=#FFD700]oeste[/color] entre las ramas."
+            },
+            "oak_tree_canopy_east": {
+              "name": "Copa del Roble - Rama Este",
+              "description": "Caminas por una [color=#8B4513]rama gruesa[/color] que se extiende hacia el este. Aquí la [color=#FFD700]luz del sol[/color] es más intensa, filtrándose entre las [color=#90EE90]hojas verdes[/color]. Varios [color=#DDA0DD]pájaros pequeños[/color] revolotean cerca, observándote con curiosidad.\n\nDesde aquí puedes ver el [color=#228B22]bosque[/color] extendiéndose hacia el horizonte. El [color=#B0E0E6]viento[/color] sopla más fuerte aquí arriba, haciendo que las hojas [color=#90EE90]susurren[/color] constantemente."
+            },
+            "oak_tree_canopy_west": {
+              "name": "Copa del Roble - Rama Oeste",
+              "description": "Te adentras en una [color=#8B4513]rama retorcida[/color] que se curva hacia el oeste. Aquí hay un [color=#90EE90]nido grande[/color] abandonado, lo suficientemente amplio como para sentarte dentro. [color=#DDA0DD]Flores silvestres[/color] crecen de grietas en la corteza, llenando el aire con su [color=#FFD700]fragancia dulce[/color].\n\nEl [color=#B0E0E6]viento[/color] mece suavemente la rama, creando una [color=#E6E6FA]sensación de mecerse[/color] como en un barco. Desde aquí tienes una vista del [color=#87CEEB]cielo abierto[/color]."
+            },
+            "oak_tree_roots": {
+              "name": "Cámara de las Raíces - Centro",
+              "description": "Desciendes por un [color=#8B4513]pasaje estrecho[/color] hasta llegar a una [color=#CD853F]cámara subterránea[/color] donde las [color=#9ACD32]raíces principales del roble[/color] se hunden en la tierra. Aquí abajo, la atmósfera es [color=#4B0082]más oscura y misteriosa[/color], iluminada solo por [color=#FFD700]hongos bioluminiscentes[/color] que crecen entre las raíces.\n\nLas [color=#8B7355]raíces son enormes[/color], algunas tan gruesas como tu cuerpo, y puedes sentir una [color=#E6E6FA]energía antigua[/color] pulsando a través de ellas. En el centro de la cámara hay un [color=#DAA520]altar de piedra cubierto de musgo[/color], con [color=#B0B0B0]símbolos druídicos[/color] tallados en su superficie.\n\nEl [color=#87CEEB]aire aquí es húmedo[/color] y huele a [color=#8B4513]tierra profunda[/color]. Escuchas el [color=#B0E0E6]goteo de agua[/color] en algún lugar de las sombras. Puedes seguir las raíces hacia el [color=#FFD700]este[/color] y [color=#FFD700]oeste[/color], o descender [color=#8B0000]más profundo[/color] en la tierra."
+            },
+            "oak_tree_roots_east": {
+              "name": "Túnel de Raíces Este",
+              "description": "Sigues una [color=#8B7355]raíz gruesa[/color] hacia el este, adentrándote en un [color=#654321]túnel natural[/color] formado por raíces entrelazadas. Los [color=#FFD700]hongos luminiscentes[/color] son más escasos aquí, creando [color=#2F4F4F]bolsas de sombras[/color] entre los destellos de luz.\n\nPuedes ver [color=#B0C4DE]cristales pequeños[/color] incrustados en la tierra, brillando débilmente. El [color=#87CEEB]aire es más fresco[/color] aquí, como si hubiera algún tipo de ventilación natural. Las [color=#9ACD32]raíces crujen[/color] suavemente cuando te mueves."
+            },
+            "oak_tree_roots_west": {
+              "name": "Túnel de Raíces Oeste",
+              "description": "Las [color=#8B7355]raíces[/color] se extienden hacia el oeste, formando un [color=#654321]pasaje sinuoso[/color]. Aquí, el [color=#DAA520]musgo[/color] crece más abundante, cubriendo las paredes de raíces con una [color=#90EE90]capa suave y esponjosa[/color].\n\nEscuchas el [color=#B0E0E6]goteo constante de agua[/color], y notas pequeñas [color=#ADD8E6]acumulaciones de agua[/color] en las depresiones del suelo. El [color=#4B0082]aire es denso[/color] con el olor de [color=#8B4513]tierra mojada[/color] y [color=#556B2F]vegetación en descomposición[/color]."
+            },
+            "oak_tree_roots_deep1": {
+              "name": "Profundidades - Nivel 1",
+              "description": "Desciendes más profundo en la tierra, siguiendo las [color=#8B7355]raíces primarias[/color] del roble. La [color=#2F4F4F]oscuridad es casi total[/color] aquí, con solo tenues destellos de [color=#FFD700]hongos luminiscentes[/color] proporcionando luz.\n\nLas raíces aquí son [color=#654321]antiguas y retorcidas[/color], algunas tan gruesas como [color=#8B4513]pilares[/color]. Sientes una [color=#9370DB]energía primordial[/color] pulsando a través de ellas, como el [color=#DC143C]latido del corazón de la tierra[/color]. El [color=#87CEEB]aire es pesado[/color] y cargado de poder.\n\nHay túneles hacia el [color=#FFD700]este[/color] y [color=#FFD700]oeste[/color], y las raíces continúan descendiendo hacia [color=#8B0000]profundidades aún mayores[/color]."
+            },
+            "oak_tree_roots_deep1_east": {
+              "name": "Caverna de Raíces - Este",
+              "description": "Un [color=#654321]espacio más amplio[/color] se abre ante ti, donde múltiples [color=#8B7355]raíces masivas[/color] convergen desde arriba. El techo es [color=#2F4F4F]invisible en la oscuridad[/color], pero puedes sentir la [color=#4B0082]vastedad del espacio[/color].\n\nAquí, [color=#B0C4DE]cristales más grandes[/color] emergen de la tierra, [color=#ADD8E6]brillando con luz propia[/color]. Las [color=#9ACD32]raíces parecen absorber[/color] esta luz, creando patrones [color=#9370DB]hipnóticos[/color] a lo largo de su superficie. Un [color=#87CEEB]viento frío[/color] sopla desde las profundidades."
+            },
+            "oak_tree_roots_deep1_west": {
+              "name": "Caverna de Raíces - Oeste",
+              "description": "Las raíces se abren en una [color=#654321]cámara natural[/color] donde el [color=#DAA520]agua subterránea[/color] ha formado un [color=#4682B4]pequeño lago oscuro[/color]. La superficie del agua es [color=#000080]negra como el carbón[/color], pero ocasionalmente brilla con reflejos de [color=#FFD700]luz de hongos[/color].\n\nLas [color=#8B7355]raíces se sumergen[/color] en el agua, desapareciendo en sus [color=#191970]profundidades desconocidas[/color]. Puedes escuchar [color=#B0E0E6]ecos distantes[/color] de agua goteando, resonando en esta [color=#2F4F4F]cámara subterránea[/color]. El [color=#87CEEB]aire es húmedo[/color] y [color=#4B0082]denso con antiguo poder[/color]."
+            },
+            "oak_tree_roots_deep2": {
+              "name": "Profundidades - Nivel 2",
+              "description": "En este nivel más profundo, la [color=#2F4F4F]oscuridad es casi absoluta[/color]. Las [color=#8B7355]raíces del roble[/color] se hunden en la [color=#8B4513]tierra primordial[/color], alcanzando capas de [color=#654321]roca antigua[/color] que predatan al bosque mismo.\n\nAquí, la [color=#9370DB]energía mágica[/color] es tan intensa que puedes [color=#FF69B4]verla brillar débilmente[/color] en el aire. Las raíces [color=#DC143C]laten visiblemente[/color] con poder, y el [color=#8B0000]suelo tiembla sutilmente[/color] bajo tus pies.\n\nSientes que has alcanzado un lugar [color=#4B0082]sagrado y antiguo[/color], un [color=#9932CC]corazón oculto[/color] del bosque. Hay pasajes hacia el [color=#FFD700]este[/color] y [color=#FFD700]oeste[/color], y las raíces aún descienden más [color=#8B0000]profundo[/color]."
+            },
+            "oak_tree_roots_deep2_east": {
+              "name": "Cámara del Cristal Este",
+              "description": "Una [color=#654321]cámara pequeña[/color] donde [color=#B0C4DE]cristales masivos[/color] emergen de las paredes, [color=#ADD8E6]iluminando todo[/color] con un [color=#87CEEB]brillo azul fantasmal[/color]. Las [color=#8B7355]raíces[/color] han crecido alrededor de los cristales, [color=#9370DB]fusionándose con ellos[/color] en algunos lugares.\n\nLa luz cristalina crea [color=#DDA0DD]patrones cambiantes[/color] en las paredes de raíces, y puedes escuchar un [color=#E6E6FA]zumbido bajo[/color] emanando de los cristales. El [color=#87CEEB]aire vibra[/color] con [color=#9932CC]energía pura[/color]."
+            },
+            "oak_tree_roots_deep2_west": {
+              "name": "Cámara del Cristal Oeste",
+              "description": "Similar a su contraparte del este, esta cámara está llena de [color=#B0C4DE]cristales brillantes[/color], pero aquí tienen un tono [color=#9370DB]púrpura profundo[/color]. Las [color=#8B7355]raíces[/color] serpentean entre los cristales, [color=#FF69B4]pulsando con luz rosada[/color].\n\nEl [color=#87CEEB]aire aquí es cálido[/color], a diferencia del resto de las profundidades. Los cristales [color=#DDA0DD]cantan suavemente[/color], creando una [color=#E6E6FA]melodía etérea[/color] que resuena en tus huesos. Sientes que este lugar está [color=#9932CC]vivo de formas que no puedes comprender[/color]."
+            },
+            "oak_tree_roots_deep3": {
+              "name": "El Corazón del Árbol",
+              "description": "Has alcanzado el [color=#8B0000]lugar más profundo[/color] al que las raíces del roble ancestral llegan. Aquí, en lo que solo puede describirse como el [color=#DC143C]corazón místico del árbol[/color], todas las [color=#8B7355]raíces convergen[/color] en un [color=#654321]nudo masivo[/color] de madera antigua.\n\nEste nudo [color=#DC143C]late como un corazón real[/color], bombeando [color=#9370DB]energía mágica[/color] a través de todo el sistema de raíces. La [color=#FF69B4]luz pulsante[/color] que emite ilumina la cámara entera con tonos [color=#9932CC]carmesí y púrpura[/color].\n\nEn el centro del nudo hay una [color=#FFD700]pequeña apertura[/color], y dentro puedes ver algo [color=#FFFFE0]brillando intensamente[/color]. El [color=#4B0082]poder aquí es abrumador[/color], antiguo y primordial. Sientes que has descubierto uno de los [color=#9932CC]secretos más profundos del bosque[/color].\n\nNo hay forma de descender más - has llegado al [color=#8B0000]final del viaje[/color] hacia las profundidades."
+            }
+          }
+        }
+      }
+    },
+    "tutorial": {
+      "name": "tutorial",
+      "zones": {
+        "el_bosque_negro": {
+          "name": "El bosque negro",
+          "rooms": {
+            "startTutorial": {
+              "name": "Claro del Profeta",
+              "description": "Te despiertas en un [color=#D4C5A0]claro pequeño[/color] rodeado de [color=#9E8B7E]árboles retorcidos[/color]. El [color=#A8C5E0]aire es denso[/color] y una [color=#F0E68C]luz tenue[/color] se filtra desde arriba, revelando un [shake:strong][color=#FF6B6B]cielo agrietado[/color][/shake] que no debería existir.\n\nAnte ti, [color=#C4A67A]una figura encapuchada[/color] te observa en silencio. Su [color=#B8A58F]túnica raída[/color] está marcada con [color=#E8C170]símbolos antiguos[/color], y aunque no puedes ver su rostro, sientes que te está evaluando.\n\nEl [color=#D4C5A0]Profeta[/color] no se mueve, solo espera."
+            },
+            "learnItems": {
+              "name": "Sendero Antiguo",
+              "description": "Un [color=#D4C5A0]sendero estrecho[/color] se extiende hacia el norte. El suelo está cubierto de [color=#8B7355]hojas secas[/color] y entre ellas notas algo que brilla tenuemente: un [color=#FFB84D]bastón viejo[/color] abandonado."
+            },
+            "practiceCombat": {
+              "name": "Campo de Entrenamiento",
+              "description": "Un pequeño [color=#D4C5A0]claro[/color] donde la niebla se disipa ligeramente. El suelo es más firme aquí, como si hubiera sido preparado para algo. Una [color=#FF6B6B]sensación de peligro[/color] flota en el aire.\n\nUn [color=#8B4513]goblin[/color] te observa con ojos hambrientos."
+            },
+            "learnLoot": {
+              "name": "Después de la Batalla",
+              "description": "Has superado tu primera prueba. El área está tranquila ahora, pero algo más te espera adelante."
+            },
+            "learnDoors": {
+              "name": "Pasaje Sellado",
+              "description": "Has logrado abrir la puerta. Un [color=#D4C5A0]pasaje estrecho[/color] continúa hacia el norte, donde una [color=#66ccff]luz azulada[/color] parpadea en la distancia."
+            },
+            "exitTutorial": {
+              "name": "Portal Dimensional",
+              "description": "Una [color=#B8A58F]cámara pequeña[/color] iluminada por un [color=#66ccff]portal azulado[/color] que gira lentamente en el centro. Su [color=#87CEEB]luz fría[/color] es lo único que rompe la oscuridad. Este es el [color=#FFB84D]final del camino[/color]... o quizás, el inicio de uno nuevo."
+            }
+          }
+        }
+      }
+    }
+  }
+}

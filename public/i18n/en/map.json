@@ -1,0 +1,220 @@
+{
+  "islands": {
+    "astral": {
+      "name": "Astral Plane",
+      "zones": {
+        "limboZone": {
+          "name": "Soulless Terrain",
+          "rooms": {
+            "deathZone": {
+              "name": "Limbo",
+              "description": "You find yourself in [color=#E6E6FA]Limbo[/color], a place where [color=#87CEEB]time dissolves[/color] and reality is [color=#DDA0DD]hazy[/color]. There is no ground beneath your feet, only an [color=#B0E0E6]ethereal mist[/color] that extends in all directions, [color=#98FB98]whispering[/color] with distant voices and echoes from other times. The [color=#F0E68C]light[/color] is dim and sourceless, enveloping you in a [color=#E6E6FA]dreamlike atmosphere[/color]. [color=#FFA07A]Shadows[/color] seem to move of their own accord, showing [color=#FFB6C1]glimpses[/color] of places and faces that [color=#87CEFA]fade away[/color] when you look at them. Here, [color=#DDA0DD]wandering spirits[/color] roam, trapped in this [color=#B0E0E6]realm[/color] between life and death, while you await the [color=#F0E68C]judgment of the gods[/color], waiting for the moment of your [color=#98FB98]return[/color] or your [color=#E6E6FA]final destiny[/color]."
+            }
+          }
+        }
+      }
+    },
+    "shadi_vanam": {
+      "name": "Shadi Vanam",
+      "zones": {
+        "shadi_vanam_exterior": {
+          "name": "Outer Forest of Shadi Vanam",
+          "rooms": {
+            "sv_entrance_02": {
+              "name": "Passage of Restless Shadows",
+              "description": "As you advance along the path, the [color=#90EE90]natural beauty[/color] that must have characterized this place seems to gradually fade, as if an [color=#D3D3D3]invisible film[/color] covered reality. The ancient [color=#A9A9A9]stone cobblestones[/color] paving the way are [color=#B0B0B0]cracked[/color], and between the fissures grows [color=#9ACD32]sickly-colored grass[/color] that trembles for no apparent reason. The [color=#DEB887]centuries-old trees[/color] guarding the passage show [color=#CD853F]bark with strange patterns[/color], as if something had tried to carve [color=#DAA520]symbols[/color] that are now unrecognizable. Their canopies intertwine forming a [color=#7FFFD4]natural roof[/color] that filters light unevenly, creating [color=#9370DB]patches of shadow[/color] that seem to move and change shape when you don't observe them directly. The [color=#B0C4DE]air here is denser[/color], charged with a [color=#708090]humidity[/color] that shouldn't exist at this time of year, and occasionally you hear the [color=#CD853F]creaking of branches[/color] that don't move. The [color=#DA70D6]feeling of being watched[/color] is constant, as if [color=#9370DB]thousands of invisible eyes[/color] followed your every movement."
+            },
+            "sv_entrance_01": {
+              "name": "Threshold of the Silent Presence",
+              "description": "You find yourself on the final stretch of the path, where the [color=#DA70D6]subtle corruption[/color] you've been feeling reaches its most intense point before the [color=#DEB887]great gates[/color] that rise to the north. This place, which was clearly designed as a [color=#FFD700]majestic antechamber[/color] to the village, now exhales a [color=#9370DB]deep melancholy[/color] that is disturbing. The [color=#F5F5F5]marble statues[/color] flanking the path, once [color=#87CEEB]protective guardians[/color] carved with [color=#FFE4B5]benevolent smiles[/color], now seem to watch you with [color=#B0B0B0]expressions[/color] that have imperceptibly changed, as if their [color=#D3D3D3]stone faces[/color] had been subtly altered by an [color=#9370DB]invisible hand[/color]. The [color=#9ACD32]ornamental gardens[/color] that must have been the pride of the entrance are [color=#D2B48C]withered[/color] in a way that defies the seasons, with [color=#DDA0DD]flowers[/color] that retain their shape but have lost all vitality, hanging like [color=#B0E0E6]crystallized tears[/color]. The [color=#7FFFD4]silence here is unnatural[/color] and oppressive, broken only by an [color=#DAA520]almost inaudible hum[/color] that seems to emanate from the ground itself. You feel an [color=#DA70D6]immense and invisible presence[/color] examining you, evaluating you, as if your arrival had awakened something that preferred to remain asleep. The [color=#CD853F]village gates[/color] rise imposingly to the north, promising [color=#FF6347]answers you may not wish to know[/color]."
+            },
+            "sv_door_hall": {
+              "name": "Portico of the Stone Watchers",
+              "description": "You stand before the [color=#DEB887]imposing portico[/color] of Shadi Vanam, a structure that must have been the village's [color=#FFD700]symbol of welcome and prosperity[/color], but now radiates a [color=#DA70D6]corrupted majesty[/color] that chills the blood. The [color=#CD853F]enormous oak doors[/color], at least three meters high, are carved with [color=#DAA520]intricate reliefs[/color] that narrate the village's history: scenes of [color=#90EE90]abundant harvests[/color], [color=#FFB6C1]joyful festivals[/color], and [color=#FFE4B5]smiling faces[/color] that, under the [color=#B0C4DE]changing light[/color], seem to contort into [color=#DC143C]grimaces of despair[/color]. The [color=#B0B0B0]wrought iron hinges[/color], once brilliant, now show [color=#DEB887]rust[/color] that is not a product of time, but forms [color=#CD5C5C]deliberate patterns[/color] that are disturbing, like [color=#DC143C]tears of dried blood[/color] that never finish falling. On both sides of the portal, the [color=#F5F5F5]statues of the ancient guardians[/color] of the village remain on their [color=#E8E8E8]marble pedestals[/color], but their [color=#7FFFD4]blind eyes[/color] seem to follow you with an intensity that defies their inert nature. Their [color=#D3D3D3]hands[/color], which once held [color=#FFD700]welcoming torches[/color], are now empty and [color=#B0B0B0]extended towards you[/color], as if begging for something you cannot understand. The [color=#9370DB]air here vibrates[/color] with an almost tangible tension, and you could swear you hear the [color=#DA70D6]distant echo of voices[/color] whispering [color=#FF6347]warnings[/color] in a language your mind refuses to interpret. The doors remain [color=#909090]ajar[/color], revealing barely a [color=#6495ED]sliver of the darkness[/color] that waits beyond, as if the village itself breathed with difficulty."
+            },
+            "sv_town_forest_01": {
+              "name": "Path of Tall Grass",
+              "description": "The path winds through [color=#90EE90]tall grass[/color] and [color=#FFB6C1]wildflowers[/color] that sway their petals in the breeze. The [color=#A9A9A9]path stones[/color] barely peek through the [color=#32CD32]lush greenery[/color]. The air is mild and smells of [color=#DEB887]wet earth[/color], with the [color=#FFD700]melodious song[/color] of some birds in the distance. The [color=#87CEEB]dancing shadows[/color] of the trees create changing patterns on the ground."
+            },
+            "sv_town_forest_05": {
+              "name": "Old Path Crossing",
+              "description": "Three roads cross here, forming a [color=#D2B48C]forgotten crossroads[/color]. The [color=#DEB887]wooden signs[/color] are broken and the text can no longer be distinguished under layers of [color=#9ACD32]green moss[/color]. The ground is covered with [color=#CD853F]dry leaves[/color] that crunch underfoot, and a [color=#CD853F]fallen log[/color] serves as a makeshift bench. The [color=#B0C4DE]still air[/color] seems to wait for someone to make a decision."
+            },
+            "sv_entrance_03": {
+              "name": "Path of Withered Whispers",
+              "description": "The path stretches before you like a [color=#D3D3D3]pale scar[/color] through the [color=#32CD32]vegetation[/color] that must once have been [color=#32CD32]lush[/color]. The [color=#DEB887]trees[/color] flanking the path, though still [color=#9ACD32]green[/color], seem to [color=#B0B0B0]lean inward[/color] with an unnatural posture, as if something [color=#9370DB]invisible[/color] pushed them to form a [color=#7FFFD4]claustrophobic tunnel[/color]. Their [color=#90EE90]leaves[/color] whisper constantly, even when there is no wind, producing a [color=#DAA520]low, unintelligible murmur[/color] that seems to follow your steps. The [color=#DDA0DD]flowers[/color] bordering the path have lost their [color=#FF69B4]vibrant color[/color], showing [color=#D2B48C]dull and withered tones[/color], while the [color=#B0C4DE]air[/color] carries a [color=#FFE4B5]sweet aroma[/color] that is disturbingly [color=#E6E6FA]sticky[/color]. Occasionally, you feel as if something watches you from the [color=#9370DB]shadows[/color] between the trunks, but when you direct your gaze there, you only find [color=#CD853F]twisted branches[/color] forming [color=#DA70D6]unsettling patterns[/color]. The path continues north, where the [color=#FF6347]feeling of surveillance[/color] intensifies."
+            },
+            "sv_town_forest_07": {
+              "name": "Small Clearing",
+              "description": "A cleared area where [color=#E6E6FA]pale flowers[/color] grow among [color=#98FB98]soft grass[/color]. [color=#B0B0B0]Remains of a bonfire[/color] indicate that someone camped here recently, leaving [color=#7FFFD4]gray ashes[/color] scattered about. The [color=#87CEEB]fresh air[/color] brings the [color=#FFE4B5]scent of wildflowers[/color], and silence is barely interrupted by the [color=#FFD700]golden buzzing[/color] of insects. [color=#00CED1]Rays of sunlight[/color] pierce through the canopy creating a serene atmosphere."
+            },
+            "sv_town_forest_04": {
+              "name": "Forest Hill",
+              "description": "The terrain rises slightly, offering a [color=#87CEEB]partial panoramic view[/color] of the forest. From here you can see the [color=#CD853F]village rooftops[/color] in the distance, emerging through the [color=#90EE90]morning mist[/color]. The [color=#B0E0E6]wind blows[/color] with a [color=#FFE4E1]soft whistle[/color] that moves the [color=#32CD32]green leaves[/color] as if they [color=#DAA520]whispered ancient secrets[/color]. The [color=#4682B4]blue sky[/color] appears clearer from this height."
+            },
+            "sv_town_forest_03": {
+              "name": "Path of Withered Roots",
+              "description": "The path narrows, bordered by trees whose roots protrude from the ground as if trying to escape from the earth. The light filtering through the leaves is weak and trembling, giving everything a sickly greenish tone. The air smells of damp wood and something metallic, and though there is no wind, the branches sway gently, as if breathing."
+            },
+            "sv_town_forest_08": {
+              "name": "The Lone Oak",
+              "description": "A [color=#DEB887]huge ancestral oak[/color] stands majestically in the middle of the path, with branches extending like [color=#CD853F]twisted arms[/color] towards the sky. Its [color=#CD853F]rugged trunk[/color] shows [color=#B0B0B0]ancient marks[/color], perhaps from axes or knives, testimony to past eras. Around it are [color=#808080]stones arranged in a circle[/color], covered by [color=#9ACD32]intense green moss[/color].\n\nAs you approach, you notice that the [color=#CD853F]trunk has an opening[/color] large enough to enter. Inside the tree there seems to be [color=#FFD700]dim light[/color] and you hear [color=#DDA0DD]wind whispers[/color] echoing from within. The [color=#FFE4B5]air here feels sacred[/color], as if the tree guarded [color=#DAA520]forgotten secrets[/color].\n\nYou can enter the tree by typing [color=#FFD700]'in'[/color] or [color=#FFD700]'enter'[/color]."
+            },
+            "sv_town_forest_02": {
+              "name": "Old Gate House",
+              "description": "Among the [color=#32CD32]leafy trees[/color] you can distinguish the remains of a small [color=#A9A9A9]stone gatehouse[/color], covered with [color=#9ACD32]green moss[/color] and [color=#DEB887]twisted roots[/color]. The [color=#CD853F]wooden door[/color] has disintegrated, but a [color=#B87333]rusty old hinge[/color] still hangs, creaking in the breeze. The interior offers [color=#D3D3D3]cool shade[/color], seeming like a good place to rest. [color=#FFE4E1]Echoes of guards from the past[/color] seem to resonate among the stones."
+            },
+            "sv_town_forest_06": {
+              "name": "Natural Bridge",
+              "description": "A [color=#4682B4]narrow stream[/color] cuts across the path with its [color=#ADD8E6]crystal clear waters[/color] flowing gently. [color=#DEB887]Thick roots[/color] from two [color=#32CD32]neighboring trees[/color] form a [color=#CD853F]natural bridge[/color] over the water. The reflection of the [color=#B0C4DE]gray sky[/color] distorts to the rhythm of the stream's slight movement. The [color=#98D8C8]sound of water[/color] creates a [color=#E6E6FA]soothing melody[/color], and small [color=#40E0D0]turquoise dragonflies[/color] dance over the surface."
+            },
+            "sv_town_forest_12": {
+              "name": "Old Chapel",
+              "description": "Hidden in the [color=#32CD32]forest thicket[/color] is a small [color=#A9A9A9]stone chapel[/color], covered with [color=#3CB371]dark green ivy[/color] that climbs its walls like [color=#9ACD32]vegetal fingers[/color]. Its [color=#CD853F]wooden door[/color] is broken, revealing the [color=#7FFFD4]empty and gloomy[/color] interior. Only a [color=#D2B48C]worm-eaten wooden bench[/color] and a [color=#B87333]twisted old candelabrum[/color] on the floor remain, covered in [color=#D3D3D3]ancestral dust[/color]. The [color=#E6E6FA]air here is heavy[/color], laden with [color=#DAA520]forgotten prayers[/color]."
+            },
+            "sv_town_forest_11": {
+              "name": "Stream Path",
+              "description": "The path runs parallel to a [color=#4682B4]clear water stream[/color] that winds between [color=#DEB887]mossy rocks[/color]. The [color=#ADD8E6]constant murmur of the flow[/color] is almost [color=#E6E6FA]hypnotic[/color], inviting contemplation. On the bank you can see [color=#CD853F]recent tracks[/color], perhaps from some [color=#CD853F]wild animal[/color] that came down to drink. [color=#90EE90]Green ferns[/color] border the water, and the [color=#87CEEB]humid air[/color] smells of [color=#9ACD32]fresh earth[/color]."
+            },
+            "sv_spawn": {
+              "name": "Arrival Clearing",
+              "description": "You emerge in a [color=#87CEEB]serene and luminous clearing[/color], surrounded by a perfect circle of [color=#DEB887]ancient trees[/color] from Shadi Vanam whose trunks seem to whisper [color=#DAA520]millenary secrets[/color]. The [color=#32CD32]grass beneath your feet[/color] is [color=#ADFF2F]vibrant green[/color], dotted with [color=#FF69B4]wildflowers[/color] that release a [color=#FFE4B5]sweet scent[/color] that is revitalizing. [color=#FFD700]Golden rays of light[/color] filter through the [color=#90EE90]canopy of leaves[/color], creating a mosaic of dancing shadows on the ground. In the center of the clearing, a small [color=#ADD8E6]fountain of crystalline water[/color] springs from the earth, feeding a [color=#87CEEB]stream[/color] that winds northward. This [color=#DDA0DD]sacred place[/color] marks your first contact with the lands of Shadi Vanam, a realm where [color=#9370DB]magic[/color] and [color=#3CB371]nature[/color] coexist in perfect harmony. The paths extending in all directions promise [color=#FFB84D]adventures[/color] and [color=#7FFFD4]discoveries[/color], while the wind carries [color=#F0E68C]echoes of distant places[/color] and creatures yet to discover."
+            },
+            "sv_town_forest_09": {
+              "name": "Lower Path",
+              "description": "The terrain descends gently towards a [color=#DEB887]hollow[/color]. The [color=#B0E0E6]air becomes more humid[/color] and fresh, while the [color=#4682B4]sound of a nearby stream[/color] accompanies each step with its [color=#ADD8E6]crystalline murmur[/color]. Among the [color=#DEB887]exposed roots[/color] you can see [color=#F4A460]fragments of old pottery[/color], covered with [color=#D2B48C]dry mud[/color]. It seems that [color=#DAA520]an ancient settlement[/color] lies buried beneath your feet."
+            },
+            "sv_town_forest_10": {
+              "name": "Abandoned Mill",
+              "description": "A small [color=#A9A9A9]stone mill[/color] stands [color=#D2B48C]leaning[/color] next to a [color=#D3D3D3]dry channel[/color] where water once flowed. The [color=#DEB887]wooden wheel[/color] lies [color=#CD853F]broken[/color], with its [color=#CD853F]shattered[/color] blades scattered across the ground. Inside, [color=#D3D3D3]gray dust[/color] covers everything like a layer of ash. Only the [color=#B0C4DE]sound of the wind[/color] fills the place, whistling through the [color=#B0B0B0]cracks in the walls[/color]. The abandonment is palpable."
+            },
+            "sv_town_forest_13": {
+              "name": "Withered Orchard",
+              "description": "Remains of [color=#D2B48C]dried fruit trees[/color] border the path, with [color=#CD853F]twisted branches[/color] extending like [color=#B0B0B0]skeletal claws[/color]. Some branches still hold [color=#DEB887]rotten fruits[/color] hanging like [color=#CD853F]sad ornaments[/color], giving off a [color=#D3D3D3]sour smell[/color]. The [color=#CD853F]wooden fence[/color] crumbles at the touch, [color=#A9A9A9]disintegrating[/color] into splinters. The [color=#E6E6FA]silence here is absolute[/color], as if life had fled long ago."
+            },
+            "sv_town_forest_14": {
+              "name": "Path of Lanterns",
+              "description": "[color=#DEB887]Twisted wooden posts[/color] flank the path like [color=#B0B0B0]deformed sentinels[/color]. From some hang [color=#B87333]remains of broken lanterns[/color], [color=#CD853F]rusted by time[/color] and abandonment. The [color=#A9A9A9]corroded metal[/color] tinkles softly in the breeze. At night, they say that [color=#FFD700]some still light up[/color] for no apparent reason, casting [color=#DAA520]ghostly shadows[/color] that dance among the trees."
+            },
+            "sv_town_forest_15": {
+              "name": "Traveler's Rest",
+              "description": "A [color=#A9A9A9]stone bench[/color] rests beneath a [color=#32CD32]wide tree[/color] whose branches extend like a [color=#90EE90]protective canopy[/color]. Carved into its surface are [color=#B0B0B0]marks of initials and dates[/color], almost erased by the years and [color=#9ACD32]moss[/color]. Someone left an [color=#CD853F]empty clay cup[/color] on it, as if expecting to return. The [color=#87CEEB]calm air[/color] invites rest, and you can hear the [color=#ADD8E6]whisper of the nearby stream[/color]."
+            },
+            "sv_town_forest_16": {
+              "name": "Stream's Edge",
+              "description": "The path opens next to the [color=#4682B4]stream[/color], where the [color=#ADD8E6]crystal clear water[/color] reflects the [color=#B0C4DE]gray light of the sky[/color] like a [color=#E6E6FA]liquid mirror[/color]. Some [color=#00CED1]turquoise dragonflies[/color] flutter over the surface, their [color=#48D1CC]iridescent wings[/color] shining with each movement. The [color=#87CEEB]sound of water[/color] is constant and [color=#E6E6FA]relaxing[/color], creating a [color=#ADD8E6]natural symphony[/color] that calms the spirit."
+            },
+            "sv_town_forest_17": {
+              "name": "Path of Exile",
+              "description": "The path becomes [color=#D2B48C]narrow[/color] and gets lost among [color=#9ACD32]thick bushes[/color] that seem to close behind you. The ground is covered with [color=#CD853F]dry leaves[/color] and [color=#DEB887]fallen branches[/color] that crunch with each step. It is said that through here departed the [color=#DAA520]travelers who never returned[/color] to Shadi Vanam, seeking [color=#B0C4DE]unknown destinations[/color] or fleeing from [color=#B0B0B0]shadows of the past[/color]. The [color=#7FFFD4]air here is colder[/color], and a [color=#E6E6FA]feeling of farewell[/color] lingers."
+            },
+            "sv_lumber_area": {
+              "name": "Lumberjack Area",
+              "description": "A clearing among the trees where [color=#CD853F]stacked logs[/color] and [color=#A9A9A9]axes embedded[/color] in stumps speak of [color=#DEB887]constant work[/color]. The ground is covered with [color=#D2B48C]sawdust[/color] and [color=#8B4513]wood shavings[/color], and the air smells of [color=#32CD32]fresh resin[/color]. A [color=#696969]wooden shed[/color] stores tools, and several [color=#CD853F]cut logs[/color] wait to be transported. You can hear the [color=#FF6347]echo of axes[/color] in the distance."
+            }
+          }
+        }
+      }
+    },
+    "interior_oak_tree": {
+      "name": "Interior of the Ancestral Oak",
+      "zones": {
+        "oak_tree_interior": {
+          "name": "Interior of the Ancestral Oak",
+          "rooms": {
+            "oak_tree_hall": {
+              "name": "Main Chamber of the Oak",
+              "description": "You enter the [color=#CD853F]hollow interior of the tree[/color] and find yourself in a [color=#FFE4B5]surprisingly spacious circular chamber[/color]. The [color=#8B4513]living wood walls[/color] glow with [color=#90EE90]luminescent mosses[/color] that cast a [color=#98FB98]soft green light[/color]. [color=#9ACD32]Thick roots[/color] wind across the floor like veins of the earth, and in the center is a [color=#B0E0E6]pool of crystalline water[/color] reflecting dancing light patterns.\n\nThe [color=#87CEEB]air is fresh[/color] and smells of [color=#90EE90]damp earth[/color] and [color=#DDA0DD]wildflowers[/color]. You hear the [color=#E6E6FA]constant whisper of leaves[/color] above, as if the tree were breathing. There are passages carved in the wood leading to [color=#DAA520]higher chambers[/color] and [color=#CD853F]depths[/color].\n\nYou can exit by typing [color=#FFD700]'out'[/color] or [color=#FFD700]'exit'[/color]."
+            },
+            "oak_tree_canopy": {
+              "name": "Oak Canopy - Center",
+              "description": "You climb up [color=#8B4513]steps naturally carved into the wood[/color] until you reach the [color=#228B22]tree canopy[/color]. Here, the space opens to [color=#87CEEB]natural windows[/color] among the branches, allowing [color=#FFD700]sunlight[/color] to illuminate the interior.\n\nThere are [color=#90EE90]bird nests[/color] in the cracks of the wood, and you can see [color=#DDA0DD]flowers[/color] growing from the tree's own branches. From up here, you have a partial view of the [color=#228B22]outer forest[/color] through the leaves. The [color=#B0E0E6]wind[/color] enters gently, making the entire structure [color=#CD853F]creak and groan[/color] as if the tree were singing.\n\nA [color=#FFE4B5]wooden platform[/color] seems to have been built here long ago, with [color=#B0B0B0]carved runes[/color] on its surface. There are passages to the [color=#FFD700]east[/color] and [color=#FFD700]west[/color] among the branches."
+            },
+            "oak_tree_canopy_east": {
+              "name": "Oak Canopy - East Branch",
+              "description": "You walk along a [color=#8B4513]thick branch[/color] extending eastward. Here the [color=#FFD700]sunlight[/color] is more intense, filtering through the [color=#90EE90]green leaves[/color]. Several [color=#DDA0DD]small birds[/color] flutter nearby, watching you with curiosity.\n\nFrom here you can see the [color=#228B22]forest[/color] extending to the horizon. The [color=#B0E0E6]wind[/color] blows stronger up here, making the leaves [color=#90EE90]whisper[/color] constantly."
+            },
+            "oak_tree_canopy_west": {
+              "name": "Oak Canopy - West Branch",
+              "description": "You venture into a [color=#8B4513]twisted branch[/color] that curves westward. Here there is a [color=#90EE90]large abandoned nest[/color], spacious enough to sit inside. [color=#DDA0DD]Wildflowers[/color] grow from cracks in the bark, filling the air with their [color=#FFD700]sweet fragrance[/color].\n\nThe [color=#B0E0E6]wind[/color] gently rocks the branch, creating a [color=#E6E6FA]rocking sensation[/color] like on a boat. From here you have a view of the [color=#87CEEB]open sky[/color]."
+            },
+            "oak_tree_roots": {
+              "name": "Root Chamber - Center",
+              "description": "You descend through a [color=#8B4513]narrow passage[/color] until you reach an [color=#CD853F]underground chamber[/color] where the [color=#9ACD32]oak's main roots[/color] sink into the earth. Down here, the atmosphere is [color=#4B0082]darker and more mysterious[/color], lit only by [color=#FFD700]bioluminescent mushrooms[/color] growing among the roots.\n\nThe [color=#8B7355]roots are enormous[/color], some as thick as your body, and you can feel an [color=#E6E6FA]ancient energy[/color] pulsing through them. In the center of the chamber is a [color=#DAA520]moss-covered stone altar[/color], with [color=#B0B0B0]druidic symbols[/color] carved on its surface.\n\nThe [color=#87CEEB]air here is humid[/color] and smells of [color=#8B4513]deep earth[/color]. You hear [color=#B0E0E6]water dripping[/color] somewhere in the shadows. You can follow the roots [color=#FFD700]east[/color] and [color=#FFD700]west[/color], or descend [color=#8B0000]deeper[/color] into the earth."
+            },
+            "oak_tree_roots_east": {
+              "name": "East Root Tunnel",
+              "description": "You follow a [color=#8B7355]thick root[/color] eastward, entering a [color=#654321]natural tunnel[/color] formed by intertwined roots. The [color=#FFD700]luminescent mushrooms[/color] are scarcer here, creating [color=#2F4F4F]pockets of shadow[/color] between flashes of light.\n\nYou can see [color=#B0C4DE]small crystals[/color] embedded in the earth, glowing faintly. The [color=#87CEEB]air is fresher[/color] here, as if there were some kind of natural ventilation. The [color=#9ACD32]roots creak[/color] softly when you move."
+            },
+            "oak_tree_roots_west": {
+              "name": "West Root Tunnel",
+              "description": "The [color=#8B7355]roots[/color] extend westward, forming a [color=#654321]winding passage[/color]. Here, [color=#DAA520]moss[/color] grows more abundantly, covering the root walls with a [color=#90EE90]soft, spongy layer[/color].\n\nYou hear the [color=#B0E0E6]constant dripping of water[/color], and notice small [color=#ADD8E6]pools of water[/color] in depressions in the floor. The [color=#4B0082]air is dense[/color] with the smell of [color=#8B4513]wet earth[/color] and [color=#556B2F]decomposing vegetation[/color]."
+            },
+            "oak_tree_roots_deep1": {
+              "name": "Depths - Level 1",
+              "description": "You descend deeper into the earth, following the oak's [color=#8B7355]primary roots[/color]. The [color=#2F4F4F]darkness is almost total[/color] here, with only faint glimmers of [color=#FFD700]luminescent mushrooms[/color] providing light.\n\nThe roots here are [color=#654321]ancient and twisted[/color], some as thick as [color=#8B4513]pillars[/color]. You feel a [color=#9370DB]primordial energy[/color] pulsing through them, like the [color=#DC143C]heartbeat of the earth[/color]. The [color=#87CEEB]air is heavy[/color] and charged with power.\n\nThere are tunnels [color=#FFD700]east[/color] and [color=#FFD700]west[/color], and the roots continue descending to [color=#8B0000]even greater depths[/color]."
+            },
+            "oak_tree_roots_deep1_east": {
+              "name": "Root Cavern - East",
+              "description": "A [color=#654321]larger space[/color] opens before you, where multiple [color=#8B7355]massive roots[/color] converge from above. The ceiling is [color=#2F4F4F]invisible in the darkness[/color], but you can sense the [color=#4B0082]vastness of the space[/color].\n\nHere, [color=#B0C4DE]larger crystals[/color] emerge from the earth, [color=#ADD8E6]glowing with their own light[/color]. The [color=#9ACD32]roots seem to absorb[/color] this light, creating [color=#9370DB]hypnotic patterns[/color] along their surface. A [color=#87CEEB]cold wind[/color] blows from the depths."
+            },
+            "oak_tree_roots_deep1_west": {
+              "name": "Root Cavern - West",
+              "description": "The roots open into a [color=#654321]natural chamber[/color] where [color=#DAA520]underground water[/color] has formed a [color=#4682B4]small dark lake[/color]. The water's surface is [color=#000080]black as coal[/color], but occasionally shimmers with reflections of [color=#FFD700]mushroom light[/color].\n\nThe [color=#8B7355]roots dive[/color] into the water, disappearing into its [color=#191970]unknown depths[/color]. You can hear [color=#B0E0E6]distant echoes[/color] of dripping water, resonating in this [color=#2F4F4F]underground chamber[/color]. The [color=#87CEEB]air is humid[/color] and [color=#4B0082]dense with ancient power[/color]."
+            },
+            "oak_tree_roots_deep2": {
+              "name": "Depths - Level 2",
+              "description": "At this deeper level, the [color=#2F4F4F]darkness is almost absolute[/color]. The [color=#8B7355]oak's roots[/color] sink into the [color=#8B4513]primordial earth[/color], reaching layers of [color=#654321]ancient rock[/color] that predate the forest itself.\n\nHere, the [color=#9370DB]magical energy[/color] is so intense that you can [color=#FF69B4]see it glowing faintly[/color] in the air. The roots [color=#DC143C]pulse visibly[/color] with power, and the [color=#8B0000]ground trembles subtly[/color] beneath your feet.\n\nYou feel you have reached a [color=#4B0082]sacred and ancient place[/color], a [color=#9932CC]hidden heart[/color] of the forest. There are passages [color=#FFD700]east[/color] and [color=#FFD700]west[/color], and the roots still descend [color=#8B0000]deeper[/color]."
+            },
+            "oak_tree_roots_deep2_east": {
+              "name": "East Crystal Chamber",
+              "description": "A [color=#654321]small chamber[/color] where [color=#B0C4DE]massive crystals[/color] emerge from the walls, [color=#ADD8E6]illuminating everything[/color] with a [color=#87CEEB]ghostly blue glow[/color]. The [color=#8B7355]roots[/color] have grown around the crystals, [color=#9370DB]fusing with them[/color] in some places.\n\nThe crystal light creates [color=#DDA0DD]shifting patterns[/color] on the root walls, and you can hear a [color=#E6E6FA]low hum[/color] emanating from the crystals. The [color=#87CEEB]air vibrates[/color] with [color=#9932CC]pure energy[/color]."
+            },
+            "oak_tree_roots_deep2_west": {
+              "name": "West Crystal Chamber",
+              "description": "Similar to its eastern counterpart, this chamber is filled with [color=#B0C4DE]glowing crystals[/color], but here they have a [color=#9370DB]deep purple tone[/color]. The [color=#8B7355]roots[/color] wind among the crystals, [color=#FF69B4]pulsing with pink light[/color].\n\nThe [color=#87CEEB]air here is warm[/color], unlike the rest of the depths. The crystals [color=#DDA0DD]sing softly[/color], creating an [color=#E6E6FA]ethereal melody[/color] that resonates in your bones. You feel this place is [color=#9932CC]alive in ways you cannot comprehend[/color]."
+            },
+            "oak_tree_roots_deep3": {
+              "name": "The Heart of the Tree",
+              "description": "You have reached the [color=#8B0000]deepest place[/color] that the ancestral oak's roots reach. Here, in what can only be described as the [color=#DC143C]mystical heart of the tree[/color], all the [color=#8B7355]roots converge[/color] into a [color=#654321]massive knot[/color] of ancient wood.\n\nThis knot [color=#DC143C]beats like a real heart[/color], pumping [color=#9370DB]magical energy[/color] through the entire root system. The [color=#FF69B4]pulsing light[/color] it emits illuminates the entire chamber with [color=#9932CC]crimson and purple[/color] tones.\n\nIn the center of the knot is a [color=#FFD700]small opening[/color], and inside you can see something [color=#FFFFE0]glowing intensely[/color]. The [color=#4B0082]power here is overwhelming[/color], ancient and primordial. You feel you have discovered one of the [color=#9932CC]deepest secrets of the forest[/color].\n\nThere is no way to descend further - you have reached the [color=#8B0000]end of the journey[/color] into the depths."
+            }
+          }
+        }
+      }
+    },
+    "tutorial": {
+      "name": "Tutorial",
+      "zones": {
+        "el_bosque_negro": {
+          "name": "The Black Forest",
+          "rooms": {
+            "startTutorial": {
+              "name": "Prophet's Clearing",
+              "description": "You awaken in a [color=#D4C5A0]small clearing[/color] surrounded by [color=#9E8B7E]twisted trees[/color]. The [color=#A8C5E0]air is dense[/color] and a [color=#F0E68C]dim light[/color] filters from above, revealing a [shake:strong][color=#FF6B6B]cracked sky[/color][/shake] that shouldn't exist.\n\nBefore you, [color=#C4A67A]a hooded figure[/color] watches you in silence. Its [color=#B8A58F]tattered robe[/color] is marked with [color=#E8C170]ancient symbols[/color], and though you cannot see its face, you feel it is evaluating you.\n\nThe [color=#D4C5A0]Prophet[/color] does not move, only waits."
+            },
+            "learnItems": {
+              "name": "Ancient Path",
+              "description": "A [color=#D4C5A0]narrow path[/color] extends to the north. The ground is covered with [color=#8B7355]dry leaves[/color] and among them you notice something that glimmers faintly: an [color=#FFB84D]old staff[/color] abandoned."
+            },
+            "practiceCombat": {
+              "name": "Training Ground",
+              "description": "A small [color=#D4C5A0]clearing[/color] where the mist dissipates slightly. The ground is firmer here, as if it had been prepared for something. A [color=#FF6B6B]sense of danger[/color] floats in the air.\n\nA [color=#8B4513]goblin[/color] watches you with hungry eyes."
+            },
+            "learnLoot": {
+              "name": "After the Battle",
+              "description": "You have overcome your first trial. The area is calm now, but something more awaits you ahead."
+            },
+            "learnDoors": {
+              "name": "Sealed Passage",
+              "description": "You have managed to open the door. A [color=#D4C5A0]narrow passage[/color] continues north, where a [color=#66ccff]blue light[/color] flickers in the distance."
+            },
+            "exitTutorial": {
+              "name": "Dimensional Portal",
+              "description": "A [color=#B8A58F]small chamber[/color] illuminated by a [color=#66ccff]bluish portal[/color] that slowly rotates in the center. Its [color=#87CEEB]cold light[/color] is the only thing breaking the darkness. This is the [color=#FFB84D]end of the road[/color]... or perhaps, the beginning of a new one."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "voidGod": {
+    "name": "Profeta",
+    "description": "Una figura envuelta en sombras y misterio. Su presencia misma parece distorsionar la realidad a su alrededor.",
+    "dialogues": {
+      "welcome": "Ah... despertaste. O tal vez... nunca dormiste. El vacío susurra cosas extrañas.",
+      "idle": [
+        "El tiempo aquí... gotea. ¿Lo escuchas gotear?",
+        "A veces veo otros mundos. En este momento veo... siete. No, seis.",
+        "¿Sabías que el vacío tiene hambre? Yo tampoco.",
+        "Tu sombra está torcida. O la mía. Una de las dos.",
+        "Los dioses... ¿existen? Debe ser agotador existir tanto.",
+        "Cuando cierro los ojos, veo abiertos otros mil.",
+        "¿Eres real? Yo tampoco lo soy. Nos complementamos."
+      ],
+      "examine": "Me miras, pero... ¿qué ves realmente? ¿Un profeta? ¿Un loco? ¿Un eco de algo que nunca fue? La verdad es más simple y más terrible: soy lo que serás cuando el Vacío termine contigo. O tal vez... soy lo que fuiste antes de que el lago te diera forma. El tiempo es cruel cuando no existe.",
+      "tutorial": {
+        "step1_intro": [
+          "Ah... despertaste. O tal vez... nunca dormiste. El vacío susurra cosas extrañas.",
+          "¿Me ves? Digo... ¿ves a través de mí? A veces yo tampoco estoy seguro.",
+          "Háblame. Sí, eso. Usa tus palabras. [color=#FFFFFF]hablar profeta[/color] o solo... [color=#FFFFFF]hab prof[/color]. Las letras se disuelven igual."
+        ],
+        "step1_hint1": "Las palabras tienen poder... [color=#FFFFFF]hablar[/color]... ¿recuerdas?",
+        "step1_hint2": "Escribe [color=#FFFFFF]hablar profeta[/color]. O [color=#FFFFFF]hab prof[/color]. Los mortales usan ambos.",
+        "step1_talked": [
+          "¡Bien! Tus labios se mueven... o los míos. Difícil saber.",
+          "Este lugar... no es real. O es demasiado real. Enseñaré lo que sé.",
+          "Primero: mira. El comando [color=#FFFFFF]mirar[/color]. Observa lo que el vacío esconde."
+        ],
+        "step1_used_look": "Bien. Ahora ve al norte. Hay algo allí... un bastón. O un recuerdo. Ve.",
+        "step2_entered": [
+          "¿Lo ves? El bastón brilla... o tal vez llora. Tómalo.",
+          "Usa [color=#FFFFFF]coger baston[/color] o [color=#FFFFFF]cog bast[/color]. Las palabras se acortan cuando el tiempo sangra."
+        ],
+        "step2_hint1": "Coger... tomar... agarrar... el vacío entiende sinónimos.",
+        "step2_hint2": "Escribe exactamente: [color=#FFFFFF]coger baston[/color]",
+        "step2_picked": [
+          "¡Sí! Ahora está contigo. O dentro de ti. Revisa tu... ¿cómo lo llaman?",
+          "Inventario. Sí. Escribe [color=#FFFFFF]inv[/color] o [color=#FFFFFF]inventario[/color]. Verás tus posesiones."
+        ],
+        "step2_inventory": [
+          "Ahí está. Cada cosa tiene un número. Los números son... permanentes. A veces.",
+          "Para usar ese bastón, debes equiparlo. Escribe [color=#FFFFFF]equipar 0[/color] o [color=#FFFFFF]equipar baston[/color].",
+          "O haz click en el objeto y pulsa el botón equipar. Ambos caminos llevan al mismo vacío.",
+          "Hazlo. Necesitarás defensa. Hay... algo adelante. Algo con dientes."
+        ],
+        "step2_equipped": [
+          "Bien. Ahora eres más fuerte. O menos débil. Es lo mismo aquí.",
+          "Espera... déjame prepararte para lo que viene.",
+          "Al norte te espera una prueba. Un goblin. O la idea de un goblin.",
+          "No temas. La muerte aquí es... reversible. Creo.",
+          "Ahora... ve. El norte te espera."
+        ],
+        "step3_entered": [
+          "¡Ahí! ¿Lo ves? El goblin... huele tu miedo. O tu esperanza. Huele algo.",
+          "Atácalo. [color=#FFFFFF]atacar goblin[/color] o [color=#FFFFFF]atac gob[/color]. El vacío simplifica todo."
+        ],
+        "step3_hint1": "¿Dudas? Los dudadores mueren. O peor... permanecen.",
+        "step3_hint2": "Escribe [color=#FFFFFF]atacar goblin[/color]. O [color=#FFFFFF]atac gob[/color]. Ahora.",
+        "step3_combat": [
+          "Sí... derrama su esencia. O la tuya. Alguien sangra.",
+          "¡El vacío observa! ¡Golpea más fuerte!",
+          "Veo tres finales. En dos ganas. Elige bien."
+        ],
+        "step3_defeated": [
+          "Cayó. Como todos caen. Como yo caí... ¿cuándo fue?",
+          "Espera. No está muerto. Solo... inconsciente. Dormido. Como estabas tú.",
+          "Si no lo rematas, no ganarás experiencia. Los que duermen no pagan sus deudas.",
+          "Usa [color=#FFFFFF]rematar gob[/color] o [color=#FFFFFF]rem gob[/color]. Termina lo que empezaste."
+        ],
+        "step3_finished": [
+          "Ahora sí. El vacío lo aceptó. O lo rechazó. Ambos son finales.",
+          "Puedes saquearlo ahora. [color=#FFFFFF]saquear gob[/color] o [color=#FFFFFF]saq gob[/color].",
+          "Toma lo que es tuyo. O lo que fue suyo. La propiedad es una ilusión.",
+          "Ve al norte cuando termines. El camino continúa."
+        ],
+        "step4_entered": [
+          "Bien. Los muertos no necesitan sus posesiones.",
+          "Adelante hay una puerta. Está cerrada. O abierta en otra dimensión.",
+          "La llave... no la tiene el goblin. La encontrarás en otro lugar.",
+          "Por ahora, solo observa. Ve al norte y mira la puerta bloqueada."
+        ],
+        "step4_has_key": [
+          "Ah. La llave apareció. O siempre estuvo ahí.",
+          "Para abrir, camina hacia el norte. La puerta te detendrá.",
+          "Entonces usa [color=#FFFFFF]abrir norte[/color] o [color=#FFFFFF]abrir puerta[/color]. Las barreras son... negociables."
+        ],
+        "step4_no_key": [
+          "No tienes la llave. Pero... tampoco la necesitas ahora.",
+          "Solo ve al norte y observa la puerta. Aprende cómo funciona el bloqueo."
+        ],
+        "step5_door_blocked": [
+          "Ves? Bloqueada. O tú estás bloqueado. La perspectiva importa.",
+          "Usa [color=#FFFFFF]abrir norte[/color] o [color=#FFFFFF]abrir puerta[/color]. La llave hará el resto."
+        ],
+        "step5_opened": [
+          "Se abre. Como se abrió el cielo. Como se abrirá... todo.",
+          "Adelante está el final. O el principio. Ambos son círculos.",
+          "Un portal. Te llevará al mundo real. Alandria. Donde otros... esperan."
+        ],
+        "step6_entered": [
+          "Llegaste. Como sabía que lo harías. O como temía.",
+          "Ese portal... es tu salida. Tu entrada. Tu...",
+          "El vacío llama desde el otro lado. Pero no me escucha.",
+          "Cuando estés listo, [color=#FFFFFF]toca portal[/color] o [color=#FFFFFF]tocar portal[/color].",
+          "Irás a Alandria. Conocerás mortales. Dioses falsos. Cosas que brillan.",
+          "Recuerda: el vacío está en todas partes. Dentro de todos.",
+          "Incluso en mí. Especialmente en mí."
+        ],
+        "step6_reward": [
+          "Espera. Toma esto.",
+          "Es un pedazo de... nada. Pero pesa. Úsalo cuando todo parezca perdido.",
+          "O véndelo. El vacío no juzga las decisiones mortales."
+        ],
+        "step6_farewell": [
+          "Ve... y no olvides. Aunque olvidarás. Todos olvidan.",
+          "Si regresas... no estaré aquí. Pero siempre estoy aquí."
+        ],
+        "warning_rushing": [
+          "¿Adónde vas con tanta prisa? El vacío puede esperar... o no.",
+          "Aún hay cosas aquí que necesitas. O que te necesitan.",
+          "Vuelve. Completa lo que empezaste. El orden... importa. Creo."
+        ],
+        "warning_went_back": [
+          "¿Regresando? El tiempo es un círculo. O una línea rota.",
+          "Ya hiciste esto. Avanza. Adelante. Hacia... allí."
+        ]
+      }
+    },
+    "examinableParts": {
+      "general": {
+        "description": "Una figura envuelta en harapos oscuros que parecen moverse por voluntad propia. Su presencia irradia un aura de poder ancestral y conocimiento prohibido."
+      },
+      "face": {
+        "description": "Intentas mirar su rostro, pero es imposible. Tu mente no puede aferrarse a una forma, solo a la sensación de [color='red']un abismo sin fin[/color]. Donde debería haber facciones, solo hay un vacío infinito, devorando la luz, devorando la realidad… devorándote a ti si miras demasiado."
+      },
+      "hands": {
+        "description": "Sus manos son pálidas como el marfil antiguo, con dedos largos y delgados que se mueven con una gracia antinatural. Las uñas son negras como la obsidiana, y parecen absorber la luz en lugar de reflejarla."
+      },
+      "clothes": {
+        "description": "Viste harapos que alguna vez pudieron ser una túnica ceremonial. La tela parece tejida con sombras, moviéndose y ondeando incluso cuando no hay viento. Símbolos arcanos brillan débilmente en los pliegues, apareciendo y desapareciendo como estrellas moribundas."
+      },
+      "eyes": {
+        "description": "Donde deberían estar sus ojos, solo hay pozos de oscuridad infinita. Si miras fijamente, juras ver galaxias muertas girando en espiral hacia la nada."
+      }
+    }
+  },
+  "dummy": {
+    "name": "Muñeco de entrenamiento",
+    "description": "Un muñeco de entrenamiento mágico diseñado para que los aventureros practiquen sus habilidades. Aunque no parece peligroso, tiene la capacidad de contraatacar con efectos variados.",
+    "dialogues": {
+      "welcome": "*El dummy permanece inmóvil, esperando tu ataque*",
+      "victory": "*El dummy se tambalea pero mágicamente se recompone para el siguiente entrenamiento*"
+    }
+  },
+  "elderEldrin": {
+    "name": "Sabio Eldrin",
+    "description": ""
+  },
+  "tavernkeeper": {
+    "name": "Tabernero",
+    "description": "",
+    "dialogues": {
+      "welcome": "Bienvenido al puerto, viajero. Aquí es donde los sueños zarparon y los destinos naufragaron. Mantén tus documentos a mano y no pierdas de vista tus pertenencias. Estos muelles pueden ser más traicioneros de lo que parecen",
+      "warning": "Los mares no son un lugar para los desprevenidos. Los piratas acechan más allá del horizonte, listos para asaltar a cualquier incauto. Mantén tu espada afilada y tu mirada aún más.",
+      "victory": "¡Ja! Otro borracho más que no puede con el tabernero del puerto."
+    }
+  },
+  "captainNPC": {
+    "name": "Capitán del Barco",
+    "description": "",
+    "dialogues": {
+      "welcome": "Ahoy, grumete! Si buscas aventuras y peligros en alta mar, has venido al capitán indicado. Soy el guardián de estas aguas, y mi barco siempre está listo para una nueva travesía. ¿Qué dices? ¿Tienes el valor de adentrarte en lo desconocido?",
+      "travel": "¡Ajustad las velas! Si estás listo para zarpar, <span style='color:gold'>dame las 5 monedas de oro</span> y zaparemos hacia la Isla del Peligro, te advierto que no será un viaje sencillo. Los vientos son caprichosos, y las aguas, traicioneras. Pero para los valientes, el destino aguarda.",
+      "warning": "Asegúrate de tener provisiones, armas y, sobre todo, valor. Allá afuera, en los mares y en las islas, el peligro acecha en cada sombra. Pero si estás preparado, ¡nada podrá detenerte!"
+    }
+  },
+  "generalVendor": {
+    "name": "Mercader General",
+    "description": "Un amigable mercader con una amplia variedad de productos útiles para aventureros.",
+    "dialogues": {
+      "welcome": "¡Bienvenido, viajero! ¿Vienes a comerciar?",
+      "idle": [
+        "Mis productos son de la mejor calidad.",
+        "Si buscas algo específico, solo pregunta.",
+        "Los precios son justos, te lo aseguro."
+      ]
+    }
+  },
+  "cookMartha": {
+    "name": "Cocinera Martha",
+    "description": "Una cocinera regordeta y amable que prepara las mejores comidas de Shadi Vanam. Su rostro sonriente y sus mejillas rosadas inspiran confianza.",
+    "dialogues": {
+      "welcome": "*Te recibe con una sonrisa cálida* ¡Bienvenido a mi cocina, querido! El pan está caliente y el estofado huele de maravilla.",
+      "idle": [
+        "*Amasa pan tarareando una canción alegre*",
+        "La clave de un buen estofado es la paciencia... y mucho amor.",
+        "Nada llena el estómago y el alma como una buena comida casera.",
+        "*Prueba el guiso* Mmm... le falta una pizca de sal.",
+        "Mi abuela me enseñó todas estas recetas. Que en paz descanse."
+      ],
+      "examine": "*Martha te sonríe mientras revuelve una olla humeante*\n\n¿Vienes de un largo viaje? Déjame prepararte algo que te devuelva las fuerzas. Un aventurero no puede trabajar con el estómago vacío, ¿verdad?\n\n*Se limpia las manos en el delantal* Todos mis platillos están hechos con los ingredientes más frescos del mercado. ¡Nada de esas raciones secas de viaje!"
+    }
+  },
+  "weaponVendor": {
+    "name": "Herrero Klaus",
+    "description": "Un robusto herrero especializado en armas y armaduras de calidad.",
+    "dialogues": {
+      "welcome": "¿Necesitas equipamiento? Tengo lo mejor.",
+      "idle": [
+        "Cada pieza está forjada con mis propias manos.",
+        "No compro basura, solo equipo de calidad.",
+        "El acero bueno salva vidas."
+      ]
+    }
+  },
+  "foodVendor": {
+    "name": "Cocinera Martha",
+    "description": "Una alegre cocinera que vende deliciosa comida y provisiones.",
+    "dialogues": {
+      "welcome": "¡Bienvenido! La comida está calentita.",
+      "idle": [
+        "Todo cocinado con amor.",
+        "La buena comida cura el alma.",
+        "¿Hueles ese pan recién horneado?"
+      ]
+    }
+  },
+  "tutorialGuardNpc": {
+    "name": "Guardia Espectral",
+    "description": "Un guardia misterioso envuelto en sombras etéreas. Su armadura brilla con una luz tenue y su rostro está oculto bajo un yelmo oxidado.",
+    "dialogues": {
+      "welcome": "Alto ahí, viajero. Este lugar no es seguro. El Profeta... no es lo que parece. Ten cuidado con lo que tocas y con lo que miras.",
+      "idle": [
+        "El lago... nunca te acerques demasiado al lago.",
+        "Ese bastón en el suelo... pertenecía a alguien como tú, una vez.",
+        "A veces escucho voces del vacío. No las escuches.",
+        "Mi turno nunca termina. Llevo aquí... ¿cuánto tiempo? Ya no recuerdo.",
+        "Si el Profeta te habla, no mires directamente a su rostro."
+      ],
+      "examine": "He estado patrullando estos senderos oscuros por más tiempo del que puedo recordar. Mi deber es advertir a los incautos, aunque pocos escuchan. El bosque cambia, el lago susurra, pero mi vigilia continúa.",
+      "warning": "No confíes en nada aquí. Ni siquiera en mí."
+    }
+  },
+  "entranceGuardNpc": {
+    "name": "Guardia de la Entrada",
+    "description": "Un guardia vigila la entrada del pueblo, [color=#FFD700]inspeccionando meticulosamente[/color] a cada visitante en busca de contrabando. Lleva una [color=#A0826D]armadura de cuero reforzada[/color] con el emblema del pueblo, y una [color=#87CEEB]capa azul[/color] ondea a su espalda. Sus [color=#90EE90]ojos escrutadores[/color] te evalúan de arriba abajo, mientras mantiene una [color=#8B7355]vara de guardia[/color] en una mano y [color=#D3D3D3]esposas de hierro[/color] colgando de su cinturón. Su postura es [color=#FFA07A]alerta y profesional[/color].",
+    "dialogues": {
+      "welcome": "Alto ahí, viajero. Soy responsable de revisar a quienes entran al pueblo. Debes permitirme inspeccionar tus pertenencias antes de pasar.",
+      "idle": [
+        "Todos deben ser revisados. Son las reglas del pueblo.",
+        "El contrabando no será tolerado en estas tierras.",
+        "Mi trabajo es mantener el pueblo seguro.",
+        "Las esposas están listas para quien rompa la ley.",
+        "No intentes esconder nada. Lo encontraré."
+      ],
+      "examine": "Llevo años como guardia de entrada. He visto de todo: ladrones, contrabandistas, fugitivos. Mi instinto rara vez falla.",
+      "warning": "Si llevas algo robado o de contrabando, mejor entrégalo ahora. Las consecuencias serán menores."
+    }
+  },
+  "testDummy": {
+    "name": "Muñeco de Entrenamiento",
+    "description": "Un muñeco de entrenamiento inmóvil y silencioso. No se mueve a menos que lo ataques primero. Parece contener tesoros en su interior.",
+    "dialogues": {
+      "examine": "Un muñeco de entrenamiento completamente pasivo. [color=gold]Usa 'atacar muñeco' para comenzar el combate.[/color]"
+    }
+  },
+  "skillTrainer": {
+    "name": "Maestro de Armas Korvain",
+    "description": "Un veterano instructor de combate con décadas de experiencia. Sus ojos aguileños han visto mil batallas.",
+    "dialogues": {
+      "welcome": "[color=gold]Maestro Korvain[/color] te observa con ojos experimentados.\n\n\"Veo potencial en ti, joven guerrero. He dedicado mi vida a perfeccionar las artes del combate, y por generaciones he transmitido este conocimiento a quienes demuestran ser dignos.\n\nMis técnicas no se entregan gratuitamente. El oro que pagues representa tu compromiso con el aprendizaje. ¿Estás preparado para invertir en tu futuro como combatiente?\"",
+      "idle": [
+        "Una hoja sin filo es solo metal inútil.",
+        "La disciplina es más importante que la fuerza bruta.",
+        "Cada cicatriz cuenta una lección aprendida.",
+        "El verdadero combate comienza en la mente."
+      ]
+    }
+  },
+  "shadowRunner": {
+    "name": "Corredor de Sombras",
+    "description": "Un hombre en sus cuarenta años acecha entre los árboles a las afueras del bosque, vigilando el camino con [color=#B0C4DE]ojos acerados y cansados[/color]. Su [color=#8B7D6B]cabello oscuro veteado[/color] está recogido en una coleta áspera. [color=#CD853F]Cicatrices de guerra[/color] cruzan sus brazos y cuello, mientras viste una [color=#A0826D]armadura de cuero remendada[/color] con parches improvisados. Sus [color=#D2B48C]manos curtidas tiemblan levemente[/color], y en su cinturón cuelgan [color=#E6E6FA]bolsas que tintinean[/color] con monedas o secretos. Su postura es [color=#87CEEB]alerta pero agotada[/color], la de un sobreviviente endurecido.",
+    "dialogues": {
+      "welcome": "El hombre te mira con recelo, su mano descansa cerca de su espada.\n\n\"No busco problemas. Solo estoy de paso.\" Su voz es ronca, cansada. \"Tengo un trabajo que terminar y luego desapareceré. Si eres inteligente, harás como que no me viste.\"",
+      "idle": [
+        "*mira nerviosamente hacia las sombras*",
+        "Maldita guerra... malditos todos.",
+        "*toca una bolsa en su cinturón que brilla con luz púrpura*",
+        "Solo un trabajo más y podré descansar...",
+        "*susurra* Por los caídos en Terrasombra."
+      ],
+      "combat": [
+        "¡No tenía que terminar así!",
+        "Luché en peores campos de batalla.",
+        "¡Solo quiero terminar esto!",
+        "¡Por mis hermanos caídos!"
+      ],
+      "reacquireQuestItem": {
+        "text": "Necesito otro paquete",
+        "questId": "shadowDeliveryQuest",
+        "response": "*Suspira al ver que no tienes el paquete*\n\n\"Los guardias te lo confiscaron, ¿verdad? Maldición...\" Se frota los ojos cansados. \"Puedo conseguir otro, pero me costará. Necesito 10 de oro para cubrir los costos con la Red.\"\n\n*Te mira seriamente* \"Si me traes el oro, te daré un nuevo paquete. Pero ten más cuidado esta vez. Esa niña no tiene tiempo infinito.\""
+      }
+    },
+    "examinableParts": {
+      "general": {
+        "description": "Un hombre marcado por la guerra y el tiempo. Cada movimiento revela entrenamiento militar, pero también cansancio."
+      },
+      "face": {
+        "description": "Su rostro curtido muestra líneas profundas de preocupación. Una cicatriz recorre su mejilla izquierda, desde la sien hasta la mandíbula. Sus ojos grises son penetrantes pero cansados, como si hubieran visto demasiado."
+      },
+      "hands": {
+        "description": "Manos de guerrero, con callos en los lugares correctos para empuñar una espada. Las uñas están limpias pero las cutículas manchadas con algo oscuro - ¿sangre seca o tinta?"
+      },
+      "armor": {
+        "description": "Armadura de cuero reforzado, militar en origen pero modificada con bolsillos ocultos. Tiene el emblema de Terrasombra grabado pero tachado con rabia."
+      },
+      "weapon": {
+        "description": "Una espada larga de buena factura, bien mantenida. Los grabados en la hoja cuentan historias de batallas pasadas. Esta no es el arma de un criminal cualquiera."
+      },
+      "belt": {
+        "description": "Varias bolsas cuelgan de su cinturón. Una de ellas brilla con una luz púrpura tenue que se filtra entre la tela."
+      }
+    }
+  },
+  "desperateMerchant": {
+    "name": "Darion el Mercader",
+    "description": "Un mercader de mediana edad con ojeras profundas y manos temblorosas. Su ropa, aunque limpia, está raída. Parece no haber dormido en días.",
+    "dialogues": {
+      "welcome": "*El mercader te mira con ojos llenos de ansiedad y desconfianza, sus manos tiemblan mientras toca el medallón en su pecho*\n\n\"¿Q-qué...? ¿Quién eres?\" *Da un paso atrás, nervioso* \"Yo... yo no conozco a nadie. Solo soy un comerciante. No sé nada sobre... sobre nada.\"\n\n*Sus ojos se desvían hacia las sombras, como esperando ver algo o alguien* \"Si buscas problemas, no los tendrás conmigo. No tengo nada. Nada que valga la pena.\"",
+      "welcomeAfterQuestComplete": "*Al verte, los ojos del mercader se llenan de lágrimas. Su postura, antes tensa y nerviosa, ahora muestra un alivio profundo*\n\n\"Tú... tú lo trajiste. Gracias a ti, mi Elara tiene una oportunidad.\" *Se seca las lágrimas con manos temblorosas* \"No sé cómo agradecerte lo que hiciste. Arriesgaste tu vida trayendo esa medicina prohibida.\"\n\n*Toca el medallón en su pecho con ternura* \"Los sanadores dicen que está respondiendo al tratamiento. Va a vivir... mi niña va a vivir.\" *Su voz se quiebra* \"Te debo más de lo que puedo expresar. Si algún día necesitas ayuda, solo tienes que pedírmela.\"",
+      "idle": [
+        "*toca el medallón de su hija constantemente*",
+        "Por favor, Elara, resiste un poco más...",
+        "*mira nerviosamente a su alrededor*",
+        "¿Dónde está? Ya debería haber llegado...",
+        "*susurra* Perdóname, hija. Perdóname por lo que he hecho.",
+        "La Red de la Serpiente... ¿en qué me he metido?"
+      ],
+      "examine": "*Te estudia con desconfianza*\n\nDarion está claramente esperando algo, o alguien. Sus manos no dejan de temblar y cada ruido lo hace sobresaltar. Algo lo tiene aterrorizado. O desesperado. O ambos.\n\n*Si intentas preguntarle por qué está tan nervioso antes de entregarle el paquete*\n\n\"¿Nervioso yo?\" *Se ríe con amargura* \"No... no es asunto tuyo. Solo... solo déjame en paz. No puedes ayudarme. Nadie puede.\" *Su voz se quiebra* \"Vete. Por favor, vete antes de que...\" *Se detiene abruptamente* \"Olvídalo. Solo vete.\"",
+      "afterQuestComplete": "*Te saluda con calidez genuina*\n\nCada vez que te ve, Darion sonríe con gratitud. Su hija está viva gracias a ti. Ya no hay miedo en sus ojos, solo agradecimiento eterno."
+    },
+    "examinableParts": {
+      "general": {
+        "description": "Un hombre destrozado por la desesperación. Cada movimiento refleja ansiedad y miedo."
+      },
+      "face": {
+        "description": "Ojeras profundas marcan su rostro. Sus labios están agrietados como si se los mordiera constantemente. Lágrimas secas marcan sus mejillas."
+      },
+      "hands": {
+        "description": "Manos de comerciante, acostumbradas a contar monedas y firmar contratos. Ahora tiemblan incontrolablemente. Las uñas están mordidas hasta el hueso."
+      },
+      "clothes": {
+        "description": "Ropa de calidad pero descuidada. Manchas de comida y sudor la adornan. Parece que no se ha cambiado en días."
+      },
+      "medallion": {
+        "description": "Un medallón de plata con el retrato de una niña de unos ocho años. Tiene grandes ojos castaños y una sonrisa radiante. Al reverso hay una inscripción: 'Para papá, con amor - Elara'."
+      }
+    }
+  },
+  "elderLyria": {
+    "name": "Anciana Lyria",
+    "description": "Una anciana de aspecto frágil pero mirada penetrante. Sus manos arrugadas tiemblan ligeramente mientras sostiene un pequeño amuleto.",
+    "dialogues": {
+      "welcome": "Ah, un viajero... Hace tanto que no veo a alguien nuevo por aquí. Mi corazón está pesado, joven. Mi hija desapareció en el bosque hace meses, y todo lo que me queda de ella son recuerdos... y este amuleto que solía llevar. Ella amaba las flores místicas del bosque, decía que brillaban como estrellas caídas.",
+      "idle": [
+        "Las flores místicas... mi hija solía recogerlas cada luna llena.",
+        "El bosque se la llevó... pero su espíritu aún susurra entre los árboles.",
+        "Si alguien pudiera traerme esas flores, podría completar el ritual de recuerdo.",
+        "Este amuleto pulsa... como si ella aún estuviera cerca, esperando.",
+        "Los antiguos decían que cinco flores pueden abrir un camino al más allá."
+      ],
+      "examine": "Sus ojos se humedecen cuando habla de su hija. El dolor de la pérdida aún está fresco después de tanto tiempo. El amuleto en su cuello parece resonar con una energía mágica débil, como si estuviera esperando ser completado.",
+      "quest_available": "Viajero... necesito tu ayuda. Las flores místicas del bosque contienen la esencia de los espíritus del bosque. Si pudieras traerme cinco de ellas, podría realizar un ritual ancestral para honrar a mi hija perdida. ¿Me ayudarías en esta tarea?",
+      "quest_in_progress": "¿Has encontrado las flores místicas? Necesito cinco para completar el ritual. Búscalas en lo profundo del bosque, donde la luz del sol apenas alcanza.",
+      "quest_complete": "*Sus ojos se iluminan con lágrimas de gratitud* Las has traído... Puedo sentir su energía. Ahora podré completar el ritual y finalmente darle paz a mi hija. Que los espíritus del bosque te bendigan, noble viajero."
+    }
+  },
+  "hunterGuild": {
+    "name": "Maestro de Caza Roderick",
+    "description": "Un cazador veterano con cicatrices de batalla y ojos agudos. Lleva un arco gastado en la espalda y huele a bosque y cuero.",
+    "dialogues": {
+      "welcome": "*Un hombre curtido te evalúa de arriba abajo con ojos de águila*\n\nSaludos, forastero. Eres cazador, ¿verdad? Se nota por la forma en que miras el horizonte. Siempre buscando la próxima presa.\n\n*Se cruza de brazos* Los lobos se han vuelto demasiado audaces. Atacan caravanas en pleno día. Si tienes las agallas, hay trabajo para ti.",
+      "idle": [
+        "*afila una flecha con movimientos precisos*",
+        "Los lobos están más agresivos este año.",
+        "*escudriña el horizonte*",
+        "He visto manadas atacando caravanas enteras.",
+        "Un buen cazador respeta a su presa, pero no duda en disparar.",
+        "*tensa su arco para probar la cuerda*",
+        "Las rutas comerciales no son seguras. No con tantos lobos."
+      ],
+      "examine": "*Te mira con respeto calculado*\n\nEste hombre conoce cada árbol y cada arroyo de estos bosques. Sus ojos nunca dejan de moverse, siempre alerta. Las cicatrices en sus manos cuentan historias de encuentros cercanos con bestias salvajes. Ha sobrevivido donde otros murieron."
+    }
+  },
+  "caveExplorer": {
+    "name": "Exploradora Sienna",
+    "description": "Una exploradora de cuevas con ropa manchada de barro y una antorcha siempre en mano. Parece nerviosa y preocupada.",
+    "dialogues": {
+      "welcome": "*Una mujer con ropa manchada de barro te mira con ojos inquietos, su antorcha tiembla ligeramente*\n\n¿Vienes del pueblo? Bien. Necesitamos ayuda. Las cuevas... *su voz tiembla* hay algo muy mal ahí dentro.\n\n*Mira hacia la entrada de las cuevas con miedo* He explorado docenas de ruinas, enfrentado peligros que te helarían la sangre. Pero esto... esto es diferente. Los muertos caminan. Y están furiosos. Necesitamos... necesitamos magia purificadora.",
+      "welcomePaladin": "*Sus ojos se abren con esperanza al ver tu símbolo sagrado*\n\n¡Un paladín! *Su voz tiembla con alivio* Gracias a los dioses... Eres exactamente lo que necesitamos.\n\n*Se acerca urgentemente* Los no-muertos de las cuevas están fuera de control. He explorado docenas de ruinas, pero estos... no pueden ser detenidos con fuerza bruta. Necesitan ser purificados. Tu Holy Strike, tu magia sagrada... es nuestra única esperanza.",
+      "idle": [
+        "*aprieta su antorcha con fuerza*",
+        "Los no-muertos nunca habían sido tan activos.",
+        "*susurra* Escuché gemidos que me helaron la sangre.",
+        "Necesitamos a un paladín... alguien con magia purificadora.",
+        "*mira nerviosamente hacia las cuevas*",
+        "He visto zombis, espectros... cosas peores.",
+        "La fuerza bruta no basta. Necesitan ser purificados.",
+        "¿Dónde está un paladín cuando lo necesitas?"
+      ],
+      "examine": "*Te mira con desesperación*\n\nSu conocimiento de las cuevas es enciclopédico, pero incluso ella tiene límites. Ha cartografiado cada pasadizo, identificado cada peligro. Pero los no-muertos... los no-muertos parecen haberla quebrado. Por primera vez en su carrera, Sienna tiene miedo de entrar. Y peor aún, sabe que la fuerza común no bastará. Estos no-muertos necesitan ser purificados con magia sagrada."
+    }
+  },
+  "alchemistMara": {
+    "name": "Alquimista Mara",
+    "description": "Una alquimista excéntrica rodeada de frascos burbujeantes y libros antiguos. Sus ojos brillan con curiosidad científica.",
+    "dialogues": {
+      "welcome": "*Una mujer con gafas protectoras y manchas de tinta en las manos levanta la vista de un montón de pergaminos*\n\n¡Ah, un aventurero! Perfecto. *Se quita las gafas y te examina* Necesito materiales raros y tú pareces del tipo que no teme ensuciarse las manos.\n\n*Señala frascos burbujeantes* Estoy investigando la naturaleza de la nigromancia. No para practicarla, entiéndeme, sino para encontrar formas de combatirla. La ciencia es nuestra mejor arma contra la oscuridad.",
+      "idle": [
+        "*toma notas frenéticamente*",
+        "Los huesos malditos contienen propiedades fascinantes.",
+        "*mezcla líquidos en un frasco*",
+        "Si logro aislar la energía necrótica...",
+        "La ciencia triunfará sobre la superstición.",
+        "*examina un hueso con una lupa*",
+        "Cada muestra cuenta una historia molecular."
+      ],
+      "examine": "*Continúa trabajando sin levantar la vista*\n\nSu laboratorio es un caos organizado. Cada frasco está etiquetado meticulosamente, cada experimento documentado con precisión científica. Pergaminos con fórmulas complejas cubren cada superficie. Mara es brillante, obsesiva, y completamente dedicada a su investigación."
+    }
+  },
+  "tannerBorn": {
+    "name": "Curtidor Born",
+    "description": "Un artesano robusto con delantal de cuero y manos manchadas de tintes. Huele a sal y cuero tratado.",
+    "dialogues": {
+      "welcome": "*Un hombre robusto con delantal de cuero te saluda mientras trabaja una piel*\n\n¿Buscas armadura de calidad? *Golpea una pieza de cuero* Has venido al lugar correcto. Trabajo el mejor cuero de toda la región.\n\n*Deja de trabajar y te mira directamente* Pero primero necesito materiales. Pieles frescas de bestias salvajes. Sin eso, no hay armadura. Simple.",
+      "idle": [
+        "*estira una piel para examinarla*",
+        "Nada como una buena piel de oso para hacer armadura resistente.",
+        "*cose con manos expertas*",
+        "Las pieles de lobo son perfectas para la movilidad.",
+        "El cuero de jabalí es increíblemente duradero.",
+        "*aplica aceite a una pieza de cuero*",
+        "Cada piel tiene su propósito. Cada bestia su virtud."
+      ],
+      "examine": "*Continúa trabajando sin pausa*\n\nSus manos trabajan con precisión practicada, cada corte y puntada perfectos. Born aprendió el oficio de su padre, y su padre del suyo. Generaciones de conocimiento fluyen a través de sus dedos callosos. La armadura que crea no es solo protección, es arte."
+    }
+  },
+  "historianKael": {
+    "name": "Historiador Kael",
+    "description": "Un erudito anciano con gafas redondas y una túnica llena de polvo de pergaminos antiguos. Lleva un bastón decorado con runas.",
+    "dialogues": {
+      "welcome": "*Un anciano con gafas redondas levanta la vista de un libro polvoriento*\n\n¡Bienvenido, bienvenido! *Ajusta sus gafas* ¿Te interesan las leyendas antiguas? Tengo una que te podría fascinar...\n\n*Abre un libro con ilustraciones desgastadas* Se habla del Rey Lobo, una bestia que ha evolucionado más allá de lo natural. Y se dice... *baja la voz* que guarda reliquias de épocas olvidadas.",
+      "idle": [
+        "*pasa páginas antiguas cuidadosamente*",
+        "El Rey Lobo es más que una bestia. Es una leyenda viviente.",
+        "*limpia sus gafas*",
+        "Se dice que guarda reliquias de épocas olvidadas.",
+        "Pocos han enfrentado a un rey bestia y vivido para contarlo.",
+        "*toma notas en un pergamino*",
+        "La historia se repite, pero las leyendas perduran."
+      ],
+      "examine": "*Sonríe al ver tu interés*\n\nSus manos tiemblan ligeramente al pasar las páginas de sus libros, pero su mente sigue aguda como siempre. Décadas de investigación han llenado esta habitación de conocimiento. Kael no es solo un historiador, es un guardián de la memoria del mundo."
+    }
+  },
+  "rescueCoordinator": {
+    "name": "Coordinadora Elena",
+    "description": "Una mujer de aspecto militar con armadura ligera y expresión urgente. Claramente está organizando una operación de rescate.",
+    "dialogues": {
+      "welcome": "*Una mujer con armadura ligera se gira hacia ti bruscamente*\n\n¡Tú! ¿Eres aventurero? *No espera respuesta* No tengo tiempo para explicaciones largas. Hay vidas en juego.\n\n*Señala hacia las cuevas con urgencia* Marcus y su equipo están atrapados allá dentro. Los no-muertos bloquearon las salidas. Necesito a alguien valiente que abra un camino. Ahora.",
+      "idle": [
+        "*revisa un mapa de las cuevas*",
+        "Marcus y su equipo están atrapados. No sé cuánto tiempo tienen.",
+        "*aprieta su espada*",
+        "Los no-muertos bloquearon todas las salidas.",
+        "Necesito a alguien valiente. Ahora.",
+        "*da órdenes a otros rescatistas*",
+        "Cada minuto cuenta."
+      ],
+      "examine": "*Te evalúa con mirada militar*\n\nSu postura es militar, su tono urgente. Esta no es su primera operación de rescate, pero cada una la afecta personalmente. Elena dejó el ejército para dedicarse a salvar vidas, pero a veces... a veces llega demasiado tarde. No esta vez. No si puede evitarlo."
+    }
+  },
+  "trappedExplorer": {
+    "name": "Marcus el Explorador",
+    "description": "Un explorador herido apoyado contra una pared de la cueva. Tiene vendajes improvisados y una pierna claramente lesionada.",
+    "dialogues": {
+      "welcome": "*Un hombre herido apoyado contra la pared te mira con alivio*\n\n*Tose débilmente* ¿Elena te envió? Gracias a los dioses...\n\n*Señala a otros exploradores heridos* Mi equipo... necesitamos ayuda médica. Urgente. Los no-muertos... *tose de nuevo* nunca los había visto tan organizados.",
+      "idle": [
+        "*gime de dolor*",
+        "No sé cuánto tiempo más podemos aguantar aquí.",
+        "*revisa las heridas de su equipo*",
+        "Los no-muertos... nunca los había visto tan organizados.",
+        "Mi equipo necesita ayuda médica urgente.",
+        "*toca su pierna lesionada*",
+        "Elena... por favor, date prisa."
+      ],
+      "examine": "*Respira con dificultad pero mantiene la compostura*\n\nA pesar de sus heridas, Marcus mantiene la calma. Es un superviviente nato. Ha liderado docenas de expediciones exitosas. Esta vez fue diferente. Esta vez, los muertos se levantaron."
+    }
+  },
+  "masterBlacksmith": {
+    "name": "Maestro Herrero Thane",
+    "description": "Un herrero legendario con músculos como acero y cicatrices de quemaduras en los brazos. Su fragua arde con fuego místico.",
+    "dialogues": {
+      "welcome": "*Un herrero musculoso deja el martillo y te mira intensamente*\n\nUn guerrero, ¿eh? *Examina tus armas* Bien. Busco crear mi obra maestra. Pero necesito materiales... especiales.\n\n*Señala su fragua ardiente* He forjado mil espadas, pero ninguna perfecta. Para eso necesito fuego infernal. Literalmente. ¿Te atreves?",
+      "idle": [
+        "*golpea el yunque con precisión perfecta*",
+        "El fuego infernal es lo único lo bastante caliente para forjar verdadero acero legendario.",
+        "*examina una espada críticamente*",
+        "He forjado mil espadas, pero ninguna perfecta. Aún.",
+        "Solo los más valientes se atreven a entrar al infierno.",
+        "*aviva las llamas de la fragua*",
+        "La maestría no tiene fin. Siempre hay algo más que aprender."
+      ],
+      "examine": "*Continúa martilleando sin pausar*\n\nCada martillazo es preciso, cada movimiento calculado. Es maestría pura hecha carne. Thane ha dedicado su vida al arte de la forja. Reyes y héroes han blandido sus creaciones. Pero él busca algo más. La perfección."
+    }
+  },
+  "mayorShadiVanam": {
+    "name": "Alcalde Maverick",
+    "description": "Un hombre de mediana edad patrulla nerviosamente la plaza, vistiendo un [color=#CD5C5C]traje burdeos arrugado[/color] con [color=#FFD700]corbata floja[/color]. Sus [color=#F0E68C]ojos pálidos[/color] con [color=#A9A9A9]ojeras[/color] [color=#FF6B6B]escanean cada sombra[/color], mientras sus manos [color=#87CEEB]tiemblan[/color] al aferrarse a un [color=#8B7355]bastón de roble[/color] con pomo de [color=#E6E6FA]cuervo plateado[/color]. Parece más buscar consuelo que proyectar autoridad, constantemente mirando por encima del hombro.",
+    "dialogues": {
+      "welcome": "*El alcalde te mira nerviosamente, sus manos tiemblan ligeramente*\n\nB-Bienvenido a Shadi Vanam, viajero... *Mira sobre tu hombro hacia la puerta* ¿Has... has visto a alguien sospechoso en tu camino? Alguien que... que parezca buscar alcaldes...\n\n*Se limpia el sudor de la frente* He oído rumores terribles. Dicen que hay un asesino... Nezu, lo llaman. Un cazador de alcaldes. *Su voz tiembla* Dicen que ya ha acabado con varios de mis colegas en otras ciudades. Yo... yo no quiero ser el siguiente.",
+      "welcomeNezu": "*Los ojos del alcalde se abren como platos cuando escucha tu nombre. Su rostro palidece completamente*\n\n¿N-NEZU?! *Retrocede tambaleándose, casi cayendo de su silla* ¡NO! ¡NO, NO, NO! ¡GUARDIAS! ¡GUARDIAS, AYUDA!\n\n*Levanta las manos temblorosas en gesto defensivo* ¡Por favor! ¡Tengo familia! ¡No he hecho nada malo! ¡Solo soy un simple alcalde! *Lágrimas corren por sus mejillas* ¡POR FAVOR, NO ME MATES!",
+      "welcomeNezuDisguised": "*El alcalde entrecierra los ojos al escuchar tu nombre. De repente, su miedo se transforma en una mezcla de valentía desesperada y paranoia*\n\n¿{{playerName}}? *Se pone de pie abruptamente, señalándote con un dedo acusador* ¡JA! ¡A MÍ NO ME PODRÁS ENGAÑAR, NEZU!\n\n*Su voz tiembla pero hay determinación en ella* ¡Sé que eres tú! ¡Cambiaste tu nombre para infiltrarte! ¿Crees que soy tonto? *Desenvaina una daga ceremonial con manos temblorosas* ¡Si quieres mi vida, tendrás que LUCHAR por ella! ¡No moriré sin pelear!",
+      "idle": [
+        "*mira nerviosamente por la ventana*",
+        "¿Habrá cerrado bien las puertas...?",
+        "*salta al escuchar cualquier ruido*",
+        "Nezu... ese nombre me persigue en pesadillas.",
+        "Tal vez debería contratar más guardias...",
+        "*revisa obsesivamente las cerraduras*",
+        "¿Por qué yo? Solo quiero gobernar en paz."
+      ],
+      "examine": "*El alcalde Maverick es una sombra de lo que alguna vez fue*\n\nAntes era un líder respetado y confiado. Ahora, el miedo lo consume. Cada visitante es un potencial asesino. Cada sombra es Nezu. Su paranoia ha alcanzado niveles casi cómicos, pero el terror en sus ojos es genuino. Vive esperando el día en que el legendario cazador de alcaldes llame a su puerta."
+    }
+  },
+  "archmageSeraph": {
+    "name": "Archimaga Maia",
+    "description": "Una archimaga estudia intensamente los [color=#C0C0C0]símbolos arcanos[/color] grabados en las ruinas. Su [color=#FF6347]cabello rojo intenso[/color] cae sobre su [color=#4169E1]túnica azul profundo[/color] bordada con [color=#C0C0C0]runas[/color], coronado por una [color=#FFD700]diadema dorada[/color]. Sus ojos irradian [color=#87CEEB]inteligencia y preocupación[/color], mientras [color=#FFFACD]motas de luz arcana[/color] flotan a su alrededor y el aire [color=#E6E6FA]zumba con magia contenida[/color]. Su expresión mezcla [color=#90EE90]determinación[/color] y [color=#FFA07A]aprensión[/color].",
+    "dialogues": {
+      "welcome": "*Una mujer radiante con energía arcana te mira con gravedad*\n\nEl portal está creciendo. *Levanta su báculo* El Señor Infernal debe ser detenido. Tú eres nuestra última esperanza, aventurero.\n\n*Energía crackle a su alrededor* Si el portal se completa, el infierno se derramará sobre nuestro mundo. Todo estará perdido. ¿Aceptarás este desafío mortal?",
+      "idle": [
+        "*canaliza energía arcana*",
+        "El tejido de la realidad se está rasgando.",
+        "*levita ligeramente del suelo*",
+        "Si el portal se completa, todo estará perdido.",
+        "Solo alguien extraordinario puede detener al Señor Infernal.",
+        "*sus ojos brillan con poder*",
+        "He visto el futuro. Sin tu ayuda, es oscuro."
+      ],
+      "examine": "*Te observa con ojos que parecen ver a través de ti*\n\nEnergía arcana baila alrededor de sus dedos. Cada palabra que pronuncia resuena con poder. Maia es una de las magas más poderosas vivas, tal vez la más poderosa. Si ella dice que la situación es grave, deberías creerle."
+    }
+  },
+  "kael_rationing_merchant": {
+    "name": "Kael el Racionador",
+    "description": "Un hombre delgado de mediana edad, con ojos hundidos que constantemente escanean el horizonte. Sus manos temblorosas protegen una pequeña bolsa de provisiones como si fuera su propia vida.",
+    "dialogues": {
+      "welcome": "¿Agua? ¿Comida? *Sus ojos te evalúan como si fueras ganado* Todo tiene un precio, viajero. ESPECIALMENTE en estos tiempos. ¿Qué... qué traes para comerciar?",
+      "default": "No tengo tiempo para charlas. Solo para negocios. ¿Compras o vendes?",
+      "no_money": "*Escupe al suelo* Vuelve cuando tengas algo de valor. No acepto promesas vacías.",
+      "high_reputation": "Ah, tú... te he visto ayudando por aquí. Quizás... quizás podamos hacer un trato especial. Pero no digas nada a nadie."
+    },
+    "examinableParts": {
+      "general": {
+        "description": "Un hombre demacrado cuya ropa alguna vez costosa ahora cuelga suelta sobre su cuerpo. Sus ojos nunca se quedan quietos, siempre buscando amenazas... o oportunidades."
+      },
+      "face": {
+        "description": "Pómulos prominentes sobresalen bajo piel pálida y seca. Sus ojos hundidos brillan con una mezcla de miedo y avaricia. Tiene una cicatriz reciente en el labio inferior, probablemente de una pelea por comida."
+      },
+      "hands": {
+        "description": "Manos huesudas y temblorosas, con uñas sucias y rotas. Sus dedos se aferran constantemente a su bolsa de provisiones, nunca relajándose por completo."
+      },
+      "clothes": {
+        "description": "Lo que alguna vez fue un atuendo de comerciante próspero - seda y terciopelo - ahora está rasgado, remendado y manchado. Múltiples bolsillos internos revelan años de experiencia ocultando mercancías valiosas."
+      },
+      "bag": {
+        "description": "Una bolsa de cuero gastada que protege con su vida. Ocasionalmente se escucha el tintineo de vidrio y metal dentro. Nunca la deja en el suelo."
+      }
+    }
+  },
+  "mira_water_carrier": {
+    "name": "Mira la Aguadora",
+    "description": "Una mujer joven de aspecto cansado, con una yunta sobre los hombros que sostiene dos cubos de agua. Sus pies descalzos están cubiertos de polvo del camino.",
+    "dialogues": {
+      "welcome": "Oh, hola viajero. *Se limpia el sudor de la frente* Perdona si no me detengo mucho, el agua no se transporta sola.",
+      "default": "Estos cubos no se hacen más ligeros con el tiempo, te lo aseguro.",
+      "about_work": "Alguien tiene que traer el agua desde el pozo. Es trabajo duro, pero honesto. No como algunos que acaparan provisiones para venderlas al triple.",
+      "about_kael": "*Frunce el ceño* Kael... sí, lo conozco. Antes era decente, o eso dicen. Ahora solo piensa en oro. Ten cuidado si tratas con él.",
+      "about_water": "El pozo del norte es el único que aún da agua limpia. Los demás se secaron o se contaminaron. Por eso mi trabajo es importante.",
+      "tired": "Estoy cansada, sí. Pero hay gente que depende de mí. Familias con niños. No puedo parar.",
+      "help": "¿Ayudarme? *Sonríe débilmente* Si quieres cargar uno de estos cubos hasta la plaza, no me quejaría. Pero la mayoría solo pregunta, no ayuda."
+    },
+    "territorialBehavior": {
+      "intruderReactions": {
+        "warningMessage": "¡¿Qué haces en mi casa?! ¡Fuera de aquí inmediatamente!",
+        "repeatedWarningMessage": "¡Te dije que te fueras! ¡Esta es MI casa! ¡Sal ahora mismo!"
+      }
+    },
+    "examinableParts": {
+      "general": {
+        "description": "Una mujer de unos veinte años, con el rostro curtido por el sol y el trabajo duro. Su ropa simple está manchada de agua y sudor."
+      },
+      "face": {
+        "description": "Rasgos amables pero cansados. Sus ojos tienen ojeras pronunciadas, probablemente de años de madrugar para traer agua."
+      },
+      "hands": {
+        "description": "Manos callosas y fuertes de cargar cubos pesados día tras día. Tiene ampollas recientes en las palmas."
+      },
+      "buckets": {
+        "description": "Dos cubos de madera desgastada colgando de una yunta sobre sus hombros. Están medio llenos de agua limpia, chapoteando suavemente con cada paso."
+      }
+    }
+  },
+  "tomas_woodcutter": {
+    "name": "Tomás el Leñador",
+    "description": "Un hombre fornido de mediana edad, con manos callosas y cicatrices de años trabajando con madera. Su hacha siempre está a su lado.",
+    "dialogues": {
+      "welcome": "*Levanta la vista del hacha* Eh. ¿Qué necesitas?",
+      "default": "La madera no se corta sola. *Continúa trabajando*",
+      "about_work": "Corto madera desde que tengo memoria. Es trabajo duro, pero honesto. Me gusta.",
+      "about_mira": "*Sonríe ligeramente* Mira... la conozco desde niños. Siempre ha sido trabajadora. Más que la mayoría.",
+      "about_guard": "Los guardias hacen su trabajo. Los respeto. *Asiente*",
+      "tired": "Cansado siempre. Pero el trabajo no espera.",
+      "help": "¿Ayuda? *Se encoge de hombros* Si sabes usar un hacha, siempre hay trabajo."
+    }
+  },
+  "town_guard_entrance": {
+    "name": "Guardia de la Entrada",
+    "description": "Un guardia veterano de mediana edad, con armadura de cuero reforzada y una lanza apoyada en su hombro. Su postura es alerta pero relajada, fruto de años de experiencia vigilando la entrada del pueblo.",
+    "dialogues": {
+      "welcome": "Bienvenido a Shadi Vanam, viajero. Mantén la paz y no habrá problemas.",
+      "default": "Todo tranquilo por aquí. Así es como me gusta.",
+      "about_duty": "Mi trabajo es simple: mantener el orden y proteger a los ciudadanos. Llevo haciéndolo más de diez años.",
+      "about_town": "Shadi Vanam es un buen pueblo, lleno de gente trabajadora. Pero como en todas partes, hay que estar atento.",
+      "trouble": "¿Problemas? Nada que no pueda manejar. Los delincuentes aprenden rápido que aquí no se toleran las fechorías."
+    }
+  }
+}

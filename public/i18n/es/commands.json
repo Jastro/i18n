@@ -1,0 +1,88 @@
+{
+  "move": {
+    "command": "mover",
+    "aliases": ["ir", "caminar", "correr"],
+    "directions": {
+      "north": "norte",
+      "south": "sur",
+      "east": "este",
+      "west": "oeste",
+      "up": "arriba",
+      "down": "abajo",
+      "in": "entrar",
+      "out": "salir",
+      "northeast": "noreste",
+      "northwest": "noroeste",
+      "southeast": "sureste",
+      "southwest": "suroeste"
+    }
+  },
+  "examine": {
+    "command": "examinar",
+    "aliases": ["mirar", "inspeccionar", "ver", "ex", "observar"],
+    "parts": {
+      "face": "cara",
+      "hands": "manos",
+      "eyes": "ojos",
+      "body": "cuerpo",
+      "hair": "pelo",
+      "feet": "pies",
+      "legs": "piernas",
+      "arms": "brazos",
+      "mouth": "boca",
+      "nose": "nariz",
+      "ears": "orejas",
+      "neck": "cuello",
+      "chest": "pecho",
+      "back": "espalda",
+      "weapon": "arma",
+      "armor": "armadura",
+      "clothes": "ropas",
+      "general": "general"
+    }
+  },
+  "say": {
+    "command": "decir",
+    "aliases": ["hablar", "charlar", "conversar"]
+  },
+  "take": {
+    "command": "tomar",
+    "aliases": ["coger", "agarrar", "recoger", "get"]
+  },
+  "drop": {
+    "command": "soltar",
+    "aliases": ["tirar", "dejar"]
+  },
+  "inventory": {
+    "command": "inventario",
+    "aliases": ["inv", "i", "mochila"]
+  },
+  "attack": {
+    "command": "atacar",
+    "aliases": ["ataque", "golpear", "matar"]
+  },
+  "open": {
+    "command": "abrir",
+    "aliases": []
+  },
+  "close": {
+    "command": "cerrar",
+    "aliases": []
+  },
+  "lock": {
+    "command": "cerrar con llave",
+    "aliases": ["bloquear"]
+  },
+  "unlock": {
+    "command": "abrir con llave",
+    "aliases": ["desbloquear"]
+  },
+  "stealth": {
+    "command": "sigilo",
+    "aliases": ["ocultar", "esconder", "hide"]
+  },
+  "interact": {
+    "command": "interactuar",
+    "aliases": ["usar", "activar"]
+  }
+}

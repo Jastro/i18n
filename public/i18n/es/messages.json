@@ -1,0 +1,87 @@
+{
+  "system": {
+    "welcome": "¡Bienvenido a ModernMUD!",
+    "goodbye": "¡Hasta pronto!",
+    "error": "Ha ocurrido un error",
+    "success": "¡Éxito!",
+    "language_changed": "Idioma cambiado exitosamente",
+    "language_not_supported": "Idioma no soportado"
+  },
+  "movement": {
+    "no_exit": "No hay salida en esa dirección.",
+    "door_closed": "La puerta está cerrada.",
+    "door_locked": "La puerta está cerrada con llave.",
+    "door_opened": "Abres la puerta.",
+    "door_closed_success": "Cierras la puerta.",
+    "door_locked_success": "Cierras la puerta con llave.",
+    "door_unlocked": "Abres la puerta con llave.",
+    "need_key": "Necesitas una llave para abrir esto.",
+    "moved": "Te mueves hacia el {direction}.",
+    "arrived": "Llegas a {location}.",
+    "cannot_move": "No puedes moverte en esa dirección.",
+    "toll_required": "Debes pagar {amount} de oro para pasar.",
+    "toll_paid": "Pagas {amount} de oro y pasas.",
+    "npc_arrives": "{npc} llega desde el {direction}.",
+    "npc_leaves": "{npc} se marcha hacia el {direction}.",
+    "enemy_arrives": "{enemy} llega desde el {direction}.",
+    "player_arrives": "{player} llega desde el {direction}."
+  },
+  "combat": {
+    "attack_hit": "¡{attacker} golpea a {target} causando {damage} de daño!",
+    "attack_miss": "¡{attacker} falla su ataque contra {target}!",
+    "attack_critical": "¡{attacker} realiza un golpe crítico a {target} causando {damage} de daño!",
+    "enemy_defeated": "¡Has derrotado a {enemy}!",
+    "player_died": "Has sido derrotado...",
+    "player_unconscious": "Caes inconsciente...",
+    "gained_experience": "Ganas {amount} puntos de experiencia.",
+    "level_up": "¡Has subido al nivel {level}!",
+    "cannot_attack": "No puedes atacar en este momento.",
+    "already_in_combat": "Ya estás en combate.",
+    "not_in_combat": "No estás en combate.",
+    "skill_used": "{character} usa {skill}!",
+    "skill_failed": "El uso de {skill} ha fallado."
+  },
+  "inventory": {
+    "item_taken": "Tomas {item}.",
+    "item_dropped": "Dejas {item} en el suelo.",
+    "inventory_full": "Tu inventario está lleno.",
+    "item_not_found": "No encuentras ese objeto.",
+    "item_equipped": "Equipas {item}.",
+    "item_unequipped": "Desequipas {item}.",
+    "cannot_equip": "No puedes equipar este objeto.",
+    "gold_received": "Recibes {amount} de oro.",
+    "gold_lost": "Pierdes {amount} de oro."
+  },
+  "dialogue": {
+    "npc_not_found": "No hay nadie con ese nombre aquí.",
+    "npc_busy": "{npc} está ocupado en este momento.",
+    "npc_greeting": "{npc} te saluda.",
+    "keyword_not_recognized": "{npc} no entiende lo que dices."
+  },
+  "look": {
+    "nothing_of_interest": "No hay nada de interés aquí."
+  },
+  "stealth": {
+    "entered_stealth": "Entras en modo sigilo.",
+    "left_stealth": "Sales del modo sigilo.",
+    "detected": "¡Te han detectado!",
+    "not_enough_stamina": "No tienes suficiente energía para entrar en sigilo.",
+    "cannot_stealth_in_combat": "No puedes entrar en sigilo durante el combate."
+  },
+  "trade": {
+    "trade_initiated": "Inicias un intercambio con {target}.",
+    "trade_cancelled": "Intercambio cancelado.",
+    "trade_completed": "Intercambio completado.",
+    "trade_declined": "{target} rechaza el intercambio.",
+    "not_enough_gold": "No tienes suficiente oro.",
+    "item_purchased": "Compras {item} por {price} de oro.",
+    "item_sold": "Vendes {item} por {price} de oro."
+  },
+  "quest": {
+    "quest_started": "Misión iniciada: {quest}",
+    "quest_completed": "¡Misión completada: {quest}!",
+    "quest_failed": "Misión fallida: {quest}",
+    "quest_objective_updated": "Objetivo actualizado: {objective}",
+    "no_quests": "No tienes misiones activas."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "system": {
+    "welcome": "Welcome to ModernMUD!",
+    "goodbye": "See you soon!",
+    "error": "An error occurred",
+    "success": "Success!",
+    "language_changed": "Language changed successfully",
+    "language_not_supported": "Language not supported"
+  },
+  "movement": {
+    "no_exit": "There is no exit in that direction.",
+    "door_closed": "The door is closed.",
+    "door_locked": "The door is locked.",
+    "door_opened": "You open the door.",
+    "door_closed_success": "You close the door.",
+    "door_locked_success": "You lock the door.",
+    "door_unlocked": "You unlock the door.",
+    "need_key": "You need a key to open this.",
+    "moved": "You move {direction}.",
+    "arrived": "You arrive at {location}.",
+    "cannot_move": "You cannot move in that direction.",
+    "toll_required": "You must pay {amount} gold to pass.",
+    "toll_paid": "You pay {amount} gold and pass through.",
+    "npc_arrives": "{npc} arrives from the {direction}.",
+    "npc_leaves": "{npc} leaves to the {direction}.",
+    "enemy_arrives": "{enemy} arrives from the {direction}.",
+    "player_arrives": "{player} arrives from the {direction}."
+  },
+  "combat": {
+    "attack_hit": "{attacker} hits {target} for {damage} damage!",
+    "attack_miss": "{attacker} misses {target}!",
+    "attack_critical": "{attacker} scores a critical hit on {target} for {damage} damage!",
+    "enemy_defeated": "You defeated {enemy}!",
+    "player_died": "You have been defeated...",
+    "player_unconscious": "You fall unconscious...",
+    "gained_experience": "You gain {amount} experience points.",
+    "level_up": "You reached level {level}!",
+    "cannot_attack": "You cannot attack right now.",
+    "already_in_combat": "You are already in combat.",
+    "not_in_combat": "You are not in combat.",
+    "skill_used": "{character} uses {skill}!",
+    "skill_failed": "{skill} failed."
+  },
+  "inventory": {
+    "item_taken": "You take {item}.",
+    "item_dropped": "You drop {item} on the ground.",
+    "inventory_full": "Your inventory is full.",
+    "item_not_found": "You cannot find that item.",
+    "item_equipped": "You equip {item}.",
+    "item_unequipped": "You unequip {item}.",
+    "cannot_equip": "You cannot equip this item.",
+    "gold_received": "You receive {amount} gold.",
+    "gold_lost": "You lose {amount} gold."
+  },
+  "dialogue": {
+    "npc_not_found": "There is no one by that name here.",
+    "npc_busy": "{npc} is busy right now.",
+    "npc_greeting": "{npc} greets you.",
+    "keyword_not_recognized": "{npc} doesn't understand what you're saying."
+  },
+  "look": {
+    "nothing_of_interest": "There is nothing of interest here."
+  },
+  "stealth": {
+    "entered_stealth": "You enter stealth mode.",
+    "left_stealth": "You leave stealth mode.",
+    "detected": "You have been detected!",
+    "not_enough_stamina": "You don't have enough stamina to enter stealth.",
+    "cannot_stealth_in_combat": "You cannot enter stealth during combat."
+  },
+  "trade": {
+    "trade_initiated": "You initiate a trade with {target}.",
+    "trade_cancelled": "Trade cancelled.",
+    "trade_completed": "Trade completed.",
+    "trade_declined": "{target} declines the trade.",
+    "not_enough_gold": "You don't have enough gold.",
+    "item_purchased": "You purchase {item} for {price} gold.",
+    "item_sold": "You sell {item} for {price} gold."
+  },
+  "quest": {
+    "quest_started": "Quest started: {quest}",
+    "quest_completed": "Quest completed: {quest}!",
+    "quest_failed": "Quest failed: {quest}",
+    "quest_objective_updated": "Objective updated: {objective}",
+    "no_quests": "You have no active quests."
+  }
+}

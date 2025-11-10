@@ -1,0 +1,58 @@
+{
+  "house_key": {
+    "name": "Llave de Casa",
+    "description": "Una llave de hierro simple pero bien cuidada. Abre la puerta de una casa modesta."
+  },
+  "water_bucket": {
+    "name": "Cubo de Agua",
+    "description": "Un cubo de madera reforzado con bandas de hierro. Contiene agua fresca del pozo."
+  },
+  "apple": {
+    "name": "Manzana",
+    "description": "Una manzana roja y jugosa. Parece fresca."
+  },
+  "woodcutting_axe": {
+    "name": "Hacha de Leñador",
+    "description": "Un hacha pesada con el mango desgastado por años de uso. La hoja está bien afilada."
+  },
+  "rope": {
+    "name": "Cuerda",
+    "description": "Una cuerda resistente de cáñamo. Útil para muchas cosas."
+  },
+  "guard_badge": {
+    "name": "Insignia de Guardia",
+    "description": "Una insignia de bronce que identifica a su portador como miembro de la guardia de la ciudad."
+  },
+  "handcuffs": {
+    "name": "Esposas",
+    "description": "Par de esposas de hierro con llave. Usadas para detener criminales."
+  },
+  "ledger": {
+    "name": "Libro de Cuentas",
+    "description": "Un pequeño libro con registros de transacciones comerciales."
+  },
+  "coin_pouch": {
+    "name": "Bolsa de Monedas",
+    "description": "Una pequeña bolsa de cuero para guardar monedas. Está vacía actualmente."
+  },
+  "bread": {
+    "name": "Pan",
+    "description": "Una hogaza de pan fresco. Aún está tibio."
+  },
+  "waterskin": {
+    "name": "Odre de Agua",
+    "description": "Un odre de cuero para transportar agua. Está lleno."
+  },
+  "dagger": {
+    "name": "Daga",
+    "description": "Una daga simple pero afilada. Útil para defensa personal."
+  },
+  "torch": {
+    "name": "Antorcha",
+    "description": "Una antorcha de madera con punta de tela embebida en brea."
+  },
+  "ration": {
+    "name": "Ración de Viaje",
+    "description": "Comida seca preservada para viajes largos."
+  }
+}

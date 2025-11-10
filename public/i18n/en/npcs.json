@@ -1,0 +1,522 @@
+{
+  "voidGod": {
+    "name": "Prophet",
+    "description": "A figure shrouded in shadows and mystery. His very presence seems to distort reality around him.",
+    "dialogues": {
+      "welcome": "Ah... you awoke. Or perhaps... you never slept. The void whispers strange things.",
+      "idle": [
+        "Time here... drips. Do you hear it dripping?",
+        "Sometimes I see other worlds. Right now I see... seven. No, six.",
+        "Did you know the void is hungry? Neither did I.",
+        "Your shadow is crooked. Or mine. One of the two.",
+        "The gods... do they exist? It must be exhausting to exist so much.",
+        "When I close my eyes, I see a thousand others open.",
+        "Are you real? I'm not either. We complement each other."
+      ],
+      "examine": "You look at me, but... what do you really see? A prophet? A madman? An echo of something that never was? The truth is simpler and more terrible: I am what you will become when the Void finishes with you. Or perhaps... I am what you were before the lake gave you form. Time is cruel when it doesn't exist.",
+      "tutorial": "[object Object]"
+    },
+    "examinableParts": {
+      "general": {
+        "description": "A figure wrapped in dark rags that seem to move of their own will. His presence radiates an aura of ancestral power and forbidden knowledge."
+      },
+      "face": {
+        "description": "You try to look at his face, but it's impossible. Your mind cannot grasp a form, only the sensation of [color='red']an endless abyss[/color]. Where there should be features, there is only an infinite void, devouring light, devouring reality... devouring you if you stare too long."
+      },
+      "hands": {
+        "description": "His hands are pale as ancient ivory, with long, slender fingers that move with unnatural grace. The nails are black as obsidian, and seem to absorb light rather than reflect it."
+      },
+      "clothes": {
+        "description": "He wears rags that might once have been a ceremonial robe. The fabric seems woven from shadows, moving and billowing even when there is no wind. Arcane symbols glow faintly in the folds, appearing and disappearing like dying stars."
+      },
+      "eyes": {
+        "description": "Where his eyes should be, there are only wells of infinite darkness. If you stare intently, you swear you see dead galaxies spiraling into nothingness."
+      }
+    }
+  },
+  "dummy": {
+    "name": "Training Dummy",
+    "description": "A magical training dummy designed for adventurers to practice their skills. Though it doesn't seem dangerous, it has the ability to counterattack with varied effects.",
+    "dialogues": {
+      "welcome": "*The dummy remains motionless, awaiting your attack*",
+      "victory": "*The dummy staggers but magically recomposes itself for the next training session*"
+    }
+  },
+  "elderEldrin": {
+    "name": "Elder Eldrin",
+    "description": ""
+  },
+  "tavernkeeper": {
+    "name": "Tavernkeeper",
+    "description": "",
+    "dialogues": {
+      "welcome": "Welcome to the port, traveler. This is where dreams set sail and destinies shipwrecked. Keep your documents handy and don't lose sight of your belongings. These docks can be more treacherous than they seem",
+      "warning": "The seas are no place for the unwary. Pirates lurk beyond the horizon, ready to raid any unsuspecting fool. Keep your sword sharp and your gaze even sharper.",
+      "victory": "Ha! Another drunkard who can't handle the port's tavernkeeper."
+    }
+  },
+  "captainNPC": {
+    "name": "Ship Captain",
+    "description": "",
+    "dialogues": {
+      "welcome": "Ahoy, landlubber! If you seek adventures and dangers on the high seas, you've come to the right captain. I'm the guardian of these waters, and my ship is always ready for a new voyage. What say you? Do you have the courage to venture into the unknown?",
+      "travel": "Hoist the sails! If you're ready to set sail, <span style='color:gold'>give me the 5 gold coins</span> and we'll sail to Danger Island. I warn you it won't be an easy journey. The winds are fickle, and the waters, treacherous. But for the brave, destiny awaits.",
+      "warning": "Make sure you have provisions, weapons, and above all, courage. Out there, on the seas and islands, danger lurks in every shadow. But if you're prepared, nothing can stop you!"
+    }
+  },
+  "generalVendor": {
+    "name": "General Merchant",
+    "description": "A friendly merchant with a wide variety of useful products for adventurers.",
+    "dialogues": {
+      "welcome": "Welcome, traveler! Have you come to trade?",
+      "idle": [
+        "My products are of the finest quality.",
+        "If you're looking for something specific, just ask.",
+        "The prices are fair, I assure you."
+      ]
+    }
+  },
+  "cookMartha": {
+    "name": "Cook Martha",
+    "description": "A plump and kind cook who prepares the best meals in Shadi Vanam. Her smiling face and rosy cheeks inspire confidence.",
+    "dialogues": {
+      "welcome": "*She greets you with a warm smile* Welcome to my kitchen, dear! The bread is hot and the stew smells wonderful.",
+      "idle": [
+        "*Kneads bread humming a cheerful song*",
+        "The key to a good stew is patience... and lots of love.",
+        "Nothing fills the stomach and soul like good home cooking.",
+        "*Tastes the stew* Mmm... it needs a pinch of salt.",
+        "My grandmother taught me all these recipes. May she rest in peace."
+      ],
+      "examine": "*Martha smiles at you while stirring a steaming pot*\n\nComing from a long journey? Let me prepare something to restore your strength. An adventurer can't work on an empty stomach, right?\n\n*Wipes her hands on her apron* All my dishes are made with the freshest ingredients from the market. None of those dried travel rations!"
+    }
+  },
+  "weaponVendor": {
+    "name": "Blacksmith Klaus",
+    "description": "A sturdy blacksmith specialized in quality weapons and armor.",
+    "dialogues": {
+      "welcome": "Need equipment? I have the best.",
+      "idle": [
+        "Every piece is forged with my own hands.",
+        "I don't buy trash, only quality gear.",
+        "Good steel saves lives."
+      ]
+    }
+  },
+  "foodVendor": {
+    "name": "Cook Martha",
+    "description": "A cheerful cook who sells delicious food and provisions.",
+    "dialogues": {
+      "welcome": "Welcome! The food is nice and hot.",
+      "idle": [
+        "Everything cooked with love.",
+        "Good food heals the soul.",
+        "Do you smell that freshly baked bread?"
+      ]
+    }
+  },
+  "tutorialGuardNpc": {
+    "name": "Spectral Guard",
+    "description": "A mysterious guard wrapped in ethereal shadows. His armor glows with a faint light and his face is hidden beneath a rusty helm.",
+    "dialogues": {
+      "welcome": "Halt there, traveler. This place is not safe. The Prophet... is not what he seems. Be careful what you touch and what you look at.",
+      "idle": [
+        "The lake... never get too close to the lake.",
+        "That staff on the ground... it belonged to someone like you, once.",
+        "Sometimes I hear voices from the void. Don't listen to them.",
+        "My shift never ends. I've been here... how long? I can't remember anymore.",
+        "If the Prophet speaks to you, don't look directly at his face."
+      ],
+      "examine": "I've been patrolling these dark paths for longer than I can remember. My duty is to warn the unwary, though few listen. The forest changes, the lake whispers, but my vigil continues.",
+      "warning": "Don't trust anything here. Not even me."
+    }
+  },
+  "entranceGuardNpc": {
+    "name": "Entrance Guard",
+    "description": "A guard watches the town entrance, [color=#FFD700]meticulously inspecting[/color] every visitor for contraband. He wears [color=#A0826D]reinforced leather armor[/color] with the town's emblem, and a [color=#87CEEB]blue cape[/color] billows at his back. His [color=#90EE90]scrutinizing eyes[/color] assess you from top to bottom, while he holds a [color=#8B7355]guard's staff[/color] in one hand and [color=#D3D3D3]iron handcuffs[/color] hang from his belt. His stance is [color=#FFA07A]alert and professional[/color].",
+    "dialogues": {
+      "welcome": "Halt there, traveler. I'm responsible for checking those who enter the town. You must allow me to inspect your belongings before passing.",
+      "idle": [
+        "Everyone must be checked. Those are the town's rules.",
+        "Contraband will not be tolerated in these lands.",
+        "My job is to keep the town safe.",
+        "The handcuffs are ready for anyone who breaks the law.",
+        "Don't try to hide anything. I'll find it."
+      ],
+      "examine": "I've been an entrance guard for years. I've seen everything: thieves, smugglers, fugitives. My instinct rarely fails.",
+      "warning": "If you're carrying anything stolen or contraband, better hand it over now. The consequences will be less severe."
+    }
+  },
+  "testDummy": {
+    "name": "Training Dummy",
+    "description": "A motionless and silent training dummy. It doesn't move unless you attack it first. It seems to contain treasures inside.",
+    "dialogues": {
+      "examine": "A completely passive training dummy. [color=gold]Use 'attack dummy' to begin combat.[/color]"
+    }
+  },
+  "skillTrainer": {
+    "name": "Master-at-Arms Korvain",
+    "description": "A veteran combat instructor with decades of experience. His hawkish eyes have seen a thousand battles.",
+    "dialogues": {
+      "welcome": "[color=gold]Master Korvain[/color] observes you with experienced eyes.\n\n\"I see potential in you, young warrior. I have dedicated my life to perfecting the arts of combat, and for generations I have passed this knowledge to those who prove themselves worthy.\n\nMy techniques are not given freely. The gold you pay represents your commitment to learning. Are you prepared to invest in your future as a combatant?\"",
+      "idle": [
+        "A blade without edge is just useless metal.",
+        "Discipline is more important than brute strength.",
+        "Every scar tells a lesson learned.",
+        "True combat begins in the mind."
+      ]
+    }
+  },
+  "shadowRunner": {
+    "name": "Shadow Runner",
+    "description": "A man in his forties lurks among the trees at the forest's edge, watching the path with [color=#B0C4DE]steely, weary eyes[/color]. His [color=#8B7D6B]dark streaked hair[/color] is tied in a rough ponytail. [color=#CD853F]War scars[/color] cross his arms and neck, while he wears [color=#A0826D]patched leather armor[/color] with improvised repairs. His [color=#D2B48C]weathered hands tremble slightly[/color], and on his belt hang [color=#E6E6FA]bags that jingle[/color] with coins or secrets. His stance is [color=#87CEEB]alert but exhausted[/color], that of a hardened survivor.",
+    "dialogues": {
+      "welcome": "The man looks at you warily, his hand resting near his sword.\n\n\"I'm not looking for trouble. Just passing through.\" His voice is hoarse, tired. \"I have a job to finish and then I'll disappear. If you're smart, you'll pretend you didn't see me.\"",
+      "idle": [
+        "*nervously looks toward the shadows*",
+        "Damned war... damned everyone.",
+        "*touches a bag on his belt that glows with purple light*",
+        "Just one more job and I can rest...",
+        "*whispers* For the fallen at Shadowearth."
+      ],
+      "combat": [
+        "It didn't have to end like this!",
+        "I've fought in worse battlefields.",
+        "I just want to finish this!",
+        "For my fallen brothers!"
+      ],
+      "reacquireQuestItem": "[object Object]"
+    },
+    "examinableParts": {
+      "general": {
+        "description": "A man marked by war and time. Every movement reveals military training, but also weariness."
+      },
+      "face": {
+        "description": "His weathered face shows deep lines of worry. A scar runs down his left cheek, from temple to jaw. His gray eyes are piercing but tired, as if they've seen too much."
+      },
+      "hands": {
+        "description": "Warrior's hands, with calluses in the right places for wielding a sword. The nails are clean but the cuticles stained with something dark - dried blood or ink?"
+      },
+      "armor": {
+        "description": "Reinforced leather armor, military in origin but modified with hidden pockets. It has the Shadowearth emblem engraved but scratched out with rage."
+      },
+      "weapon": {
+        "description": "A well-crafted longsword, well-maintained. The engravings on the blade tell stories of past battles. This is not the weapon of just any criminal."
+      },
+      "belt": {
+        "description": "Several bags hang from his belt. One of them glows with a faint purple light that filters through the fabric."
+      }
+    }
+  },
+  "desperateMerchant": {
+    "name": "Darion the Merchant",
+    "description": "A middle-aged merchant with deep dark circles and trembling hands. His clothes, though clean, are threadbare. He seems not to have slept in days.",
+    "dialogues": {
+      "welcome": "*The merchant looks at you with eyes full of anxiety and distrust, his hands tremble as he touches the medallion on his chest*\n\n\"W-what...? Who are you?\" *Takes a step back, nervous* \"I... I don't know anyone. I'm just a merchant. I don't know anything about... about anything.\"\n\n*His eyes dart toward the shadows, as if expecting to see something or someone* \"If you're looking for trouble, you won't get it from me. I have nothing. Nothing worth anything.\"",
+      "welcomeAfterQuestComplete": "*Upon seeing you, the merchant's eyes fill with tears. His posture, once tense and nervous, now shows profound relief*\n\n\"You... you brought it. Thanks to you, my Elara has a chance.\" *Wipes away tears with trembling hands* \"I don't know how to thank you for what you did. You risked your life bringing that forbidden medicine.\"\n\n*Touches the medallion on his chest tenderly* \"The healers say she's responding to the treatment. She's going to live... my girl is going to live.\" *His voice breaks* \"I owe you more than I can express. If you ever need help, you only have to ask.\"",
+      "idle": [
+        "*constantly touches his daughter's medallion*",
+        "Please, Elara, hold on a little longer...",
+        "*nervously looks around*",
+        "Where is he? He should have arrived by now...",
+        "*whispers* Forgive me, daughter. Forgive me for what I've done.",
+        "The Serpent's Web... what have I gotten myself into?"
+      ],
+      "examine": "*Studies you with distrust*\n\nDarion is clearly waiting for something, or someone. His hands won't stop trembling and every noise makes him jump. Something has him terrified. Or desperate. Or both.\n\n*If you try to ask him why he's so nervous before delivering the package*\n\n\"Nervous, me?\" *Laughs bitterly* \"It's... it's none of your business. Just... just leave me alone. You can't help me. No one can.\" *His voice breaks* \"Go. Please, go before...\" *Stops abruptly* \"Forget it. Just go.\"",
+      "afterQuestComplete": "*Greets you with genuine warmth*\n\nEvery time he sees you, Darion smiles with gratitude. His daughter is alive thanks to you. There is no more fear in his eyes, only eternal gratitude."
+    },
+    "examinableParts": {
+      "general": {
+        "description": "A man destroyed by desperation. Every movement reflects anxiety and fear."
+      },
+      "face": {
+        "description": "Deep dark circles mark his face. His lips are cracked as if he constantly bites them. Dried tears mark his cheeks."
+      },
+      "hands": {
+        "description": "Merchant's hands, accustomed to counting coins and signing contracts. Now they tremble uncontrollably. The nails are bitten to the bone."
+      },
+      "clothes": {
+        "description": "Quality but neglected clothes. Food and sweat stains adorn them. It looks like he hasn't changed in days."
+      },
+      "medallion": {
+        "description": "A silver medallion with the portrait of a girl about eight years old. She has big brown eyes and a radiant smile. On the back there's an inscription: 'For daddy, with love - Elara'."
+      }
+    }
+  },
+  "elderLyria": {
+    "name": "Elder Lyria",
+    "description": "A frail-looking but piercing-gazed old woman. Her wrinkled hands tremble slightly as she holds a small amulet.",
+    "dialogues": {
+      "welcome": "Ah, a traveler... It's been so long since I've seen anyone new around here. My heart is heavy, young one. My daughter disappeared in the forest months ago, and all I have left of her are memories... and this amulet she used to wear. She loved the mystical flowers of the forest, she said they glowed like fallen stars.",
+      "idle": [
+        "The mystical flowers... my daughter used to pick them every full moon.",
+        "The forest took her... but her spirit still whispers among the trees.",
+        "If someone could bring me those flowers, I could complete the remembrance ritual.",
+        "This amulet pulses... as if she's still close, waiting.",
+        "The ancients said that five flowers can open a path to the beyond."
+      ],
+      "examine": "Her eyes moisten when she speaks of her daughter. The pain of loss is still fresh after so long. The amulet around her neck seems to resonate with a weak magical energy, as if waiting to be completed.",
+      "quest_available": "Traveler... I need your help. The mystical flowers of the forest contain the essence of the forest spirits. If you could bring me five of them, I could perform an ancestral ritual to honor my lost daughter. Would you help me with this task?",
+      "quest_in_progress": "Have you found the mystical flowers? I need five to complete the ritual. Look for them deep in the forest, where sunlight barely reaches.",
+      "quest_complete": "*Her eyes light up with tears of gratitude* You've brought them... I can feel their energy. Now I'll be able to complete the ritual and finally give my daughter peace. May the forest spirits bless you, noble traveler."
+    }
+  },
+  "hunterGuild": {
+    "name": "Master Hunter Roderick",
+    "description": "A veteran hunter with battle scars and sharp eyes. He carries a worn bow on his back and smells of forest and leather.",
+    "dialogues": {
+      "welcome": "*A weathered man assesses you from top to bottom with eagle eyes*\n\nGreetings, stranger. You're a hunter, aren't you? You can tell by the way you look at the horizon. Always seeking the next prey.\n\n*Crosses his arms* The wolves have become too bold. They attack caravans in broad daylight. If you have the guts, there's work for you.",
+      "idle": [
+        "*sharpens an arrow with precise movements*",
+        "The wolves are more aggressive this year.",
+        "*scans the horizon*",
+        "I've seen packs attacking entire caravans.",
+        "A good hunter respects his prey, but doesn't hesitate to shoot.",
+        "*tests his bow to check the string*",
+        "The trade routes aren't safe. Not with so many wolves."
+      ],
+      "examine": "*Looks at you with calculated respect*\n\nThis man knows every tree and every stream in these forests. His eyes never stop moving, always alert. The scars on his hands tell stories of close encounters with wild beasts. He has survived where others died."
+    }
+  },
+  "caveExplorer": {
+    "name": "Explorer Sienna",
+    "description": "A cave explorer with mud-stained clothes and a torch always in hand. She seems nervous and worried.",
+    "dialogues": {
+      "welcome": "*A woman with mud-stained clothes looks at you with uneasy eyes, her torch trembles slightly*\n\nAre you from the village? Good. We need help. The caves... *her voice trembles* there's something very wrong in there.\n\n*Looks toward the cave entrance with fear* I've explored dozens of ruins, faced dangers that would freeze your blood. But this... this is different. The dead walk. And they're furious. We need... we need purifying magic.",
+      "welcomePaladin": "*Her eyes open with hope upon seeing your holy symbol*\n\nA paladin! *Her voice trembles with relief* Thank the gods... You're exactly what we need.\n\n*Approaches urgently* The undead in the caves are out of control. I've explored dozens of ruins, but these... they can't be stopped with brute force. They need to be purified. Your Holy Strike, your sacred magic... it's our only hope.",
+      "idle": [
+        "*clutches her torch tightly*",
+        "The undead have never been so active.",
+        "*whispers* I heard moans that froze my blood.",
+        "We need a paladin... someone with purifying magic.",
+        "*nervously looks toward the caves*",
+        "I've seen zombies, specters... worse things.",
+        "Brute force isn't enough. They need to be purified.",
+        "Where's a paladin when you need one?"
+      ],
+      "examine": "*Looks at you desperately*\n\nHer knowledge of the caves is encyclopedic, but even she has limits. She has mapped every passage, identified every danger. But the undead... the undead seem to have broken her. For the first time in her career, Sienna is afraid to enter. And worse yet, she knows that common force won't suffice. These undead need to be purified with sacred magic."
+    }
+  },
+  "alchemistMara": {
+    "name": "Alchemist Mara",
+    "description": "An eccentric alchemist surrounded by bubbling flasks and ancient books. Her eyes shine with scientific curiosity.",
+    "dialogues": {
+      "welcome": "*A woman with protective goggles and ink stains on her hands looks up from a pile of scrolls*\n\nAh, an adventurer! Perfect. *Takes off her goggles and examines you* I need rare materials and you seem like the type who isn't afraid to get their hands dirty.\n\n*Points to bubbling flasks* I'm researching the nature of necromancy. Not to practice it, mind you, but to find ways to combat it. Science is our best weapon against darkness.",
+      "idle": [
+        "*takes notes frantically*",
+        "Cursed bones contain fascinating properties.",
+        "*mixes liquids in a flask*",
+        "If I can isolate the necrotic energy...",
+        "Science will triumph over superstition.",
+        "*examines a bone with a magnifying glass*",
+        "Every sample tells a molecular story."
+      ],
+      "examine": "*Continues working without looking up*\n\nHer laboratory is organized chaos. Every flask is meticulously labeled, every experiment documented with scientific precision. Scrolls with complex formulas cover every surface. Mara is brilliant, obsessive, and completely dedicated to her research."
+    }
+  },
+  "tannerBorn": {
+    "name": "Tanner Born",
+    "description": "A sturdy craftsman with a leather apron and hands stained with dyes. He smells of salt and treated leather.",
+    "dialogues": {
+      "welcome": "*A sturdy man with a leather apron greets you while working on a hide*\n\nLooking for quality armor? *Hits a piece of leather* You've come to the right place. I work the finest leather in the entire region.\n\n*Stops working and looks at you directly* But first I need materials. Fresh hides from wild beasts. Without that, there's no armor. Simple.",
+      "idle": [
+        "*stretches a hide to examine it*",
+        "Nothing like a good bear hide for making sturdy armor.",
+        "*sews with expert hands*",
+        "Wolf hides are perfect for mobility.",
+        "Boar leather is incredibly durable.",
+        "*applies oil to a piece of leather*",
+        "Every hide has its purpose. Every beast its virtue."
+      ],
+      "examine": "*Continues working without pause*\n\nHis hands work with practiced precision, every cut and stitch perfect. Born learned the craft from his father, and his father from his. Generations of knowledge flow through his calloused fingers. The armor he creates isn't just protection, it's art."
+    }
+  },
+  "historianKael": {
+    "name": "Historian Kael",
+    "description": "An elderly scholar with round glasses and a robe covered in dust from ancient scrolls. He carries a staff decorated with runes.",
+    "dialogues": {
+      "welcome": "*An old man with round glasses looks up from a dusty book*\n\nWelcome, welcome! *Adjusts his glasses* Are you interested in ancient legends? I have one that might fascinate you...\n\n*Opens a book with faded illustrations* They speak of the Wolf King, a beast that has evolved beyond the natural. And it's said... *lowers his voice* that it guards relics from forgotten ages.",
+      "idle": [
+        "*carefully turns ancient pages*",
+        "The Wolf King is more than a beast. It's a living legend.",
+        "*cleans his glasses*",
+        "It's said to guard relics from forgotten ages.",
+        "Few have faced a beast king and lived to tell about it.",
+        "*takes notes on a scroll*",
+        "History repeats itself, but legends endure."
+      ],
+      "examine": "*Smiles seeing your interest*\n\nHis hands tremble slightly as he turns the pages of his books, but his mind remains sharp as ever. Decades of research have filled this room with knowledge. Kael isn't just a historian, he's a guardian of the world's memory."
+    }
+  },
+  "rescueCoordinator": {
+    "name": "Coordinator Elena",
+    "description": "A military-looking woman with light armor and an urgent expression. She's clearly organizing a rescue operation.",
+    "dialogues": {
+      "welcome": "*A woman in light armor turns to you abruptly*\n\nYou! Are you an adventurer? *Doesn't wait for an answer* I don't have time for long explanations. Lives are at stake.\n\n*Points toward the caves urgently* Marcus and his team are trapped in there. The undead blocked the exits. I need someone brave to open a path. Now.",
+      "idle": [
+        "*checks a map of the caves*",
+        "Marcus and his team are trapped. I don't know how much time they have.",
+        "*grips her sword*",
+        "The undead blocked all the exits.",
+        "I need someone brave. Now.",
+        "*gives orders to other rescuers*",
+        "Every minute counts."
+      ],
+      "examine": "*Assesses you with a military gaze*\n\nHer posture is military, her tone urgent. This isn't her first rescue operation, but each one affects her personally. Elena left the army to dedicate herself to saving lives, but sometimes... sometimes she arrives too late. Not this time. Not if she can help it."
+    }
+  },
+  "trappedExplorer": {
+    "name": "Marcus the Explorer",
+    "description": "A wounded explorer leaning against a cave wall. He has improvised bandages and a clearly injured leg.",
+    "dialogues": {
+      "welcome": "*A wounded man leaning against the wall looks at you with relief*\n\n*Coughs weakly* Did Elena send you? Thank the gods...\n\n*Points to other wounded explorers* My team... we need medical help. Urgent. The undead... *coughs again* I'd never seen them so organized.",
+      "idle": [
+        "*groans in pain*",
+        "I don't know how much longer we can hold out here.",
+        "*checks his team's wounds*",
+        "The undead... I'd never seen them so organized.",
+        "My team needs urgent medical help.",
+        "*touches his injured leg*",
+        "Elena... please, hurry."
+      ],
+      "examine": "*Breathes with difficulty but maintains composure*\n\nDespite his wounds, Marcus maintains his calm. He's a natural survivor. He has led dozens of successful expeditions. This time was different. This time, the dead rose."
+    }
+  },
+  "masterBlacksmith": {
+    "name": "Master Blacksmith Thane",
+    "description": "A legendary blacksmith with muscles like steel and burn scars on his arms. His forge burns with mystical fire.",
+    "dialogues": {
+      "welcome": "*A muscular blacksmith puts down his hammer and looks at you intensely*\n\nA warrior, eh? *Examines your weapons* Good. I seek to create my masterpiece. But I need... special materials.\n\n*Points to his burning forge* I've forged a thousand swords, but none perfect. For that I need infernal fire. Literally. Do you dare?",
+      "idle": [
+        "*strikes the anvil with perfect precision*",
+        "Infernal fire is the only thing hot enough to forge true legendary steel.",
+        "*examines a sword critically*",
+        "I've forged a thousand swords, but none perfect. Yet.",
+        "Only the bravest dare to enter hell.",
+        "*stokes the forge flames*",
+        "Mastery has no end. There's always something more to learn."
+      ],
+      "examine": "*Continues hammering without pause*\n\nEvery hammer blow is precise, every movement calculated. It's pure mastery made flesh. Thane has dedicated his life to the art of forging. Kings and heroes have wielded his creations. But he seeks something more. Perfection."
+    }
+  },
+  "mayorShadiVanam": {
+    "name": "Mayor Maverick",
+    "description": "A middle-aged man nervously patrols the square, wearing a [color=#CD5C5C]wrinkled burgundy suit[/color] with a [color=#FFD700]loose tie[/color]. His [color=#F0E68C]pale eyes[/color] with [color=#A9A9A9]dark circles[/color] [color=#FF6B6B]scan every shadow[/color], while his hands [color=#87CEEB]tremble[/color] as they clutch an [color=#8B7355]oak staff[/color] with a [color=#E6E6FA]silver raven[/color] pommel. He seems to seek comfort more than project authority, constantly looking over his shoulder.",
+    "dialogues": {
+      "welcome": "*The mayor looks at you nervously, his hands tremble slightly*\n\nW-Welcome to Shadi Vanam, traveler... *Looks over your shoulder toward the door* Have you... have you seen anyone suspicious on your way? Someone who... who seems to be looking for mayors...\n\n*Wipes sweat from his forehead* I've heard terrible rumors. They say there's an assassin... Nezu, they call him. A mayor hunter. *His voice trembles* They say he's already finished off several of my colleagues in other cities. I... I don't want to be next.",
+      "welcomeNezu": "*The mayor's eyes widen when he hears your name. His face pales completely*\n\nN-NEZU?! *Staggers back, almost falling from his chair* NO! NO, NO, NO! GUARDS! GUARDS, HELP!\n\n*Raises trembling hands in a defensive gesture* PLEASE! I HAVE A FAMILY! I HAVEN'T DONE ANYTHING WRONG! I'M JUST A SIMPLE MAYOR! *Tears run down his cheeks* PLEASE, DON'T KILL ME!",
+      "welcomeNezuDisguised": "*The mayor narrows his eyes upon hearing your name. Suddenly, his fear transforms into a mixture of desperate courage and paranoia*\n\n{{playerName}}? *Abruptly stands up, pointing an accusing finger at you* HA! YOU WON'T FOOL ME, NEZU!\n\n*His voice trembles but there's determination in it* I know it's you! You changed your name to infiltrate! Do you think I'm a fool? *Unsheathes a ceremonial dagger with trembling hands* If you want my life, you'll have to FIGHT for it! I won't die without fighting!",
+      "idle": [
+        "*nervously looks out the window*",
+        "Did I lock the doors properly...?",
+        "*jumps at any noise*",
+        "Nezu... that name haunts me in nightmares.",
+        "Maybe I should hire more guards...",
+        "*obsessively checks the locks*",
+        "Why me? I just want to govern in peace."
+      ],
+      "examine": "*Mayor Maverick is a shadow of what he once was*\n\nHe used to be a respected and confident leader. Now, fear consumes him. Every visitor is a potential assassin. Every shadow is Nezu. His paranoia has reached almost comical levels, but the terror in his eyes is genuine. He lives awaiting the day when the legendary mayor hunter knocks on his door."
+    }
+  },
+  "archmageSeraph": {
+    "name": "Archmage Maia",
+    "description": "An archmage intensely studies the [color=#C0C0C0]arcane symbols[/color] engraved in the ruins. Her [color=#FF6347]intense red hair[/color] falls over her [color=#4169E1]deep blue robe[/color] embroidered with [color=#C0C0C0]runes[/color], crowned by a [color=#FFD700]golden diadem[/color]. Her eyes radiate [color=#87CEEB]intelligence and concern[/color], while [color=#FFFACD]motes of arcane light[/color] float around her and the air [color=#E6E6FA]hums with contained magic[/color]. Her expression mixes [color=#90EE90]determination[/color] and [color=#FFA07A]apprehension[/color].",
+    "dialogues": {
+      "welcome": "*A woman radiating with arcane energy looks at you gravely*\n\nThe portal is growing. *Raises her staff* The Infernal Lord must be stopped. You are our last hope, adventurer.\n\n*Energy crackles around her* If the portal is completed, hell will spill over into our world. All will be lost. Will you accept this mortal challenge?",
+      "idle": [
+        "*channels arcane energy*",
+        "The fabric of reality is tearing.",
+        "*levitates slightly off the ground*",
+        "If the portal is completed, all will be lost.",
+        "Only someone extraordinary can stop the Infernal Lord.",
+        "*her eyes glow with power*",
+        "I've seen the future. Without your help, it's dark."
+      ],
+      "examine": "*Observes you with eyes that seem to see through you*\n\nArcane energy dances around her fingers. Every word she speaks resonates with power. Maia is one of the most powerful mages alive, perhaps the most powerful. If she says the situation is grave, you should believe her."
+    }
+  },
+  "kael_rationing_merchant": {
+    "name": "Kael the Rationing Merchant",
+    "description": "A thin middle-aged man, with sunken eyes that constantly scan the horizon. His trembling hands protect a small bag of provisions as if it were his own life.",
+    "dialogues": {
+      "welcome": "Water? Food? *His eyes assess you as if you were cattle* Everything has a price, traveler. ESPECIALLY in these times. What... what do you bring to trade?",
+      "default": "I don't have time for chatter. Only for business. Are you buying or selling?",
+      "no_money": "*Spits on the ground* Come back when you have something of value. I don't accept empty promises.",
+      "high_reputation": "Ah, you... I've seen you helping around here. Perhaps... perhaps we can make a special deal. But don't tell anyone."
+    },
+    "examinableParts": {
+      "general": {
+        "description": "An emaciated man whose once expensive clothing now hangs loose over his body. His eyes never stay still, always seeking threats... or opportunities."
+      },
+      "face": {
+        "description": "Prominent cheekbones protrude under pale, dry skin. His sunken eyes shine with a mixture of fear and greed. He has a recent scar on his lower lip, probably from a fight over food."
+      },
+      "hands": {
+        "description": "Bony, trembling hands, with dirty, broken nails. His fingers constantly clutch his provisions bag, never completely relaxing."
+      },
+      "clothes": {
+        "description": "What was once a prosperous merchant's outfit - silk and velvet - is now torn, patched, and stained. Multiple inner pockets reveal years of experience hiding valuable goods."
+      },
+      "bag": {
+        "description": "A worn leather bag that he protects with his life. Occasionally you hear the clink of glass and metal inside. He never puts it on the ground."
+      }
+    }
+  },
+  "mira_water_carrier": {
+    "name": "Mira the Water Carrier",
+    "description": "A tired-looking young woman, with a yoke over her shoulders holding two water buckets. Her bare feet are covered in road dust.",
+    "dialogues": {
+      "welcome": "Oh, hello traveler. *Wipes sweat from her forehead* Forgive me if I don't stop much, the water doesn't carry itself.",
+      "default": "These buckets don't get any lighter with time, I assure you.",
+      "about_work": "Someone has to bring the water from the well. It's hard work, but honest. Not like some who hoard provisions to sell them at triple the price.",
+      "about_kael": "*Frowns* Kael... yes, I know him. He used to be decent, or so they say. Now he only thinks about gold. Be careful if you deal with him.",
+      "about_water": "The north well is the only one that still gives clean water. The others dried up or got contaminated. That's why my work is important.",
+      "tired": "I'm tired, yes. But there are people who depend on me. Families with children. I can't stop.",
+      "help": "Help me? *Smiles weakly* If you want to carry one of these buckets to the square, I wouldn't complain. But most people just ask, they don't help."
+    },
+    "territorialBehavior": {
+      "intruderReactions": {
+        "warningMessage": "What are you doing in my house?! Get out of here immediately!",
+        "repeatedWarningMessage": "I told you to leave! This is MY house! Get out right now!"
+      }
+    },
+    "examinableParts": {
+      "general": {
+        "description": "A woman of about twenty years, with a face weathered by sun and hard work. Her simple clothing is stained with water and sweat."
+      },
+      "face": {
+        "description": "Kind but tired features. Her eyes have pronounced dark circles, probably from years of getting up early to bring water."
+      },
+      "hands": {
+        "description": "Calloused and strong hands from carrying heavy buckets day after day. She has recent blisters on her palms."
+      },
+      "buckets": {
+        "description": "Two worn wooden buckets hanging from a yoke over her shoulders. They're half full of clean water, gently sloshing with each step."
+      }
+    }
+  },
+  "tomas_woodcutter": {
+    "name": "Tomas the Woodcutter",
+    "description": "A sturdy middle-aged man, with calloused hands and scars from years working with wood. His axe is always by his side.",
+    "dialogues": {
+      "welcome": "*Looks up from his axe* Eh. What do you need?",
+      "default": "The wood doesn't cut itself. *Continues working*",
+      "about_work": "I've been cutting wood since I can remember. It's hard work, but honest. I like it.",
+      "about_mira": "*Smiles slightly* Mira... I've known her since we were kids. She's always been hardworking. More than most.",
+      "about_guard": "The guards do their job. I respect them. *Nods*",
+      "tired": "Always tired. But the work doesn't wait.",
+      "help": "Help? *Shrugs* If you know how to use an axe, there's always work."
+    }
+  },
+  "town_guard_entrance": {
+    "name": "Entrance Guard",
+    "description": "A veteran middle-aged guard, with reinforced leather armor and a spear resting on his shoulder. His posture is alert but relaxed, the result of years of experience guarding the town entrance.",
+    "dialogues": {
+      "welcome": "Welcome to Shadi Vanam, traveler. Keep the peace and there will be no problems.",
+      "default": "Everything's quiet around here. That's how I like it.",
+      "about_duty": "My job is simple: maintain order and protect the citizens. I've been doing it for over ten years.",
+      "about_town": "Shadi Vanam is a good town, full of hardworking people. But like everywhere, you have to stay alert.",
+      "trouble": "Problems? Nothing I can't handle. Criminals learn quickly that wrongdoing isn't tolerated here."
+    }
+  }
+}

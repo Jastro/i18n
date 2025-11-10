@@ -1,0 +1,142 @@
+{
+  "goblin": {
+    "name": "Goblin",
+    "description": "Una criatura pequeña y astuta, con ojos brillantes llenos de malicia. Su postura desafiante deja claro que no piensa dejarte huir."
+  },
+  "bandit": {
+    "name": "Bandido",
+    "description": ""
+  },
+  "crystalGolem": {
+    "name": "Golem de Cristal",
+    "description": ""
+  },
+  "wolf": {
+    "name": "Lobo",
+    "description": ""
+  },
+  "swampBeast": {
+    "name": "Bestia del Pantano",
+    "description": ""
+  },
+  "marshSpirit": {
+    "name": "Espíritu de la Marisma",
+    "description": ""
+  },
+  "testDummy": {
+    "name": "Muñeco de Entrenamiento",
+    "description": "Un muñeco de entrenamiento inmóvil y silencioso. No se mueve a menos que lo ataques primero. Parece contener tesoros en su interior."
+  },
+  "tutorial_goblin": {
+    "name": "Goblin",
+    "description": "Una criatura pequeña y astuta, con ojos brillantes llenos de malicia. Su postura desafiante deja claro que no piensa dejarte huir."
+  },
+  "void_sentinel": {
+    "name": "Centinela del Vacío",
+    "description": "Una abominación surgida de las profundidades del vacío, convocada por el poder del Rey de la Ruina. Su forma parece desafiar las leyes de la realidad: una masa de sombras cristalizadas que se retuerce y cambia constantemente, con tentáculos de oscuridad pura que se extienden en todas direcciones. Sus múltiples ojos ardientes flotan en el aire como estrellas malévolas, cada uno observando con una inteligencia ancestral y hambrienta."
+  },
+  "wild_boar": {
+    "name": "Jabalí Salvaje",
+    "description": "Un jabalí de aspecto feroz con colmillos afilados y cerdas erizadas. Sus ojos rojos brillan con agresividad territorial y está listo para atacar a cualquier intruso."
+  },
+  "rabbit": {
+    "name": "Conejo",
+    "description": "Un pequeño conejo de pelaje marrón que salta nerviosamente por el lugar. Sus grandes ojos oscuros están siempre alerta ante cualquier peligro."
+  },
+  "deer": {
+    "name": "Ciervo",
+    "description": "Un elegante ciervo de pelaje marrón dorado con astas ramificadas. Sus ojos alertas y músculos tensos revelan su naturaleza nerviosa pero grácil."
+  },
+  "alpha_wolf": {
+    "name": "Lobo Alpha",
+    "description": "Un lobo masivo y experimentado, rey de su territorio. Sus cicatrices de batalla y ojos dorados demuestran su dominio sobre la cadena alimentaria."
+  },
+  "wolf_king": {
+    "name": "Rey de los Lobos",
+    "description": "Una leyenda hecha realidad. Este colosal lobo ha ascendido más allá de cualquier Alpha conocido, convirtiéndose en el señor absoluto de todos los depredadores. Su mera presencia hace temblar a las presas más grandes."
+  },
+  "alpha_boar": {
+    "name": "Jabalí Alpha",
+    "description": "Un jabalí colosal que ha dominado su territorio a través de incontables batallas. Sus cicatrices y colmillos masivos testimonian su ferocidad sin igual."
+  },
+  "boar_king": {
+    "name": "Rey de los Jabalíes",
+    "description": "Una leyenda entre los jabalíes. Este titán ha ascendido más allá de cualquier Alpha, convirtiéndose en el señor absoluto de todos los cerdos salvajes."
+  },
+  "bear": {
+    "name": "Oso Pardo",
+    "description": "Un imponente oso pardo con garras poderosas y una fuerza devastadora. Su pelaje espeso y su mirada feroz lo convierten en uno de los depredadores más temibles del bosque."
+  },
+  "alpha_bear": {
+    "name": "Oso Alpha",
+    "description": "Un oso colosal que ha demostrado su supremacía sobre todos los otros osos. Sus cicatrices de batalla y tamaño imponente testimonian su dominio absoluto del territorio."
+  },
+  "grizzly_bear": {
+    "name": "Oso Pardo Legendario",
+    "description": "La culminación evolutiva de todos los osos. Este titán ancestral ha trascendido las limitaciones de su especie para convertirse en una fuerza de la naturaleza imparable."
+  },
+  "sheep": {
+    "name": "Oveja",
+    "description": "Una oveja de lana blanca y esponjosa que pasta tranquilamente. Sus balidos suaves y su comportamiento dócil la convierten en una criatura inofensiva del campo."
+  },
+  "fox": {
+    "name": "Zorro",
+    "description": "Un zorro astuto de pelaje rojizo con una cola esponjosa. Sus ojos inteligentes y movimientos ágiles revelan su naturaleza astuta y cautelosa."
+  },
+  "badger": {
+    "name": "Tejón",
+    "description": "Un tejón robusto con rayas distintivas en su cara. Su cuerpo rechoncho y garras fuertes lo convierten en un excavador experto, aunque su temperamento puede ser algo impredecible."
+  },
+  "mole": {
+    "name": "Topo",
+    "description": "Un pequeño topo con pelaje aterciopelado y ojos diminutos. Sus patas delanteras están perfectamente adaptadas para la vida subterránea, con garras especializadas para excavar."
+  },
+  "skeleton_warrior": {
+    "name": "Guerrero Esqueleto",
+    "description": "Un guerrero caído hace mucho tiempo, ahora animado por oscura nigromancia. Sus huesos blanqueados brillan con un aura malsana."
+  },
+  "infernalLord": {
+    "name": "Ignis, Señor de las Llamas Eternas",
+    "description": "Un [color=#8B0000]titán demoníaco de 5 metros de altura[/color], cuyo cuerpo está forjado de [color=#FF4500]magma viviente[/color] y [color=#2F4F4F]hierro infernal[/color]. Sus [color=#FFD700]cuernos retorcidos[/color] brillan con el calor de mil soles, y de su espalda emergen [color=#DC143C]alas de fuego puro[/color] que nunca cesan de arder. Sus ojos son [color=#FF6347]pozos de fuego eterno[/color] que devoran la esperanza de quien los mira. Cada paso suyo hace [color=#696969]temblar la tierra[/color] y deja [color=#FF4500]huellas de lava ardiente[/color]. Una [color=#8B4513]corona de espinas ígneas[/color] descansa sobre su cabeza, símbolo de su dominio absoluto sobre los tormentos. En su mano empuña [color=#DC143C]Perdición[/color], una espada colosal que [color=#FF6347]sangra fuego líquido[/color] y cuyo filo ha segado [color=#8B0000]mil almas inmortales[/color]."
+  },
+  "hellHound": {
+    "name": "Sabueso Infernal",
+    "description": "Una bestia demoníaca del tamaño de un caballo, con [color=#8B0000]pelaje negro como la noche[/color] que arde en sus extremos con [color=#FF4500]llamas carmesí[/color]. Sus [color=#FF6347]ojos brillan como brasas[/color], sin pupilas, solo fuego puro. Sus [color=#D3D3D3]colmillos metálicos[/color] gotean [color=#DC143C]saliva de azufre hirviente[/color]. Con cada exhalación, expulsa [color=#708090]humo negro y cenizas[/color]."
+  },
+  "infernalWarrior": {
+    "name": "Guerrero Infernal",
+    "description": "Un guerrero demoníaco de [color=#2F4F4F]piel negra como obsidiana[/color], cubierto de [color=#8B0000]cicatrices rituales[/color] que brillan con [color=#FF4500]luz ígnea[/color]. Su armadura está forjada de [color=#696969]hierro maldito[/color] y [color=#DC143C]huesos de dragón[/color]. Empuña una [color=#8B4513]espada dentada[/color] que [color=#FF6347]sangra fuego[/color]. Sus [color=#FFD700]cuernos retorcidos[/color] emergen de un casco cornudo."
+  },
+  "lavaElemental": {
+    "name": "Elemental de Lava",
+    "description": "Una masa viviente de [color=#FF4500]magma fundido[/color] y [color=#2F4F4F]roca ígnea[/color] que adopta forma humanoide. Su cuerpo [color=#FF6347]fluye y burbujea constantemente[/color], desprendiendo [color=#DC143C]olas de calor abrasador[/color]. [color=#FFD700]Grietas luminosas[/color] recorren su forma, revelando su [color=#8B0000]núcleo incandescente[/color]. No tiene rostro, solo un vacío ardiente donde debería estar."
+  },
+  "tormentedSoul": {
+    "name": "Alma Atormentada",
+    "description": "Una figura [color=#D3D3D3]espectral translúcida[/color] que [color=#9370DB]flota sobre el suelo[/color]. Su forma es vagamente humana pero constantemente [color=#B0E0E6]se distorsiona y estira[/color] como si estuviera siendo torturada por fuerzas invisibles. Su rostro está [color=#DC143C]congelado en un grito silencioso[/color]. [color=#FF4500]Llamas fantasmales[/color] danzan alrededor de su cuerpo etéreo."
+  },
+  "impSwarm": {
+    "name": "Enjambre de Diablillos",
+    "description": "Una masa caótica de [color=#8B0000]pequeños demonios alados[/color] que se mueven como un solo organismo. Cada uno tiene [color=#DC143C]piel roja escamosa[/color], [color=#FFD700]ojos amarillos maliciosos[/color] y [color=#D3D3D3]pequeñas garras afiladas[/color]. Vuelan erráticamente, [color=#FF4500]chillando y cacareando[/color] en un lenguaje demoníaco. El aire a su alrededor huele a [color=#696969]azufre y carne quemada[/color]."
+  },
+  "zombieCaveDweller": {
+    "name": "Zombi Cavernario",
+    "description": "Un cadáver [color=#696969]putrefacto y descompuesto[/color] que arrastra los pies pesadamente. Su [color=#8B8B7A]piel verdosa[/color] cuelga en jirones, revelando [color=#D3D3D3]huesos y músculos podridos[/color]. Sus [color=#E6E6E6]ojos sin vida[/color] miran fijamente al vacío. [color=#2F4F4F]Gusanos y larvas[/color] se retuercen en su carne descompuesta. Emite un [color=#90EE90]hedor nauseabundo[/color] a muerte."
+  },
+  "skeletonArcher": {
+    "name": "Arquero Esquelético",
+    "description": "Un esqueleto animado vestido con [color=#8B4513]restos de armadura de cuero descompuesta[/color]. Sostiene un [color=#DEB887]arco largo hecho de hueso[/color] con una [color=#D3D3D3]cuerda de tendones secos[/color]. Sus [color=#E6E6E6]cuencas vacías[/color] brillan con un [color=#9370DB]resplandor espectral tenue[/color]. Sus huesos [color=#F5F5DC]amarillentos[/color] están marcados con [color=#708090]runas antiguas[/color]."
+  },
+  "wraith": {
+    "name": "Espectro",
+    "description": "Una figura [color=#2F4F4F]oscura y etérea[/color] envuelta en [color=#696969]jirones de oscuridad[/color]. Su forma [color=#9370DB]flota silenciosamente[/color], sin tocar el suelo. Donde debería estar su rostro, solo hay un [color=#000000]vacío de oscuridad absoluta[/color] con dos [color=#00CED1]puntos de luz gélida[/color] como ojos. Sus manos son [color=#B0C4DE]garras espectrales[/color] que [color=#E6E6FA]atraviesan la materia sólida[/color]."
+  },
+  "ghoul": {
+    "name": "Necrófago",
+    "description": "Una criatura [color=#696969]cadavérica y demacrada[/color] que se mueve a cuatro patas como una bestia. Su [color=#8B8B7A]piel gris y estirada[/color] revela cada hueso de su esqueleto. Sus [color=#DC143C]ojos rojos inyectados en sangre[/color] brillan con un [color=#8B0000]hambre insaciable[/color]. Sus [color=#F5F5DC]garras largas y amarillentas[/color] están [color=#8B4513]manchadas de sangre seca[/color]. Babea constantemente un [color=#9ACD32]líquido negro y viscoso[/color]."
+  },
+  "cryptGuardian": {
+    "name": "Guardián de Cripta",
+    "description": "Un guerrero [color=#D3D3D3]esquelético[/color] vestido con una [color=#708090]armadura completa de acero antiguo[/color]. Su equipo está cubierto de [color=#8B4513]óxido y musgo[/color], pero aún es funcional. Empuña una [color=#C0C0C0]espada ancha con runas grabadas[/color] que [color=#9370DB]brillan con luz púrpura[/color]. Un [color=#DC143C]resplandor rojo[/color] arde en sus cuencas oculares. Se mueve con una [color=#696969]precisión militar antinatural[/color]."
+  }
+}
