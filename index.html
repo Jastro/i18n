@@ -325,6 +325,134 @@
       font-size: 48px;
       margin-bottom: 16px;
     }
+
+    /* Tree View Styles */
+    .tree-view {
+      background: #f9f9f9;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      max-height: 600px;
+      overflow-y: auto;
+    }
+
+    .tree-item {
+      margin-bottom: 8px;
+    }
+
+    .tree-node {
+      padding: 10px;
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tree-node:hover {
+      border-color: #667eea;
+      background: #f5f7ff;
+    }
+
+    .tree-node-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .tree-node-icon {
+      font-size: 16px;
+    }
+
+    .tree-node-label {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .tree-node-count {
+      font-size: 12px;
+      color: #666;
+      background: #e8e8e8;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .tree-children {
+      margin-left: 30px;
+      margin-top: 8px;
+      display: none;
+    }
+
+    .tree-children.expanded {
+      display: block;
+    }
+
+    .tree-toggle {
+      padding: 4px 8px;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tree-toggle:hover {
+      background: #5568d3;
+    }
+
+    .tree-leaf {
+      padding: 8px 12px;
+      background: #f0f0f0;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      margin-bottom: 6px;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tree-leaf-key {
+      font-family: 'Courier New', monospace;
+      color: #667eea;
+      font-weight: 600;
+    }
+
+    .tree-leaf-value {
+      color: #666;
+      font-size: 12px;
+      max-width: 400px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .search-box {
+      margin-bottom: 20px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .search-box input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .expand-all-btn {
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
@@ -559,13 +687,164 @@
         this.currentAction = action;
         this.goToStep(4);
 
-        if (action === 'create') {
+        if (action === 'view') {
+          this.showViewContent();
+        } else if (action === 'create') {
           this.showCreateForm();
         } else if (action === 'edit') {
           this.showEditForm();
         } else if (action === 'delete') {
           this.showDeleteForm();
         }
+      },
+
+      showViewContent() {
+        document.getElementById('step4Title').textContent = 'Ver Contenido del Archivo';
+        const container = document.getElementById('formContainer');
+        const data = this.data[this.currentLang][this.currentFile];
+
+        container.innerHTML = `
+          <div class="info-box">
+            <p><strong>Archivo:</strong> ${this.currentFile}.json - Explora todo el contenido de este archivo</p>
+          </div>
+
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Buscar en el contenido..." onkeyup="app.filterTree()">
+          </div>
+
+          <div class="expand-all-btn">
+            <button class="btn btn-secondary" onclick="app.expandAll()">📂 Expandir Todo</button>
+            <button class="btn btn-secondary" onclick="app.collapseAll()">📁 Colapsar Todo</button>
+          </div>
+
+          <div class="tree-view" id="treeView"></div>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary" onclick="app.goToStep(3)">← Atrás</button>
+          </div>
+        `;
+
+        this.renderTree(data, 'treeView');
+      },
+
+      renderTree(data, containerId, parentPath = '') {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+        this.buildTree(data, container, parentPath);
+      },
+
+      buildTree(obj, container, path = '', level = 0) {
+        if (!obj || typeof obj !== 'object') return;
+
+        Object.entries(obj).forEach(([key, value]) => {
+          const currentPath = path ? `${path}.${key}` : key;
+          const itemDiv = document.createElement('div');
+          itemDiv.className = 'tree-item';
+          itemDiv.dataset.path = currentPath;
+
+          if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+            const childCount = Object.keys(value).length;
+            const icon = this.getIconForKey(key);
+
+            itemDiv.innerHTML = `
+              <div class="tree-node" onclick="app.toggleNode('${currentPath}')">
+                <div class="tree-node-header">
+                  <span class="tree-node-icon">${icon}</span>
+                  <span class="tree-node-label">${key}</span>
+                  <span class="tree-node-count">${childCount} items</span>
+                </div>
+                <button class="tree-toggle" onclick="event.stopPropagation(); app.toggleNode('${currentPath}')">▼</button>
+              </div>
+              <div class="tree-children" id="children-${currentPath.replace(/\./g, '-')}"></div>
+            `;
+
+            container.appendChild(itemDiv);
+            const childrenContainer = itemDiv.querySelector('.tree-children');
+            this.buildTree(value, childrenContainer, currentPath, level + 1);
+
+          } else {
+            let displayValue = value;
+            if (typeof value === 'string' && value.length > 100) {
+              displayValue = value.substring(0, 100) + '...';
+            } else if (Array.isArray(value)) {
+              displayValue = `[${value.length} items]`;
+            }
+
+            itemDiv.innerHTML = `
+              <div class="tree-leaf">
+                <span class="tree-leaf-key">${key}</span>
+                <span class="tree-leaf-value">${this.escapeHtml(String(displayValue))}</span>
+              </div>
+            `;
+
+            container.appendChild(itemDiv);
+          }
+        });
+      },
+
+      getIconForKey(key) {
+        const iconMap = {
+          'islands': '🏝️',
+          'zones': '🌲',
+          'rooms': '🚪',
+          'name': '📝',
+          'description': '📄',
+          'dialogues': '💬',
+          'commands': '🎮',
+          'enemies': '⚔️',
+          'items': '🎒',
+          'npcs': '👤',
+          'messages': '✉️',
+          'ui': '🖥️'
+        };
+        return iconMap[key] || '📋';
+      },
+
+      toggleNode(path) {
+        const safePath = path.replace(/\./g, '-');
+        const childrenEl = document.getElementById(`children-${safePath}`);
+        const toggleBtn = event.target.closest('.tree-node')?.querySelector('.tree-toggle');
+
+        if (childrenEl) {
+          childrenEl.classList.toggle('expanded');
+          if (toggleBtn) {
+            toggleBtn.textContent = childrenEl.classList.contains('expanded') ? '▲' : '▼';
+          }
+        }
+      },
+
+      expandAll() {
+        document.querySelectorAll('.tree-children').forEach(el => {
+          el.classList.add('expanded');
+        });
+        document.querySelectorAll('.tree-toggle').forEach(btn => {
+          btn.textContent = '▲';
+        });
+      },
+
+      collapseAll() {
+        document.querySelectorAll('.tree-children').forEach(el => {
+          el.classList.remove('expanded');
+        });
+        document.querySelectorAll('.tree-toggle').forEach(btn => {
+          btn.textContent = '▼';
+        });
+      },
+
+      filterTree() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const items = document.querySelectorAll('.tree-item');
+
+        items.forEach(item => {
+          const path = item.dataset.path.toLowerCase();
+          const text = item.textContent.toLowerCase();
+
+          if (searchTerm === '' || path.includes(searchTerm) || text.includes(searchTerm)) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
       },
 
       showCreateForm() {
