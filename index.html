@@ -1293,6 +1293,12 @@
         alert(`✅ Idioma "${langCode.toUpperCase()}" creado correctamente`);
       },
 
+      escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      },
+
       async exportAll() {
         if (!this.currentLang) {
           alert('Primero selecciona un idioma');
